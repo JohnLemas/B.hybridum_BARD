@@ -1,0 +1,985 @@
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	SUPERFAMILY	SSF54001	Cysteine proteinases	42	353	2.41E-111	T	27-10-2026	IPR038765	Papain-like cysteine peptidase superfamily	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	CDD	cd02248	Peptidase_C1A	136	352	4.84678E-113	T	27-10-2026	IPR039417	Papain-like cysteine endopeptidase	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	ProSitePatterns	PS00639	Eukaryotic thiol (cysteine) proteases histidine active site.	294	304	-	T	27-10-2026	IPR025660	Cysteine peptidase, histidine active site	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	Pfam	PF00112	Papain family cysteine protease	135	353	1.0E-77	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	SMART	SM00848	Inhibitor_I29_2	49	105	1.4E-24	T	27-10-2026	IPR013201	Cathepsin propeptide inhibitor domain (I29)	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	FunFam	G3DSA:3.90.70.10:FF:000055	cysteine protease XCP2	28	355	2.2E-171	T	27-10-2026	-	-	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	SMART	SM00645	pept_c1	135	353	2.7E-116	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	Pfam	PF08246	Cathepsin propeptide inhibitor domain (I29)	49	105	4.0E-16	T	27-10-2026	IPR013201	Cathepsin propeptide inhibitor domain (I29)	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	153	168	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	296	306	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	313	319	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	Gene3D	G3DSA:3.90.70.10	Cysteine proteinases	28	355	3.6E-121	T	27-10-2026	-	-	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	ProSitePatterns	PS00139	Eukaryotic thiol (cysteine) proteases cysteine active site.	153	164	-	T	27-10-2026	IPR000169	Cysteine peptidase, cysteine active site	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	ProSitePatterns	PS00640	Eukaryotic thiol (cysteine) proteases asparagine active site.	313	332	-	T	27-10-2026	IPR025661	Cysteine peptidase, asparagine active site	-	-
+Brahy.S08G0263600.1.v1.1	717b7c5f0fc1e2ea7076fd5257edef51	356	PANTHER	PTHR12411	CYSTEINE PROTEASE FAMILY C1-RELATED	41	351	7.9E-84	T	27-10-2026	IPR013128	Peptidase C1A	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PANTHER	PTHR10353	GLYCOSYL HYDROLASE	48	512	4.6E-185	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	FunFam	G3DSA:3.20.20.80:FF:000041	Beta-glucosidase 7	31	510	8.7E-244	T	27-10-2026	-	-	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	Gene3D	G3DSA:3.20.20.80	Glycosidases	32	511	2.2E-214	T	27-10-2026	-	-	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	SUPERFAMILY	SSF51445	(Trans)glycosidases	40	507	1.53E-179	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	415	423	3.7E-17	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	436	447	3.7E-17	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	339	353	3.7E-17	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	457	474	3.7E-17	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	481	493	3.7E-17	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	Pfam	PF00232	Glycosyl hydrolase family 1	46	510	1.2E-154	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139800.1.v1.1	122b91f29be6a870b5fce2973e15eb44	570	MobiDBLite	mobidb-lite	consensus disorder prediction	514	541	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0778700.1.v1.1	fb10135dca2f2d94984f1238637d6e1b	232	PANTHER	PTHR31621	PROTEIN DMP3	4	228	3.1E-85	T	27-10-2026	IPR007770	Protein DMP	-	-
+Brahy.D01G0778700.1.v1.1	fb10135dca2f2d94984f1238637d6e1b	232	MobiDBLite	mobidb-lite	consensus disorder prediction	1	49	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0778700.1.v1.1	fb10135dca2f2d94984f1238637d6e1b	232	MobiDBLite	mobidb-lite	consensus disorder prediction	1	18	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0778700.1.v1.1	fb10135dca2f2d94984f1238637d6e1b	232	MobiDBLite	mobidb-lite	consensus disorder prediction	34	49	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0778700.1.v1.1	fb10135dca2f2d94984f1238637d6e1b	232	Pfam	PF05078	Protein of unknown function (DUF679)	56	223	4.6E-60	T	27-10-2026	IPR007770	Protein DMP	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	FunFam	G3DSA:2.20.25.80:FF:000006	WRKY transcription factor	172	241	2.8E-33	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	SMART	SM00774	WRKY_cls	349	408	1.4E-38	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	SMART	SM00774	WRKY_cls	181	239	8.3E-34	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	SUPERFAMILY	SSF118290	WRKY DNA-binding domain	341	409	3.14E-29	T	27-10-2026	IPR036576	WRKY domain superfamily	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	SUPERFAMILY	SSF118290	WRKY DNA-binding domain	178	240	2.09E-24	T	27-10-2026	IPR036576	WRKY domain superfamily	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	PANTHER	PTHR31221	WRKY TRANSCRIPTION FACTOR PROTEIN 1-RELATED	222	475	1.7E-93	T	27-10-2026	IPR044810	WRKY transcription factor, plant	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	ProSiteProfiles	PS50811	WRKY domain profile.	176	240	23.525288	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	ProSiteProfiles	PS50811	WRKY domain profile.	344	409	37.745789	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	FunFam	G3DSA:2.20.25.80:FF:000001	WRKY transcription factor 33	336	402	1.4E-43	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	Pfam	PF03106	WRKY DNA -binding domain	350	407	3.9E-23	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	Pfam	PF03106	WRKY DNA -binding domain	182	238	6.1E-22	T	27-10-2026	IPR003657	WRKY domain	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	Gene3D	G3DSA:2.20.25.80	WRKY domain	334	410	9.6E-35	T	27-10-2026	IPR036576	WRKY domain superfamily	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	Gene3D	G3DSA:2.20.25.80	WRKY domain	167	241	3.5E-28	T	27-10-2026	IPR036576	WRKY domain superfamily	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	36	45	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	36	65	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	234	313	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	109	120	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	168	202	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	81	143	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0092000.1.v1.1	fb04a2ad714f767c09dc4f13720a3e39	516	MobiDBLite	mobidb-lite	consensus disorder prediction	121	136	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	Pfam	PF14547	Hydrophobic seed protein	166	247	3.2E-16	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	Gene3D	G3DSA:1.10.110.10	-	166	247	5.2E-21	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	PANTHER	PTHR31731	-	6	246	4.7E-31	T	27-10-2026	IPR051636	Plant lipid transfer/defense-related protein	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	SUPERFAMILY	SSF47699	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin	170	246	3.4E-18	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	ProSiteProfiles	PS51257	Prokaryotic membrane lipoprotein lipid attachment site profile.	1	26	5.0	T	27-10-2026	-	-	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	MobiDBLite	mobidb-lite	consensus disorder prediction	123	164	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	MobiDBLite	mobidb-lite	consensus disorder prediction	140	161	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0317200.1.v1.1	c54c9bbb5937fa23f7ce335728cf6bf7	247	CDD	cd01958	HPS_like	165	246	1.67281E-24	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	60	70	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	86	241	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	168	194	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	86	98	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	213	233	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	151	160	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0544000.1.v1.1	405edf878d7525834ea589c52b9e9707	241	MobiDBLite	mobidb-lite	consensus disorder prediction	60	79	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	FunFam	G3DSA:3.20.20.80:FF:000022	Beta-glucosidase 11	13	501	1.4E-221	T	27-10-2026	-	-	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PANTHER	PTHR10353	GLYCOSYL HYDROLASE	29	500	3.1E-173	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	SUPERFAMILY	SSF51445	(Trans)glycosidases	17	499	2.21E-164	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	ProSitePatterns	PS00653	Glycosyl hydrolases family 1 N-terminal signature.	33	47	-	T	27-10-2026	IPR033132	Glycosyl hydrolases family 1, N-terminal conserved site	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	Pfam	PF00232	Glycosyl hydrolase family 1	26	498	1.1E-139	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	Gene3D	G3DSA:3.20.20.80	Glycosidases	12	505	1.4E-188	T	27-10-2026	-	-	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	446	463	2.9E-14	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	425	436	2.9E-14	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	470	482	2.9E-14	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	404	412	2.9E-14	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D04G0505500.1.v1.1	346dff4ae3139a455bc1d1c91ff79663	515	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	324	338	2.9E-14	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	SUPERFAMILY	SSF51445	(Trans)glycosidases	42	509	8.52E-179	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PANTHER	PTHR10353	GLYCOSYL HYDROLASE	47	509	1.6E-184	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	Pfam	PF00232	Glycosyl hydrolase family 1	45	509	1.0E-155	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	338	352	3.2E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	414	422	3.2E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	456	473	3.2E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	480	492	3.2E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	435	446	3.2E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	Gene3D	G3DSA:3.20.20.80	Glycosidases	32	510	4.2E-212	T	27-10-2026	-	-	-	-
+Brahy.S02G0295300.1.v1.1	52a641dab1683d338c87cc50569a5f93	510	FunFam	G3DSA:3.20.20.80:FF:000041	Beta-glucosidase 7	29	510	1.6E-241	T	27-10-2026	-	-	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	PANTHER	PTHR43570	ALDEHYDE DEHYDROGENASE	13	474	8.7E-190	T	27-10-2026	IPR012394	Aldehyde dehydrogenase NAD(P)-dependent	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	FunFam	G3DSA:3.40.309.10:FF:000003	Aldehyde dehydrogenase	222	421	1.9E-71	T	27-10-2026	-	-	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	Gene3D	G3DSA:3.40.309.10	Aldehyde Dehydrogenase; Chain A, domain 2	222	421	9.2E-142	T	27-10-2026	IPR016163	Aldehyde dehydrogenase, C-terminal	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	Pfam	PF00171	Aldehyde dehydrogenase family	26	441	5.1E-76	T	27-10-2026	IPR015590	Aldehyde dehydrogenase domain	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	Gene3D	G3DSA:3.40.605.10	Aldehyde Dehydrogenase; Chain A, domain 1	22	439	9.2E-142	T	27-10-2026	IPR016162	Aldehyde dehydrogenase, N-terminal	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	SUPERFAMILY	SSF53720	ALDH-like	16	457	6.15E-105	T	27-10-2026	IPR016161	Aldehyde/histidinol dehydrogenase	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	PIRSF	PIRSF036492	ALDH	3	477	2.5E-157	T	27-10-2026	IPR012394	Aldehyde dehydrogenase NAD(P)-dependent	-	-
+Brahy.S04G0128900.1.v1.1	fa4c00c1bbab2a2b9ba43600a139d09f	485	FunFam	G3DSA:3.40.605.10:FF:000004	Aldehyde dehydrogenase	21	224	3.5E-73	T	27-10-2026	-	-	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	CDD	cd01837	SGNH_plant_lipase_like	39	356	1.29486E-140	T	27-10-2026	IPR035669	GDSL lipase/esterase-like, plant	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	FunFam	G3DSA:3.40.50.1110:FF:000003	GDSL esterase/lipase APG	30	359	7.6E-138	T	27-10-2026	-	-	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	SUPERFAMILY	SSF52266	SGNH hydrolase	167	355	6.96E-9	T	27-10-2026	-	-	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	PANTHER	PTHR45642	GDSL ESTERASE/LIPASE EXL3	25	354	1.3E-126	T	27-10-2026	IPR050592	GDSL lipolytic enzyme	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	Gene3D	G3DSA:3.40.50.1110	SGNH hydrolase	30	358	1.3E-75	T	27-10-2026	IPR036514	SGNH hydrolase superfamily	-	-
+Brahy.S07G0017200.1.v1.1	4e085793d489f8cabde459c65da38045	363	Pfam	PF00657	GDSL-like Lipase/Acylhydrolase	42	353	2.1E-32	T	27-10-2026	IPR001087	GDSL lipase/esterase	-	-
+Brahy.D04G0271700.1.v1.1	f5655fd78859bb6c1b93150d873f7230	84	MobiDBLite	mobidb-lite	consensus disorder prediction	52	84	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0271700.1.v1.1	f5655fd78859bb6c1b93150d873f7230	84	MobiDBLite	mobidb-lite	consensus disorder prediction	73	84	-	T	27-10-2026	-	-	-	-
+Brahy.S06G0034200.1.v1.1	b38d82ace11e1a4e40baa7284e21beed	195	PANTHER	PTHR33976	OS07G0645000 PROTEIN	5	193	2.8E-72	T	27-10-2026	IPR045285	GPI-anchored protein At5g19230-like	-	-
+Brahy.S09G0044400.1.v1.1	1579b8523e40b0bf082a9725dabc8d4e	202	PANTHER	PTHR33935	OS10G0148100 PROTEIN	9	200	4.2E-80	T	27-10-2026	-	-	-	-
+Brahy.S09G0044400.1.v1.1	1579b8523e40b0bf082a9725dabc8d4e	202	Pfam	PF01190	Pollen protein Ole e 1 like	28	104	6.6E-6	T	27-10-2026	-	-	-	-
+Brahy.S09G0044400.1.v1.1	1579b8523e40b0bf082a9725dabc8d4e	202	MobiDBLite	mobidb-lite	consensus disorder prediction	166	176	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0044400.1.v1.1	1579b8523e40b0bf082a9725dabc8d4e	202	MobiDBLite	mobidb-lite	consensus disorder prediction	156	202	-	T	27-10-2026	-	-	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PANTHER	PTHR43139	SI:DKEY-122A22.2	1	330	1.3E-89	T	27-10-2026	IPR052370	Meta-cleavage pathway hydrolase	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	Pfam	PF00561	alpha/beta hydrolase fold	83	316	4.1E-20	T	27-10-2026	IPR000073	Alpha/beta hydrolase fold-1	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	79	327	5.0E-45	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00412	Epoxide hydrolase signature	154	167	7.0E-5	T	27-10-2026	IPR000639	Epoxide hydrolase-like	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00412	Epoxide hydrolase signature	109	124	7.0E-5	T	27-10-2026	IPR000639	Epoxide hydrolase-like	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00412	Epoxide hydrolase signature	168	181	7.0E-5	T	27-10-2026	IPR000639	Epoxide hydrolase-like	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00412	Epoxide hydrolase signature	304	326	7.0E-5	T	27-10-2026	IPR000639	Epoxide hydrolase-like	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	MobiDBLite	mobidb-lite	consensus disorder prediction	340	360	-	T	27-10-2026	-	-	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	MobiDBLite	mobidb-lite	consensus disorder prediction	51	82	-	T	27-10-2026	-	-	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	70	340	1.3E-46	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00111	Alpha/beta hydrolase fold signature	109	124	1.6E-7	T	27-10-2026	IPR000073	Alpha/beta hydrolase fold-1	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00111	Alpha/beta hydrolase fold signature	168	181	1.6E-7	T	27-10-2026	IPR000073	Alpha/beta hydrolase fold-1	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00111	Alpha/beta hydrolase fold signature	272	286	1.6E-7	T	27-10-2026	IPR000073	Alpha/beta hydrolase fold-1	-	-
+Brahy.S04G0095400.1.v1.1	6b6a0e99c3c8cb20eb06ed4062e72320	360	PRINTS	PR00111	Alpha/beta hydrolase fold signature	154	167	1.6E-7	T	27-10-2026	IPR000073	Alpha/beta hydrolase fold-1	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	PANTHER	PTHR13683	ASPARTYL PROTEASES	19	452	1.5E-83	T	27-10-2026	IPR001461	Aspartic peptidase A1	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	Gene3D	G3DSA:2.40.70.10	Acid Proteases	80	264	7.0E-37	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	Pfam	PF14543	Xylanase inhibitor N-terminal	94	264	2.6E-34	T	27-10-2026	IPR032861	Xylanase inhibitor, N-terminal	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	ProSiteProfiles	PS51767	Peptidase family A1 domain profile.	94	451	39.197784	T	27-10-2026	IPR033121	Peptidase family A1 domain	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	Pfam	PF14541	Xylanase inhibitor C-terminal	289	451	7.2E-27	T	27-10-2026	IPR032799	Xylanase inhibitor, C-terminal	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	FunFam	G3DSA:2.40.70.10:FF:000022	Aspartyl protease AED3	265	456	2.5E-85	T	27-10-2026	-	-	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	SUPERFAMILY	SSF50630	Acid proteases	90	455	7.15E-85	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	Gene3D	G3DSA:2.40.70.10	Acid Proteases	265	459	1.2E-45	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D01G0246800.1.v1.1	5b8656a25d2828cb2ea46b23bba44b71	460	FunFam	G3DSA:2.40.70.10:FF:000040	aspartyl protease AED3	74	264	7.3E-80	T	27-10-2026	-	-	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	PANTHER	PTHR42721	SUGAR HYDROLASE-RELATED	19	765	0.0	T	27-10-2026	IPR044993	Beta-D-xylosidase	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Pfam	PF00933	Glycosyl hydrolase family 3 N terminal domain	105	348	2.1E-30	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Gene3D	G3DSA:3.20.20.300	-	50	366	3.2E-93	T	27-10-2026	IPR036962	Glycoside hydrolase, family 3, N-terminal domain superfamily	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	SUPERFAMILY	SSF52279	Beta-D-glucan exohydrolase, C-terminal domain	392	631	5.49E-49	T	27-10-2026	IPR036881	Glycoside hydrolase family 3 C-terminal domain superfamily	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	272	290	4.8E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	111	130	4.8E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	198	214	4.8E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	SMART	SM01217	Fn3_like_2	695	766	1.0E-15	T	27-10-2026	IPR026891	Fibronectin type III-like domain	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	FunFam	G3DSA:3.40.50.1700:FF:000001	probable beta-D-xylosidase 2	377	629	2.3E-116	T	27-10-2026	-	-	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Pfam	PF01915	Glycosyl hydrolase family 3 C-terminal domain	392	628	1.3E-47	T	27-10-2026	IPR002772	Glycoside hydrolase family 3 C-terminal domain	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	SUPERFAMILY	SSF51445	(Trans)glycosidases	38	391	4.32E-88	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Gene3D	G3DSA:3.40.50.1700	-	378	629	2.8E-65	T	27-10-2026	IPR036881	Glycoside hydrolase family 3 C-terminal domain superfamily	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	FunFam	G3DSA:3.20.20.300:FF:000004	probable beta-D-xylosidase 7	50	364	1.1E-167	T	27-10-2026	-	-	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	660	773	5.5E-18	T	27-10-2026	IPR013783	Immunoglobulin-like fold	-	-
+Brahy.D02G0648900.1.v1.1	14a539f25846ccc3fc37339f4261e656	779	Pfam	PF14310	Fibronectin type III-like domain	695	764	1.7E-7	T	27-10-2026	IPR026891	Fibronectin type III-like domain	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	SUPERFAMILY	SSF117281	Kelch motif	146	387	5.49E-43	T	27-10-2026	IPR015915	Kelch-type beta propeller	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	MobiDBLite	mobidb-lite	consensus disorder prediction	36	46	-	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	MobiDBLite	mobidb-lite	consensus disorder prediction	16	46	-	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	MobiDBLite	mobidb-lite	consensus disorder prediction	483	507	-	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Coils	Coil	Coil	557	605	-	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Gene3D	G3DSA:2.120.10.80	-	191	403	3.9E-38	T	27-10-2026	IPR015915	Kelch-type beta propeller	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Pfam	PF24681	KLHDC2/KLHL20/DRC7 Kelch-repeats domain	50	140	3.2E-10	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Pfam	PF24681	KLHDC2/KLHL20/DRC7 Kelch-repeats domain	150	373	3.1E-54	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Coils	Coil	Coil	627	647	-	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	PANTHER	PTHR46093	ACYL-COA-BINDING DOMAIN-CONTAINING PROTEIN 5	45	680	5.1E-172	T	27-10-2026	-	-	-	-
+Brahy.S10G0066600.1.v1.1	f087aa01c6a2f8bc434289418c3434e4	692	Gene3D	G3DSA:2.120.10.80	-	40	190	2.5E-19	T	27-10-2026	IPR015915	Kelch-type beta propeller	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	Pfam	PF06955	Xyloglucan endo-transglycosylase (XET) C-terminus	254	298	2.6E-11	T	27-10-2026	IPR010713	Xyloglucan endo-transglycosylase, C-terminal	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	PIRSF	PIRSF005604	EndGlu_transf	1	301	5.9E-101	T	27-10-2026	IPR016455	Xyloglucan endotransglucosylase/hydrolase	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	PANTHER	PTHR31062	XYLOGLUCAN ENDOTRANSGLUCOSYLASE/HYDROLASE PROTEIN 8-RELATED	18	298	9.3E-91	T	27-10-2026	IPR044791	Beta-glucanase/XTH	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	Pfam	PF00722	Glycosyl hydrolases family 16	29	209	8.8E-56	T	27-10-2026	IPR000757	Glycoside hydrolase family 16	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	ProSiteProfiles	PS51762	Glycosyl hydrolases family 16 (GH16) domain profile.	19	217	23.353731	T	27-10-2026	IPR000757	Glycoside hydrolase family 16	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	ProSitePatterns	PS01034	Glycosyl hydrolases family 16 active sites.	105	115	-	T	27-10-2026	IPR008263	Glycoside hydrolase, family 16, active site	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	Gene3D	G3DSA:2.60.120.200	-	12	298	5.2E-80	T	27-10-2026	-	-	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	SUPERFAMILY	SSF49899	Concanavalin A-like lectins/glucanases	27	300	1.07E-58	T	27-10-2026	IPR013320	Concanavalin A-like lectin/glucanase domain superfamily	-	-
+Brahy.D03G0266700.1.v1.1	5d9eccf8918e6e79c3ab320cfeb54680	301	MobiDBLite	mobidb-lite	consensus disorder prediction	229	256	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0246000.1.v1.1	6f7817973c9cdd32f0aac39611a12ce4	266	Pfam	PF03107	C1 domain	16	60	9.4E-6	T	27-10-2026	IPR004146	DC1	-	-
+Brahy.S03G0246000.1.v1.1	6f7817973c9cdd32f0aac39611a12ce4	266	SUPERFAMILY	SSF57889	Cysteine-rich domain	8	68	3.14E-13	T	27-10-2026	IPR046349	C1-like domain superfamily	-	-
+Brahy.S03G0246000.1.v1.1	6f7817973c9cdd32f0aac39611a12ce4	266	PANTHER	PTHR46477	CYSTEINE/HISTIDINE-RICH C1 DOMAIN FAMILY PROTEIN	7	260	3.2E-68	T	27-10-2026	-	-	-	-
+Brahy.S03G0246000.1.v1.1	6f7817973c9cdd32f0aac39611a12ce4	266	SUPERFAMILY	SSF57889	Cysteine-rich domain	76	132	3.31E-7	T	27-10-2026	IPR046349	C1-like domain superfamily	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	CDD	cd01837	SGNH_plant_lipase_like	28	345	2.26444E-138	T	27-10-2026	IPR035669	GDSL lipase/esterase-like, plant	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	PANTHER	PTHR45642	GDSL ESTERASE/LIPASE EXL3	12	343	1.2E-125	T	27-10-2026	IPR050592	GDSL lipolytic enzyme	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	Gene3D	G3DSA:3.40.50.1110	SGNH hydrolase	19	347	1.4E-74	T	27-10-2026	IPR036514	SGNH hydrolase superfamily	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	Pfam	PF00657	GDSL-like Lipase/Acylhydrolase	30	342	1.8E-32	T	27-10-2026	IPR001087	GDSL lipase/esterase	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	FunFam	G3DSA:3.40.50.1110:FF:000003	GDSL esterase/lipase APG	19	348	2.7E-137	T	27-10-2026	-	-	-	-
+Brahy.D01G0685700.1.v1.1	a51a95026ca11311ebb10d8c5d6a978f	352	SUPERFAMILY	SSF52266	SGNH hydrolase	157	344	8.43E-9	T	27-10-2026	-	-	-	-
+Brahy.D04G0209400.1.v1.1	bf4887116e1785970e967ec651994c2e	237	MobiDBLite	mobidb-lite	consensus disorder prediction	1	32	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	348	375	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	724	772	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Pfam	PF10358	N-terminal C2 in EEIG1 and EHBP1 proteins	13	142	7.4E-11	T	27-10-2026	IPR019448	NT-type C2 domain	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	660	694	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	507	562	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	PANTHER	PTHR34452	MYOSIN HEAVY CHAIN-RELATED PROTEIN	931	985	6.6E-245	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	399	454	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	571	624	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	790	810	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	Coils	Coil	Coil	930	964	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	ProSiteProfiles	PS51840	C2 NT-type domain profile.	6	142	21.013407	T	27-10-2026	IPR019448	NT-type C2 domain	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	869	935	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	160	173	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	266	314	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	145	188	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	266	303	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.1.v1.1	dac04b8f1a72a2a7aa20288a7641b290	987	MobiDBLite	mobidb-lite	consensus disorder prediction	909	923	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0638800.1.v1.1	2c5a0c6d6a0d2b93657f58d6497f8685	327	Pfam	PF03181	BURP domain	106	325	3.8E-73	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.D04G0638800.1.v1.1	2c5a0c6d6a0d2b93657f58d6497f8685	327	SMART	SM01045	BURP_2	105	327	4.7E-78	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.D04G0638800.1.v1.1	2c5a0c6d6a0d2b93657f58d6497f8685	327	PANTHER	PTHR31236	BURP DOMAIN PROTEIN USPL1-LIKE	34	325	4.9E-94	T	27-10-2026	IPR044816	BURP domain-containing protein	-	-
+Brahy.D04G0638800.1.v1.1	2c5a0c6d6a0d2b93657f58d6497f8685	327	ProSiteProfiles	PS51277	BURP domain profile.	107	327	82.954796	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	ProSiteProfiles	PS50404	Soluble glutathione S-transferase N-terminal domain profile.	6	85	23.682673	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	SUPERFAMILY	SSF47616	GST C-terminal domain-like	83	221	2.09E-37	T	27-10-2026	IPR036282	Glutathione S-transferase, C-terminal domain superfamily	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	SFLD	SFLDG00358	Main (cytGST)	6	221	0.0	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	SFLD	SFLDG01152	Main.3: Omega- and Tau-like	6	221	0.0	T	27-10-2026	IPR045073	Glutathione S-transferase Omega/Tau-like	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	Pfam	PF02798	Glutathione S-transferase, N-terminal domain	8	79	3.2E-17	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	Gene3D	G3DSA:1.20.1050.10	-	88	222	2.5E-52	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	Pfam	PF22041	Glutathione S-transferase, C-terminal domain	122	178	5.3E-4	T	27-10-2026	IPR054416	Glutathione S-transferase UstS-like , C-terminal domain	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	FunFam	G3DSA:3.40.30.10:FF:000044	Glutathione S-transferase GSTU6	3	88	1.1E-38	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	1	87	5.3E-37	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	PANTHER	PTHR11260	GLUTATHIONE S-TRANSFERASE, GST, SUPERFAMILY, GST DOMAIN CONTAINING	10	215	1.6E-64	T	27-10-2026	IPR045073	Glutathione S-transferase Omega/Tau-like	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	CDD	cd03058	GST_N_Tau	8	81	9.14302E-47	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	CDD	cd03185	GST_C_Tau	93	222	1.44823E-44	T	27-10-2026	IPR045074	Glutathione S-transferases Tau, C-terminal alpha helical domain, plant	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	SUPERFAMILY	SSF52833	Thioredoxin-like	8	110	1.19E-24	T	27-10-2026	IPR036249	Thioredoxin-like superfamily	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	FunFam	G3DSA:1.20.1050.10:FF:000023	Probable glutathione S-transferase GSTU6	89	222	6.3E-58	T	27-10-2026	-	-	-	-
+Brahy.S03G0199400.1.v1.1	54f2da8cf15aaa58cf00758f81e89f57	222	ProSiteProfiles	PS50405	Soluble glutathione S-transferase C-terminal domain profile.	92	222	19.454872	T	27-10-2026	IPR010987	Glutathione S-transferase, C-terminal-like	-	-
+Brahy.S07G0089100.1.v1.1	e3a05fab379a40f4b08572f44da2ea93	500	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	213	497	4.78E-56	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S07G0089100.1.v1.1	e3a05fab379a40f4b08572f44da2ea93	500	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	215	493	8.1E-38	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S07G0089100.1.v1.1	e3a05fab379a40f4b08572f44da2ea93	500	PANTHER	PTHR32116	GALACTURONOSYLTRANSFERASE 4-RELATED	53	498	2.0E-135	T	27-10-2026	IPR029993	Plant galacturonosyltransferase GAUT	-	-
+Brahy.S07G0089100.1.v1.1	e3a05fab379a40f4b08572f44da2ea93	500	Pfam	PF01501	Glycosyl transferase family 8	222	473	1.9E-47	T	27-10-2026	IPR002495	Glycosyl transferase, family 8	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	CDD	cd03399	SPFH_flotillin	30	190	8.96153E-27	T	27-10-2026	-	-	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	SUPERFAMILY	SSF117892	Band 7/SPFH domain	35	186	7.45E-14	T	27-10-2026	IPR036013	Band 7/SPFH domain superfamily	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	Coils	Coil	Coil	288	308	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	Gene3D	G3DSA:3.30.479.30	Band 7 domain	41	170	5.8E-16	T	27-10-2026	IPR036013	Band 7/SPFH domain superfamily	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	Pfam	PF01145	SPFH domain / Band 7 family	27	198	7.7E-13	T	27-10-2026	IPR001107	Band 7 domain	-	-
+Brahy.S03G0171500.1.v1.1	31bad047aefdf888a014808327cd4149	496	PANTHER	PTHR13806	FLOTILLIN-RELATED	4	493	4.1E-171	T	27-10-2026	IPR027705	Flotillin family	-	-
+Brahy.S08G0066000.1.v1.1	8f9fb6dee2dd00447f21fc43d18094a8	215	SMART	SM00768	X8_cls	20	103	7.9E-37	T	27-10-2026	IPR012946	X8 domain	-	-
+Brahy.S08G0066000.1.v1.1	8f9fb6dee2dd00447f21fc43d18094a8	215	Gene3D	G3DSA:1.20.58.1040	-	16	110	2.5E-10	T	27-10-2026	-	-	-	-
+Brahy.S08G0066000.1.v1.1	8f9fb6dee2dd00447f21fc43d18094a8	215	Pfam	PF07983	X8 domain	21	90	2.8E-15	T	27-10-2026	IPR012946	X8 domain	-	-
+Brahy.S08G0066000.1.v1.1	8f9fb6dee2dd00447f21fc43d18094a8	215	PANTHER	PTHR31044	BETA-1,3 GLUCANASE	9	117	1.1E-34	T	27-10-2026	IPR044788	Carbohydrate-binding X8 domain-containing protein, plant	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	FunFam	G3DSA:3.90.550.10:FF:000027	Cellulose synthase-like protein D4	373	512	5.3E-80	T	27-10-2026	-	-	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	373	512	3.1E-13	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	195	681	4.03E-9	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	PANTHER	PTHR13301	X-BOX TRANSCRIPTION FACTOR-RELATED	97	856	7.1E-229	T	27-10-2026	-	-	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	Pfam	PF03552	Cellulose synthase	524	875	5.2E-93	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.S06G0102900.1.v1.1	1bada6d53a53cf45d3019d6576c3c1f1	898	Pfam	PF03552	Cellulose synthase	184	513	1.5E-123	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D03G0475100.1.v1.1	163fba7485a2964511eb7a57ee26e79b	624	PANTHER	PTHR31458	POLYGALACTURONASE 1 BETA-LIKE PROTEIN 2	9	624	6.3E-259	T	27-10-2026	IPR051897	Polygalacturonase-associated BURP domain-containing protein	-	-
+Brahy.D03G0475100.1.v1.1	163fba7485a2964511eb7a57ee26e79b	624	ProSiteProfiles	PS51277	BURP domain profile.	412	623	69.285881	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.D03G0475100.1.v1.1	163fba7485a2964511eb7a57ee26e79b	624	SMART	SM01045	BURP_2	410	623	1.8E-97	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.D03G0475100.1.v1.1	163fba7485a2964511eb7a57ee26e79b	624	Pfam	PF03181	BURP domain	412	621	2.3E-60	T	27-10-2026	IPR004873	BURP domain	-	-
+Brahy.S04G0145400.1.v1.1	45cdeeb3ed7a169a9bf2e896b12579a2	455	SUPERFAMILY	SSF52058	L domain-like	237	394	3.18E-27	T	27-10-2026	-	-	-	-
+Brahy.S04G0145400.1.v1.1	45cdeeb3ed7a169a9bf2e896b12579a2	455	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	225	406	1.4E-33	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S04G0145400.1.v1.1	45cdeeb3ed7a169a9bf2e896b12579a2	455	PANTHER	PTHR32093	LEUCINE-RICH REPEAT EXTENSIN-LIKE PROTEIN 3-RELATED	16	425	9.6E-106	T	27-10-2026	IPR051582	Leucine-rich repeat extensin-like regulator	-	-
+Brahy.S04G0145400.1.v1.1	45cdeeb3ed7a169a9bf2e896b12579a2	455	Pfam	PF00560	Leucine Rich Repeat	256	278	170.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S04G0145400.1.v1.1	45cdeeb3ed7a169a9bf2e896b12579a2	455	Pfam	PF00560	Leucine Rich Repeat	330	351	1600.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.D04G0087800.1.v1.1	1c8d063773c97a89a1be09387ab6a97b	132	PANTHER	PTHR21250	PRE-RRNA-PROCESSING PROTEIN TSR2 HOMOLOG	1	128	3.0E-46	T	27-10-2026	IPR019398	Pre-rRNA-processing protein TSR2	-	-
+Brahy.D04G0087800.1.v1.1	1c8d063773c97a89a1be09387ab6a97b	132	Pfam	PF10273	Pre-rRNA-processing protein TSR2	20	99	2.2E-19	T	27-10-2026	IPR019398	Pre-rRNA-processing protein TSR2	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF00043	Glutathione S-transferase, C-terminal domain	113	202	4.0E-13	T	27-10-2026	IPR004046	Glutathione S-transferase, C-terminal	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	CDD	cd03053	GST_N_Phi	3	78	1.64687E-41	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:1.20.1050.10:FF:000004	Glutathione S-transferase F2	86	208	1.0E-43	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDG01154	Main.5: Phi-like	1	211	0.0	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	PANTHER	PTHR43900	GLUTATHIONE S-TRANSFERASE RHO	3	209	1.4E-61	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	2	82	2.6E-26	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:3.40.30.10:FF:000016	Glutathione S-transferase F2	3	86	9.5E-35	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF47616	GST C-terminal domain-like	74	213	2.65E-31	T	27-10-2026	IPR036282	Glutathione S-transferase, C-terminal domain superfamily	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50405	Soluble glutathione S-transferase C-terminal domain profile.	88	215	23.300516	T	27-10-2026	IPR010987	Glutathione S-transferase, C-terminal-like	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:1.20.1050.10	-	85	208	5.8E-42	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDS00019	Glutathione Transferase (cytosolic)	1	211	0.0	T	27-10-2026	IPR040079	Glutathione transferase family	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50404	Soluble glutathione S-transferase N-terminal domain profile.	2	83	23.455086	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF52833	Thioredoxin-like	1	81	1.97E-23	T	27-10-2026	IPR036249	Thioredoxin-like superfamily	-	-
+Brahy.D02G0183900.1.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF02798	Glutathione S-transferase, N-terminal domain	3	77	5.3E-18	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF00043	Glutathione S-transferase, C-terminal domain	113	202	4.0E-13	T	27-10-2026	IPR004046	Glutathione S-transferase, C-terminal	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	CDD	cd03053	GST_N_Phi	3	78	1.64687E-41	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:1.20.1050.10:FF:000004	Glutathione S-transferase F2	86	208	1.0E-43	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDG01154	Main.5: Phi-like	1	211	0.0	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	PANTHER	PTHR43900	GLUTATHIONE S-TRANSFERASE RHO	3	209	1.4E-61	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	2	82	2.6E-26	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:3.40.30.10:FF:000016	Glutathione S-transferase F2	3	86	9.5E-35	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF47616	GST C-terminal domain-like	74	213	2.65E-31	T	27-10-2026	IPR036282	Glutathione S-transferase, C-terminal domain superfamily	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50405	Soluble glutathione S-transferase C-terminal domain profile.	88	215	23.300516	T	27-10-2026	IPR010987	Glutathione S-transferase, C-terminal-like	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:1.20.1050.10	-	85	208	5.8E-42	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDS00019	Glutathione Transferase (cytosolic)	1	211	0.0	T	27-10-2026	IPR040079	Glutathione transferase family	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50404	Soluble glutathione S-transferase N-terminal domain profile.	2	83	23.455086	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF52833	Thioredoxin-like	1	81	1.97E-23	T	27-10-2026	IPR036249	Thioredoxin-like superfamily	-	-
+Brahy.D02G0183900.2.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF02798	Glutathione S-transferase, N-terminal domain	3	77	5.3E-18	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF00043	Glutathione S-transferase, C-terminal domain	113	202	4.0E-13	T	27-10-2026	IPR004046	Glutathione S-transferase, C-terminal	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	CDD	cd03053	GST_N_Phi	3	78	1.64687E-41	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:1.20.1050.10:FF:000004	Glutathione S-transferase F2	86	208	1.0E-43	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDG01154	Main.5: Phi-like	1	211	0.0	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	PANTHER	PTHR43900	GLUTATHIONE S-TRANSFERASE RHO	3	209	1.4E-61	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	2	82	2.6E-26	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	FunFam	G3DSA:3.40.30.10:FF:000016	Glutathione S-transferase F2	3	86	9.5E-35	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF47616	GST C-terminal domain-like	74	213	2.65E-31	T	27-10-2026	IPR036282	Glutathione S-transferase, C-terminal domain superfamily	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50405	Soluble glutathione S-transferase C-terminal domain profile.	88	215	23.300516	T	27-10-2026	IPR010987	Glutathione S-transferase, C-terminal-like	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Gene3D	G3DSA:1.20.1050.10	-	85	208	5.8E-42	T	27-10-2026	-	-	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SFLD	SFLDS00019	Glutathione Transferase (cytosolic)	1	211	0.0	T	27-10-2026	IPR040079	Glutathione transferase family	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	ProSiteProfiles	PS50404	Soluble glutathione S-transferase N-terminal domain profile.	2	83	23.455086	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	SUPERFAMILY	SSF52833	Thioredoxin-like	1	81	1.97E-23	T	27-10-2026	IPR036249	Thioredoxin-like superfamily	-	-
+Brahy.D02G0183900.3.v1.1	4b910ab6ab56926029ca8f18cb8d3783	223	Pfam	PF02798	Glutathione S-transferase, N-terminal domain	3	77	5.3E-18	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.S02G0178100.1.v1.1	93fe60d5733b35b9d53bf5a1225bba3a	201	MobiDBLite	mobidb-lite	consensus disorder prediction	192	201	-	T	27-10-2026	-	-	-	-
+Brahy.S02G0178100.1.v1.1	93fe60d5733b35b9d53bf5a1225bba3a	201	MobiDBLite	mobidb-lite	consensus disorder prediction	168	181	-	T	27-10-2026	-	-	-	-
+Brahy.S02G0178100.1.v1.1	93fe60d5733b35b9d53bf5a1225bba3a	201	MobiDBLite	mobidb-lite	consensus disorder prediction	168	201	-	T	27-10-2026	-	-	-	-
+Brahy.S02G0178100.1.v1.1	93fe60d5733b35b9d53bf5a1225bba3a	201	Pfam	PF01190	Pollen protein Ole e 1 like	33	111	2.1E-8	T	27-10-2026	-	-	-	-
+Brahy.S02G0178100.1.v1.1	93fe60d5733b35b9d53bf5a1225bba3a	201	PANTHER	PTHR33935	OS10G0148100 PROTEIN	1	198	2.7E-73	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	CDD	cd12361	RRM1_2_CELF1-6_like	40	116	9.16733E-34	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Gene3D	G3DSA:3.30.70.330	-	336	450	2.8E-28	T	27-10-2026	IPR012677	Nucleotide-binding alpha-beta plait domain superfamily	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	CDD	cd12362	RRM3_CELF1-6	375	447	4.14572E-41	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Pfam	PF00076	RNA recognition motif	129	197	4.0E-13	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Pfam	PF00076	RNA recognition motif	41	105	3.2E-8	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Pfam	PF00076	RNA recognition motif	375	445	8.6E-15	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	FunFam	G3DSA:3.30.70.330:FF:000302	RNA-binding protein BRN1	26	123	2.8E-53	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Gene3D	G3DSA:3.30.70.330	-	124	218	3.3E-24	T	27-10-2026	IPR012677	Nucleotide-binding alpha-beta plait domain superfamily	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	Gene3D	G3DSA:3.30.70.330	-	27	123	1.1E-21	T	27-10-2026	IPR012677	Nucleotide-binding alpha-beta plait domain superfamily	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	PANTHER	PTHR24012	RNA BINDING PROTEIN	11	451	6.7E-67	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	SMART	SM00360	rrm1_1	128	204	8.4E-17	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	SMART	SM00360	rrm1_1	374	447	1.3E-23	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	SMART	SM00360	rrm1_1	40	116	7.9E-14	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	FunFam	G3DSA:3.30.70.330:FF:000334	RNA-binding protein BRN1	340	450	2.2E-65	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	SUPERFAMILY	SSF54928	RNA-binding domain, RBD	22	122	8.19E-18	T	27-10-2026	IPR035979	RNA-binding domain superfamily	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	ProSiteProfiles	PS50102	Eukaryotic RNA Recognition Motif (RRM) profile.	39	120	12.628556	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	SUPERFAMILY	SSF54928	RNA-binding domain, RBD	127	453	2.79E-43	T	27-10-2026	IPR035979	RNA-binding domain superfamily	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	ProSiteProfiles	PS50102	Eukaryotic RNA Recognition Motif (RRM) profile.	127	208	15.903193	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	PRINTS	PR00961	Paraneoplastic encephalomyelitis antigen family signature	39	54	2.1E-8	T	27-10-2026	IPR002343	Paraneoplastic encephalomyelitis antigen	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	PRINTS	PR00961	Paraneoplastic encephalomyelitis antigen family signature	189	206	2.1E-8	T	27-10-2026	IPR002343	Paraneoplastic encephalomyelitis antigen	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	PRINTS	PR00961	Paraneoplastic encephalomyelitis antigen family signature	147	159	2.1E-8	T	27-10-2026	IPR002343	Paraneoplastic encephalomyelitis antigen	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	PRINTS	PR00961	Paraneoplastic encephalomyelitis antigen family signature	132	147	2.1E-8	T	27-10-2026	IPR002343	Paraneoplastic encephalomyelitis antigen	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	MobiDBLite	mobidb-lite	consensus disorder prediction	347	363	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	MobiDBLite	mobidb-lite	consensus disorder prediction	332	372	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	MobiDBLite	mobidb-lite	consensus disorder prediction	1	37	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	MobiDBLite	mobidb-lite	consensus disorder prediction	1	12	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	FunFam	G3DSA:3.30.70.330:FF:000216	RNA-binding protein BRN1 isoform X1	124	217	3.5E-56	T	27-10-2026	-	-	-	-
+Brahy.D02G0383900.1.v1.1	e79b9c05dc49a6fdeaee45df2ea6cd0f	459	ProSiteProfiles	PS50102	Eukaryotic RNA Recognition Motif (RRM) profile.	373	451	17.045906	T	27-10-2026	IPR000504	RNA recognition motif domain	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	SUPERFAMILY	SSF53756	UDP-Glycosyltransferase/glycogen phosphorylase	7	489	1.65E-103	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	CDD	cd03784	GT1_Gtf-like	7	469	5.29302E-63	T	27-10-2026	IPR002213	UDP-glucuronosyl/UDP-glucosyltransferase	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	264	468	3.2E-104	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	PANTHER	PTHR48047	GLYCOSYLTRANSFERASE	7	484	1.5E-109	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	FunFam	G3DSA:3.40.50.2000:FF:000063	Glycosyltransferase	274	471	4.2E-77	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	Pfam	PF00201	UDP-glucoronosyl and UDP-glucosyl transferase	238	401	1.6E-14	T	27-10-2026	IPR002213	UDP-glucuronosyl/UDP-glucosyltransferase	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	ProSitePatterns	PS00375	UDP-glycosyltransferases signature.	355	398	-	T	27-10-2026	IPR035595	UDP-glycosyltransferase family, conserved site	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	MobiDBLite	mobidb-lite	consensus disorder prediction	498	533	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	MobiDBLite	mobidb-lite	consensus disorder prediction	501	512	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0382500.1.v1.1	efc68b4d438fe982f4bbe379d4937f61	533	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	12	480	3.2E-104	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	154	163	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	82	227	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	129	140	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	82	102	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	141	153	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	173	187	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0265500.1.v1.1	2047e18b58933ead27b2f2cbbf411418	227	MobiDBLite	mobidb-lite	consensus disorder prediction	197	211	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	Coils	Coil	Coil	13	33	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	MobiDBLite	mobidb-lite	consensus disorder prediction	1	66	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	MobiDBLite	mobidb-lite	consensus disorder prediction	48	57	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	MobiDBLite	mobidb-lite	consensus disorder prediction	563	584	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	MobiDBLite	mobidb-lite	consensus disorder prediction	1	11	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	MobiDBLite	mobidb-lite	consensus disorder prediction	12	34	-	T	27-10-2026	-	-	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	SUPERFAMILY	SSF103473	MFS general substrate transporter	99	540	2.75E-5	T	27-10-2026	IPR036259	MFS transporter superfamily	-	-
+Brahy.S07G0025400.1.v1.1	dc41ccd1360102802a3c3465adee0ca9	584	PANTHER	PTHR37891	OS06G0113900 PROTEIN	6	568	2.2E-239	T	27-10-2026	-	-	-	-
+Brahy.D04G0271800.1.v1.1	2be5ba38ab3a915b81fd686a1b6aaa11	69	Pfam	PF11820	Protein of unknown function (DUF3339)	1	67	2.4E-32	T	27-10-2026	IPR021775	Protein of unknown function DUF3339	-	-
+Brahy.D04G0271800.1.v1.1	2be5ba38ab3a915b81fd686a1b6aaa11	69	PANTHER	PTHR33128	OS05G0103400 PROTEIN	1	69	3.7E-33	T	27-10-2026	IPR021775	Protein of unknown function DUF3339	-	-
+Brahy.D04G0265800.1.v1.1	aa8aba4e516a9a9eb576c03cb33c0189	128	MobiDBLite	mobidb-lite	consensus disorder prediction	92	105	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0265800.1.v1.1	aa8aba4e516a9a9eb576c03cb33c0189	128	MobiDBLite	mobidb-lite	consensus disorder prediction	82	128	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	ProSiteProfiles	PS51485	Phytocyanin domain profile.	24	123	38.124443	T	27-10-2026	IPR003245	Phytocyanin domain	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	SUPERFAMILY	SSF49503	Cupredoxins	23	121	1.49E-30	T	27-10-2026	IPR008972	Cupredoxin	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	PANTHER	PTHR33021	BLUE COPPER PROTEIN	23	192	4.0E-28	T	27-10-2026	IPR039391	Phytocyanin-like	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	MobiDBLite	mobidb-lite	consensus disorder prediction	190	199	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	MobiDBLite	mobidb-lite	consensus disorder prediction	178	187	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	MobiDBLite	mobidb-lite	consensus disorder prediction	149	169	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	MobiDBLite	mobidb-lite	consensus disorder prediction	145	199	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	Gene3D	G3DSA:2.60.40.420	-	22	126	4.8E-33	T	27-10-2026	IPR008972	Cupredoxin	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	CDD	cd04216	Phytocyanin	24	121	3.02792E-44	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	FunFam	G3DSA:2.60.40.420:FF:000003	Blue copper	22	127	1.4E-38	T	27-10-2026	-	-	-	-
+Brahy.S01G0129800.1.v1.1	b079a00da785170f657d6927c7cf8f7e	256	Pfam	PF02298	Plastocyanin-like domain	36	115	3.5E-21	T	27-10-2026	IPR003245	Phytocyanin domain	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	Gene3D	G3DSA:3.30.559.10	-	7	226	1.1E-59	T	27-10-2026	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	PANTHER	PTHR31625	-	12	459	7.9E-114	T	27-10-2026	IPR051504	Plant secondary metabolite acyltransferase	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	Coils	Coil	Coil	259	279	-	T	27-10-2026	-	-	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	Gene3D	G3DSA:3.30.559.10	-	247	462	9.3E-42	T	27-10-2026	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	SUPERFAMILY	SSF52777	CoA-dependent acyltransferases	294	458	4.0E-6	T	27-10-2026	-	-	-	-
+Brahy.S03G0030300.1.v1.1	bfc2781d799eba77b54257c5d1ba80b0	463	Pfam	PF02458	Transferase family	16	454	4.3E-51	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	CDD	cd01374	KISc_CENP_E	72	391	0.0	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	FunFam	G3DSA:3.40.850.10:FF:000014	Kinesin-like protein KIN-7G	64	422	2.0E-214	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	755	775	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Gene3D	G3DSA:3.40.850.10	Kinesin motor domain	63	422	1.2E-127	T	27-10-2026	IPR036961	Kinesin motor domain superfamily	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	939	973	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	ProSiteProfiles	PS50067	Kinesin motor domain profile.	72	391	112.250443	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	393	427	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	PANTHER	PTHR47968	CENTROMERE PROTEIN E	70	977	2.7E-189	T	27-10-2026	IPR027640	Kinesin-like protein	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	875	895	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	ProSitePatterns	PS00411	Kinesin motor domain signature.	291	302	-	T	27-10-2026	IPR019821	Kinesin motor domain, conserved site	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	446	480	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Pfam	PF00225	Kinesin motor domain	78	391	6.6E-102	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	PRINTS	PR00380	Kinesin heavy chain signature	143	164	1.2E-29	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	PRINTS	PR00380	Kinesin heavy chain signature	341	362	1.2E-29	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	PRINTS	PR00380	Kinesin heavy chain signature	257	274	1.2E-29	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	PRINTS	PR00380	Kinesin heavy chain signature	292	310	1.2E-29	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	SMART	SM00129	kinesin_4	70	399	1.4E-137	T	27-10-2026	IPR001752	Kinesin motor domain	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	Coils	Coil	Coil	686	706	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	MobiDBLite	mobidb-lite	consensus disorder prediction	568	595	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	MobiDBLite	mobidb-lite	consensus disorder prediction	1	69	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	MobiDBLite	mobidb-lite	consensus disorder prediction	894	939	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	MobiDBLite	mobidb-lite	consensus disorder prediction	12	44	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	MobiDBLite	mobidb-lite	consensus disorder prediction	915	939	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0789400.1.v1.1	9be09ed44ce8faa2623ceb3aae584ddd	1002	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	72	426	5.05E-110	T	27-10-2026	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+Brahy.S04G0146400.1.v1.1	33f9809471ae201dcd121f78c6c4c130	432	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	53	363	1.3E-36	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S04G0146400.1.v1.1	33f9809471ae201dcd121f78c6c4c130	432	PANTHER	PTHR32093	LEUCINE-RICH REPEAT EXTENSIN-LIKE PROTEIN 3-RELATED	25	392	9.8E-104	T	27-10-2026	IPR051582	Leucine-rich repeat extensin-like regulator	-	-
+Brahy.S04G0146400.1.v1.1	33f9809471ae201dcd121f78c6c4c130	432	Pfam	PF00560	Leucine Rich Repeat	303	324	1500.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S04G0146400.1.v1.1	33f9809471ae201dcd121f78c6c4c130	432	Pfam	PF00560	Leucine Rich Repeat	229	250	820.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S04G0146400.1.v1.1	33f9809471ae201dcd121f78c6c4c130	432	SUPERFAMILY	SSF52058	L domain-like	204	368	2.18E-27	T	27-10-2026	-	-	-	-
+Brahy.S01G0213200.1.v1.1	4c24762764b8ba97d73d086ddc1e4cef	57	MobiDBLite	mobidb-lite	consensus disorder prediction	36	57	-	T	27-10-2026	-	-	-	-
+Brahy.S01G0213200.1.v1.1	4c24762764b8ba97d73d086ddc1e4cef	57	MobiDBLite	mobidb-lite	consensus disorder prediction	43	57	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0072800.1.v1.1	5eb357191a9165ef071094f6108445f8	282	Coils	Coil	Coil	51	85	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0072800.1.v1.1	5eb357191a9165ef071094f6108445f8	282	MobiDBLite	mobidb-lite	consensus disorder prediction	1	31	-	T	27-10-2026	-	-	-	-
+Brahy.S08G0072800.1.v1.1	5eb357191a9165ef071094f6108445f8	282	PANTHER	PTHR10687	SECRETORY CARRIER-ASSOCIATED MEMBRANE PROTEIN  SCAMP	7	280	2.0E-90	T	27-10-2026	IPR007273	SCAMP	-	-
+Brahy.S08G0072800.1.v1.1	5eb357191a9165ef071094f6108445f8	282	Pfam	PF04144	SCAMP family	91	262	3.8E-52	T	27-10-2026	IPR007273	SCAMP	-	-
+Brahy.D02G0285400.1.v1.1	5eb357191a9165ef071094f6108445f8	282	Coils	Coil	Coil	51	85	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0285400.1.v1.1	5eb357191a9165ef071094f6108445f8	282	MobiDBLite	mobidb-lite	consensus disorder prediction	1	31	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0285400.1.v1.1	5eb357191a9165ef071094f6108445f8	282	PANTHER	PTHR10687	SECRETORY CARRIER-ASSOCIATED MEMBRANE PROTEIN  SCAMP	7	280	2.0E-90	T	27-10-2026	IPR007273	SCAMP	-	-
+Brahy.D02G0285400.1.v1.1	5eb357191a9165ef071094f6108445f8	282	Pfam	PF04144	SCAMP family	91	262	3.8E-52	T	27-10-2026	IPR007273	SCAMP	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	MobiDBLite	mobidb-lite	consensus disorder prediction	72	117	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	MobiDBLite	mobidb-lite	consensus disorder prediction	94	113	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	SUPERFAMILY	SSF47699	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin	122	198	2.09E-18	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	Gene3D	G3DSA:1.10.110.10	-	117	199	2.4E-21	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	ProSiteProfiles	PS51257	Prokaryotic membrane lipoprotein lipid attachment site profile.	1	26	5.0	T	27-10-2026	-	-	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	PANTHER	PTHR31731	-	6	198	5.6E-31	T	27-10-2026	IPR051636	Plant lipid transfer/defense-related protein	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	CDD	cd01958	HPS_like	117	198	4.13635E-24	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.S09G0242000.1.v1.1	76a636d78882738acf1ef828ed7a0181	199	Pfam	PF14547	Hydrophobic seed protein	118	199	2.0E-16	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PANTHER	PTHR31235	PEROXIDASE 25-RELATED	27	330	4.1E-102	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	106	119	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	42	61	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	192	204	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	125	135	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	311	324	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	272	289	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	145	160	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00461	Plant peroxidase signature	256	271	4.0E-40	T	27-10-2026	IPR000823	Plant peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	SUPERFAMILY	SSF48113	Heme-dependent peroxidases	33	337	1.18E-92	T	27-10-2026	IPR010255	Haem peroxidase superfamily	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00458	Haem peroxidase superfamily signature	65	79	7.2E-27	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00458	Haem peroxidase superfamily signature	193	208	7.2E-27	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00458	Haem peroxidase superfamily signature	126	143	7.2E-27	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00458	Haem peroxidase superfamily signature	145	157	7.2E-27	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	PRINTS	PR00458	Haem peroxidase superfamily signature	258	273	7.2E-27	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	Gene3D	G3DSA:1.10.420.10	Peroxidase, domain 2	171	316	4.6E-110	T	27-10-2026	-	-	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	FunFam	G3DSA:1.10.420.10:FF:000001	Peroxidase	171	316	4.3E-42	T	27-10-2026	-	-	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	Gene3D	G3DSA:1.10.520.10	-	36	337	4.6E-110	T	27-10-2026	-	-	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	Pfam	PF00141	Peroxidase	49	298	1.6E-73	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	ProSiteProfiles	PS50873	Plant heme peroxidase family profile.	32	337	71.186775	T	27-10-2026	IPR002016	Haem peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	ProSitePatterns	PS00435	Peroxidases proximal heme-ligand signature.	193	203	-	T	27-10-2026	IPR019793	Peroxidases heam-ligand binding site	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	CDD	cd00693	secretory_peroxidase	33	336	4.92203E-145	T	27-10-2026	IPR033905	Secretory peroxidase	-	-
+Brahy.S10G0071100.1.v1.1	8d8bad51c4645c8cda588fa52b78803b	338	FunFam	G3DSA:1.10.520.10:FF:000001	Peroxidase	36	179	7.1E-55	T	27-10-2026	-	-	-	-
+Brahy.D01G0323200.1.v1.1	7182a2925dd59c82cd4f35bfceeb994c	166	PANTHER	PTHR34049	F-BOX PROTEIN SKIP27	16	159	3.5E-26	T	27-10-2026	IPR045286	F-box protein FBS1-like	-	-
+Brahy.D01G0323200.1.v1.1	7182a2925dd59c82cd4f35bfceeb994c	166	ProSiteProfiles	PS50181	F-box domain profile.	64	112	8.994076	T	27-10-2026	IPR001810	F-box domain	-	-
+Brahy.D01G0323200.1.v1.1	7182a2925dd59c82cd4f35bfceeb994c	166	MobiDBLite	mobidb-lite	consensus disorder prediction	134	145	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0323200.1.v1.1	7182a2925dd59c82cd4f35bfceeb994c	166	MobiDBLite	mobidb-lite	consensus disorder prediction	118	145	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0323200.1.v1.1	7182a2925dd59c82cd4f35bfceeb994c	166	CDD	cd09917	F-box_SF	68	95	0.00969715	T	27-10-2026	-	-	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	SUPERFAMILY	SSF47699	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin	70	151	1.68E-22	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	Gene3D	G3DSA:1.10.110.10	-	68	151	1.2E-24	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	PANTHER	PTHR31731	-	10	150	2.4E-33	T	27-10-2026	IPR051636	Plant lipid transfer/defense-related protein	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	SMART	SM00499	aai_6	68	150	2.0E-7	T	27-10-2026	IPR016140	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	Pfam	PF14547	Hydrophobic seed protein	68	151	1.8E-20	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.D01G1065800.1.v1.1	0698c3e5786010130fcd3513c21242fd	152	CDD	cd01958	HPS_like	65	150	5.08992E-26	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	CDD	cd01837	SGNH_plant_lipase_like	27	344	1.06509E-140	T	27-10-2026	IPR035669	GDSL lipase/esterase-like, plant	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	FunFam	G3DSA:3.40.50.1110:FF:000003	GDSL esterase/lipase APG	18	347	6.7E-138	T	27-10-2026	-	-	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	Pfam	PF00657	GDSL-like Lipase/Acylhydrolase	30	341	1.9E-32	T	27-10-2026	IPR001087	GDSL lipase/esterase	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	Gene3D	G3DSA:3.40.50.1110	SGNH hydrolase	18	346	1.1E-75	T	27-10-2026	IPR036514	SGNH hydrolase superfamily	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	PANTHER	PTHR45642	GDSL ESTERASE/LIPASE EXL3	10	342	1.1E-126	T	27-10-2026	IPR050592	GDSL lipolytic enzyme	-	-
+Brahy.S07G0017200.2.v1.1	ad81060f1f8539d515fa7b5ff868fbaa	351	SUPERFAMILY	SSF52266	SGNH hydrolase	153	343	6.23E-9	T	27-10-2026	-	-	-	-
+Brahy.S08G0185000.1.v1.1	2f142d5bb3de691154ba1a54998146c8	71	Pfam	PF06376	Arabinogalactan peptide	28	60	2.3E-13	T	27-10-2026	IPR009424	Arabinogalactan protein 16/20/22/41	-	-
+Brahy.S08G0185000.1.v1.1	2f142d5bb3de691154ba1a54998146c8	71	PANTHER	PTHR33374	ARABINOGALACTAN PROTEIN 20	1	71	1.5E-23	T	27-10-2026	IPR009424	Arabinogalactan protein 16/20/22/41	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	Pfam	PF00201	UDP-glucoronosyl and UDP-glucosyl transferase	239	400	7.8E-16	T	27-10-2026	IPR002213	UDP-glucuronosyl/UDP-glucosyltransferase	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	12	480	6.9E-104	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	MobiDBLite	mobidb-lite	consensus disorder prediction	513	533	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	PANTHER	PTHR48047	GLYCOSYLTRANSFERASE	7	484	4.2E-110	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	FunFam	G3DSA:3.40.50.2000:FF:000063	Glycosyltransferase	274	471	2.1E-78	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	SUPERFAMILY	SSF53756	UDP-Glycosyltransferase/glycogen phosphorylase	7	489	8.97E-102	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	ProSitePatterns	PS00375	UDP-glycosyltransferases signature.	355	398	-	T	27-10-2026	IPR035595	UDP-glycosyltransferase family, conserved site	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	259	468	6.9E-104	T	27-10-2026	-	-	-	-
+Brahy.D02G0064300.1.v1.1	e88e591354f21002b30e04ac7c91180e	533	CDD	cd03784	GT1_Gtf-like	7	471	2.14747E-61	T	27-10-2026	IPR002213	UDP-glucuronosyl/UDP-glucosyltransferase	-	-
+Brahy.D02G0580200.1.v1.1	3fc16233cf76def4ba0d6fca4d1d45f4	249	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	8	243	1.5E-62	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.D02G0580200.1.v1.1	3fc16233cf76def4ba0d6fca4d1d45f4	249	PANTHER	PTHR46234	ALPHA/BETA-HYDROLASES SUPERFAMILY PROTEIN	3	247	1.6E-127	T	27-10-2026	-	-	-	-
+Brahy.D02G0580200.1.v1.1	3fc16233cf76def4ba0d6fca4d1d45f4	249	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	16	242	1.24E-43	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.D02G0580200.1.v1.1	3fc16233cf76def4ba0d6fca4d1d45f4	249	Pfam	PF02230	Phospholipase/Carboxylesterase	17	240	8.1E-36	T	27-10-2026	IPR003140	Phospholipase/carboxylesterase/thioesterase	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	Gene3D	G3DSA:3.50.50.60	-	191	280	2.5E-9	T	27-10-2026	IPR036188	FAD/NAD(P)-binding domain superfamily	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PANTHER	PTHR23023	DIMETHYLANILINE MONOOXYGENASE	16	463	4.9E-129	T	27-10-2026	IPR050346	Flavin-containing Monooxygenases-like	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	198	212	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	280	307	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	17	33	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	41	65	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	345	358	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	PRINTS	PR00370	Flavin-containing monooxygenase (FMO) signature	225	240	1.0E-24	T	27-10-2026	IPR000960	Flavin monooxygenase FMO	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	SUPERFAMILY	SSF51905	FAD/NAD(P)-binding domain	15	249	1.97E-51	T	27-10-2026	IPR036188	FAD/NAD(P)-binding domain superfamily	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	FunFam	G3DSA:3.50.50.60:FF:000665	Flavin-containing monooxygenase	281	464	1.0E-102	T	27-10-2026	-	-	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	SUPERFAMILY	SSF51905	FAD/NAD(P)-binding domain	246	404	1.68E-12	T	27-10-2026	IPR036188	FAD/NAD(P)-binding domain superfamily	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	Gene3D	G3DSA:3.50.50.60	-	15	190	1.0E-57	T	27-10-2026	IPR036188	FAD/NAD(P)-binding domain superfamily	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	Gene3D	G3DSA:3.50.50.60	-	281	468	9.4E-29	T	27-10-2026	IPR036188	FAD/NAD(P)-binding domain superfamily	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	Pfam	PF00743	Flavin-binding monooxygenase-like	263	407	7.2E-14	T	27-10-2026	IPR020946	Flavin monooxygenase-like	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	Pfam	PF00743	Flavin-binding monooxygenase-like	16	243	2.1E-31	T	27-10-2026	IPR020946	Flavin monooxygenase-like	-	-
+Brahy.D03G0147700.1.v1.1	6308cdaf48198f431bcff868db9909ee	493	FunFam	G3DSA:3.50.50.60:FF:000565	Flavin-containing monooxygenase	16	185	5.4E-86	T	27-10-2026	-	-	-	-
+Brahy.S01G0235000.1.v1.1	fb271ac7a7577e923187b6e56bd5415f	249	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	7	243	1.4E-62	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.S01G0235000.1.v1.1	fb271ac7a7577e923187b6e56bd5415f	249	PANTHER	PTHR46234	ALPHA/BETA-HYDROLASES SUPERFAMILY PROTEIN	4	247	1.5E-127	T	27-10-2026	-	-	-	-
+Brahy.S01G0235000.1.v1.1	fb271ac7a7577e923187b6e56bd5415f	249	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	16	242	1.25E-43	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.S01G0235000.1.v1.1	fb271ac7a7577e923187b6e56bd5415f	249	Pfam	PF02230	Phospholipase/Carboxylesterase	17	240	8.1E-36	T	27-10-2026	IPR003140	Phospholipase/carboxylesterase/thioesterase	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	Coils	Coil	Coil	194	214	-	T	27-10-2026	-	-	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	CDD	cd14703	bZIP_plant_RF2	116	166	1.76402E-20	T	27-10-2026	IPR044759	RF2-like transcription factor, bZIP domain	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	Pfam	PF00170	bZIP transcription factor	115	163	1.1E-5	T	27-10-2026	IPR004827	Basic-leucine zipper domain	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	Gene3D	G3DSA:1.20.5.170	-	114	212	2.6E-9	T	27-10-2026	-	-	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	SMART	SM00338	brlzneu	111	175	1.0E-11	T	27-10-2026	IPR004827	Basic-leucine zipper domain	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	ProSiteProfiles	PS50217	Basic-leucine zipper (bZIP) domain profile.	113	169	9.461466	T	27-10-2026	IPR004827	Basic-leucine zipper domain	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	SUPERFAMILY	SSF57959	Leucine zipper domain	115	169	1.69E-11	T	27-10-2026	IPR046347	Basic-leucine zipper domain superfamily	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	FunFam	G3DSA:1.20.5.170:FF:000057	Basic leucine zipper 61	114	187	6.5E-47	T	27-10-2026	-	-	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	PANTHER	PTHR46391	BASIC LEUCINE ZIPPER 34	1	223	4.6E-83	T	27-10-2026	IPR052483	Basic leucine zipper transcription regulators	-	-
+Brahy.S04G0254800.1.v1.1	0c70a4f5b658a79f18008c8e2229a3da	242	ProSitePatterns	PS00036	Basic-leucine zipper (bZIP) domain signature.	118	133	-	T	27-10-2026	IPR004827	Basic-leucine zipper domain	-	-
+Brahy.D01G0262000.1.v1.1	48a16886e78d0e4cf52fec4f7b2e90b3	412	PANTHER	PTHR21562	NOTUM-RELATED	43	404	4.8E-173	T	27-10-2026	IPR004963	Pectinacetylesterase/NOTUM	-	-
+Brahy.D01G0262000.1.v1.1	48a16886e78d0e4cf52fec4f7b2e90b3	412	Pfam	PF03283	Pectinacetylesterase	40	387	1.6E-158	T	27-10-2026	IPR004963	Pectinacetylesterase/NOTUM	-	-
+Brahy.D01G0262000.1.v1.1	48a16886e78d0e4cf52fec4f7b2e90b3	412	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	150	288	8.53E-6	T	27-10-2026	IPR029058	Alpha/Beta hydrolase fold	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	SUPERFAMILY	SSF47699	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin	55	135	1.42E-22	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	SMART	SM00499	aai_6	52	134	1.4E-7	T	27-10-2026	IPR016140	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	Gene3D	G3DSA:1.10.110.10	-	51	135	2.5E-25	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	Pfam	PF14547	Hydrophobic seed protein	52	135	1.7E-20	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	CDD	cd01958	HPS_like	50	134	7.3046E-26	T	27-10-2026	IPR027923	Hydrophobic seed protein domain	-	-
+Brahy.S02G0005900.1.v1.1	e3fa051289e41409754d106b19fa4c28	136	PANTHER	PTHR31731	-	7	134	1.7E-33	T	27-10-2026	IPR051636	Plant lipid transfer/defense-related protein	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Pfam	PF01477	PLAT/LH2 domain	134	198	0.0066	T	27-10-2026	IPR001024	PLAT/LH2 domain	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	SUPERFAMILY	SSF49723	Lipase/lipooxygenase domain (PLAT/LH2 domain)	70	203	4.27E-33	T	27-10-2026	IPR036392	PLAT/LH2 domain superfamily	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	ProSiteProfiles	PS51393	Lipoxygenase iron-binding catalytic domain profile.	202	895	297.094025	T	27-10-2026	IPR013819	Lipoxygenase, C-terminal	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	FunFam	G3DSA:2.60.60.20:FF:000021	Lipoxygenase	62	221	8.9E-78	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	266	285	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	234	250	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	487	511	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	417	436	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	808	822	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	378	394	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	330	351	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00468	Plant lipoxygenase signature	195	216	6.7E-59	T	27-10-2026	IPR001246	Lipoxygenase, plant	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	ProSitePatterns	PS00711	Lipoxygenases iron-binding region signature 1.	550	564	-	T	27-10-2026	IPR020833	Lipoxygenase, iron binding site	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	SMART	SM00308	LH2_4	69	200	4.3E-28	T	27-10-2026	IPR001024	PLAT/LH2 domain	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	FunFam	G3DSA:1.20.245.10:FF:000002	Lipoxygenase	529	894	1.5E-182	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	MobiDBLite	mobidb-lite	consensus disorder prediction	280	290	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	MobiDBLite	mobidb-lite	consensus disorder prediction	268	278	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	MobiDBLite	mobidb-lite	consensus disorder prediction	260	290	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Gene3D	G3DSA:4.10.372.10	-	322	409	5.0E-21	T	27-10-2026	IPR027433	Lipoxygenase, domain 3	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Gene3D	G3DSA:1.20.245.10	-	547	893	7.6E-141	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	FunFam	G3DSA:4.10.372.10:FF:000002	Lipoxygenase	321	409	5.0E-41	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	ProSitePatterns	PS00081	Lipoxygenases iron-binding region signature 2.	577	587	-	T	27-10-2026	IPR020834	Lipoxygenase, conserved site	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Gene3D	G3DSA:3.10.450.60	-	410	546	7.1E-49	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Pfam	PF00305	Lipoxygenase	212	878	0.0	T	27-10-2026	IPR013819	Lipoxygenase, C-terminal	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	SUPERFAMILY	SSF48484	Lipoxigenase	204	895	2.09E-259	T	27-10-2026	IPR036226	Lipoxigenase, C-terminal domain superfamily	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	ProSiteProfiles	PS50095	PLAT domain profile.	80	199	16.092012	T	27-10-2026	IPR001024	PLAT/LH2 domain	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PANTHER	PTHR11771	LIPOXYGENASE	72	895	1.1E-291	T	27-10-2026	IPR000907	Lipoxygenase	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Gene3D	G3DSA:2.60.60.20	PLAT/LH2 domain	68	221	5.9E-33	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	FunFam	G3DSA:4.10.375.10:FF:000002	Lipoxygenase	222	320	3.0E-54	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	FunFam	G3DSA:3.10.450.60:FF:000005	Lipoxygenase	410	546	2.9E-72	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	Gene3D	G3DSA:4.10.375.10	-	222	320	1.1E-36	T	27-10-2026	-	-	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00087	Lipoxygenase signature	550	567	1.3E-20	T	27-10-2026	IPR013819	Lipoxygenase, C-terminal	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00087	Lipoxygenase signature	570	590	1.3E-20	T	27-10-2026	IPR013819	Lipoxygenase, C-terminal	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	PRINTS	PR00087	Lipoxygenase signature	532	549	1.3E-20	T	27-10-2026	IPR013819	Lipoxygenase, C-terminal	-	-
+Brahy.D03G0093700.1.v1.1	e34f2f6c3d571d499ebeb3a8a924239d	895	CDD	cd01751	PLAT_LH2	69	200	4.68026E-49	T	27-10-2026	IPR042057	Plant lipoxygenase, PLAT/LH2 domain	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	431	442	2.1E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	452	469	2.1E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	410	418	2.1E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	476	488	2.1E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PRINTS	PR00131	Glycosyl hydrolase family 1 signature	334	348	2.1E-19	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	FunFam	G3DSA:3.20.20.80:FF:000041	Beta-glucosidase 7	25	506	4.3E-240	T	27-10-2026	-	-	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	Gene3D	G3DSA:3.20.20.80	Glycosidases	28	506	4.4E-211	T	27-10-2026	-	-	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	Pfam	PF00232	Glycosyl hydrolase family 1	41	505	4.9E-155	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	SUPERFAMILY	SSF51445	(Trans)glycosidases	38	505	1.33E-178	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.D01G0139700.1.v1.1	8c1e49d10e3f2350f492f2f21bc0cd78	506	PANTHER	PTHR10353	GLYCOSYL HYDROLASE	43	505	4.7E-185	T	27-10-2026	IPR001360	Glycoside hydrolase family 1	-	-
+Brahy.S03G0243100.1.v1.1	d10840103d57760159b9b73789630db4	246	PANTHER	PTHR33098	COTTON FIBER (DUF761)	7	235	1.7E-21	T	27-10-2026	-	-	-	-
+Brahy.S03G0243100.1.v1.1	d10840103d57760159b9b73789630db4	246	Pfam	PF05553	Cotton fibre expressed protein	200	234	9.4E-10	T	27-10-2026	IPR008480	Protein of unknown function DUF761, plant	-	-
+Brahy.S03G0243100.1.v1.1	d10840103d57760159b9b73789630db4	246	MobiDBLite	mobidb-lite	consensus disorder prediction	99	132	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	25	491	4.06E-154	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	Pfam	PF01704	UTP--glucose-1-phosphate uridylyltransferase	113	437	6.4E-37	T	27-10-2026	IPR002618	UDPGP family	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	PANTHER	PTHR11952	UDP- GLUCOSE PYROPHOSPHORYLASE	23	489	1.1E-154	T	27-10-2026	IPR039741	UDP-sugar pyrophosphorylase	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	FunFam	G3DSA:3.90.550.10:FF:000072	UDP-N-acetylglucosamine diphosphorylase 2	19	489	2.3E-274	T	27-10-2026	-	-	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	CDD	cd04193	UDPGlcNAc_PPase	103	423	3.179E-173	T	27-10-2026	-	-	-	-
+Brahy.S09G0214200.1.v1.1	62d8f8a833a39c1afca19670ff882f7a	493	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	21	490	5.2E-170	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	CDD	cd00610	OAT_like	62	475	1.08556E-144	T	27-10-2026	IPR005814	Aminotransferase class-III	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	Gene3D	G3DSA:3.90.1150.10	Aspartate Aminotransferase, domain 1	80	475	1.1E-130	T	27-10-2026	IPR015422	Pyridoxal phosphate-dependent transferase, small domain	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	PANTHER	PTHR45688	-	36	477	2.1E-218	T	27-10-2026	-	-	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	MobiDBLite	mobidb-lite	consensus disorder prediction	42	51	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	MobiDBLite	mobidb-lite	consensus disorder prediction	26	51	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	Pfam	PF00202	Aminotransferase class-III	81	475	9.0E-89	T	27-10-2026	IPR005814	Aminotransferase class-III	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	PIRSF	PIRSF000521	Transaminase_4ab_Lys_Orn	54	184	8.0E-9	T	27-10-2026	IPR005814	Aminotransferase class-III	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	PIRSF	PIRSF000521	Transaminase_4ab_Lys_Orn	179	478	2.2E-27	T	27-10-2026	IPR005814	Aminotransferase class-III	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	Gene3D	G3DSA:3.40.640.10	-	115	372	1.1E-130	T	27-10-2026	IPR015421	Pyridoxal phosphate-dependent transferase, major domain	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	SUPERFAMILY	SSF53383	PLP-dependent transferases	74	477	3.42E-116	T	27-10-2026	IPR015424	Pyridoxal phosphate-dependent transferase	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	FunFam	G3DSA:3.40.640.10:FF:000004	Acetylornithine aminotransferase	115	373	3.7E-56	T	27-10-2026	-	-	-	-
+Brahy.D02G0308500.1.v1.1	1de4c007240c1357ed304516ab568c6d	478	ProSitePatterns	PS00600	Aminotransferases class-III pyridoxal-phosphate attachment site.	289	327	-	T	27-10-2026	IPR049704	Aminotransferases class-III pyridoxal-phosphate attachment site	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	325	484	3.3E-45	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF13855	Leucine rich repeat	139	198	7.8E-5	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF13855	Leucine rich repeat	407	466	0.0018	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF13855	Leucine rich repeat	337	395	0.0015	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF13855	Leucine rich repeat	553	612	4.3E-6	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF13855	Leucine rich repeat	211	270	0.0088	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SUPERFAMILY	SSF52047	RNI-like	265	629	8.63E-67	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	808	1037	5.4E-53	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	ProSitePatterns	PS00108	Serine/Threonine protein kinases active-site signature.	859	871	-	T	27-10-2026	IPR008271	Serine/threonine-protein kinase, active site	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	177	324	1.2E-39	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	485	650	4.3E-45	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	551	574	220.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	161	184	77.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	454	478	170.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	232	256	270.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	575	598	67.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	185	209	19.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	430	453	56.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	88	112	180.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	257	281	140.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	599	624	6.3	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	503	527	51.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	358	382	12.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00369	LRR_typ_2	406	429	150.0	T	27-10-2026	IPR003591	Leucine-rich repeat, typical subtype	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	FunFam	G3DSA:1.10.510.10:FF:000358	Putative leucine-rich repeat receptor-like serine/threonine-protein kinase	808	1038	3.7E-76	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	PANTHER	PTHR48005	LEUCINE RICH REPEAT KINASE 2	332	1030	1.7E-281	T	27-10-2026	IPR051420	Ser/Thr Protein Kinases with Diverse Regulatory Roles	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF08263	Leucine rich repeat N-terminal domain	25	62	1.1E-9	T	27-10-2026	IPR013210	Leucine-rich repeat-containing N-terminal, plant-type	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF07714	Protein tyrosine and serine/threonine kinase	725	946	2.8E-32	T	27-10-2026	IPR001245	Serine-threonine/tyrosine-protein kinase, catalytic domain	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	ProSitePatterns	PS00107	Protein kinases ATP-binding region signature.	726	755	-	T	27-10-2026	IPR017441	Protein kinase, ATP binding site	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	24	176	3.4E-47	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SUPERFAMILY	SSF56112	Protein kinase-like (PK-like)	702	1026	1.31E-63	T	27-10-2026	IPR011009	Protein kinase-like domain superfamily	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Gene3D	G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1	701	806	1.6E-20	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SMART	SM00220	serkin_6	720	1029	3.2E-23	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	FunFam	G3DSA:3.80.10.10:FF:000233	Leucine-rich repeat receptor-like protein kinase TDR	331	650	1.1E-102	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	ProSiteProfiles	PS50011	Protein kinase domain profile.	720	1029	33.163326	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF00560	Leucine Rich Repeat	529	551	240.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	Pfam	PF00560	Leucine Rich Repeat	284	305	420.0	T	27-10-2026	IPR001611	Leucine-rich repeat	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	SUPERFAMILY	SSF52058	L domain-like	25	317	1.81E-60	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	FunFam	G3DSA:3.80.10.10:FF:000095	LRR receptor-like serine/threonine-protein kinase GSO1	60	330	5.2E-62	T	27-10-2026	-	-	-	-
+Brahy.S07G0238100.1.v1.1	58a36042377f59d56f38247066d5ba2a	1040	FunFam	G3DSA:3.30.200.20:FF:000432	LRR receptor-like serine/threonine-protein kinase EFR	691	807	1.0E-40	T	27-10-2026	-	-	-	-
+Brahy.D01G0598600.1.v1.1	bd0ce2801c361d4f244ae8316ad42778	500	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	215	493	9.2E-38	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D01G0598600.1.v1.1	bd0ce2801c361d4f244ae8316ad42778	500	Pfam	PF01501	Glycosyl transferase family 8	222	473	2.9E-47	T	27-10-2026	IPR002495	Glycosyl transferase, family 8	-	-
+Brahy.D01G0598600.1.v1.1	bd0ce2801c361d4f244ae8316ad42778	500	PANTHER	PTHR32116	GALACTURONOSYLTRANSFERASE 4-RELATED	53	498	2.4E-136	T	27-10-2026	IPR029993	Plant galacturonosyltransferase GAUT	-	-
+Brahy.D01G0598600.1.v1.1	bd0ce2801c361d4f244ae8316ad42778	500	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	213	497	1.83E-55	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S02G0186000.1.v1.1	365491d6b74713efbb847ae627f9fd85	130	PANTHER	PTHR33306	EXPRESSED PROTEIN-RELATED-RELATED	10	120	5.9E-22	T	27-10-2026	-	-	-	-
+Brahy.S05G0078500.1.v1.1	6d6d7a8be2263c1be14ea2c7edeb5255	69	Pfam	PF11820	Protein of unknown function (DUF3339)	1	67	2.2E-32	T	27-10-2026	IPR021775	Protein of unknown function DUF3339	-	-
+Brahy.S05G0078500.1.v1.1	6d6d7a8be2263c1be14ea2c7edeb5255	69	PANTHER	PTHR33128	OS05G0103400 PROTEIN	1	69	3.0E-33	T	27-10-2026	IPR021775	Protein of unknown function DUF3339	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	ProSiteProfiles	PS51767	Peptidase family A1 domain profile.	106	495	37.194069	T	27-10-2026	IPR033121	Peptidase family A1 domain	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	PANTHER	PTHR47967	OS07G0603500 PROTEIN-RELATED	16	500	1.1E-83	T	27-10-2026	IPR051708	Plant Aspartic Proteinase A1	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	Pfam	PF14541	Xylanase inhibitor C-terminal	324	495	8.5E-28	T	27-10-2026	IPR032799	Xylanase inhibitor, C-terminal	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	Pfam	PF14543	Xylanase inhibitor N-terminal	106	293	8.6E-28	T	27-10-2026	IPR032861	Xylanase inhibitor, N-terminal	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	ProSitePatterns	PS00141	Eukaryotic and viral aspartyl proteases active site.	353	364	-	T	27-10-2026	IPR001969	Aspartic peptidase, active site	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	PRINTS	PR00792	Pepsin (A1) aspartic protease family signature	112	132	1.3E-7	T	27-10-2026	IPR001461	Aspartic peptidase A1	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	PRINTS	PR00792	Pepsin (A1) aspartic protease family signature	471	486	1.3E-7	T	27-10-2026	IPR001461	Aspartic peptidase A1	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	PRINTS	PR00792	Pepsin (A1) aspartic protease family signature	353	364	1.3E-7	T	27-10-2026	IPR001461	Aspartic peptidase A1	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	CDD	cd05476	pepsin_A_like_plant	105	499	7.88304E-77	T	27-10-2026	IPR034161	Pepsin-like domain, plant	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	SUPERFAMILY	SSF50630	Acid proteases	99	499	3.82E-82	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	Gene3D	G3DSA:2.40.70.10	Acid Proteases	90	292	1.0E-35	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D05G0353600.1.v1.1	5299647b39cda08cb61b3e40d5b42daa	503	Gene3D	G3DSA:2.40.70.10	Acid Proteases	296	500	2.3E-48	T	27-10-2026	IPR021109	Aspartic peptidase domain superfamily	-	-
+Brahy.D02G0371100.1.v1.1	0a241caead57f83666fe4d33fe8cbbb6	170	SMART	SM00768	X8_cls	40	128	3.6E-38	T	27-10-2026	IPR012946	X8 domain	-	-
+Brahy.D02G0371100.1.v1.1	0a241caead57f83666fe4d33fe8cbbb6	170	PANTHER	PTHR31044	BETA-1,3 GLUCANASE	34	136	6.0E-34	T	27-10-2026	IPR044788	Carbohydrate-binding X8 domain-containing protein, plant	-	-
+Brahy.D02G0371100.1.v1.1	0a241caead57f83666fe4d33fe8cbbb6	170	Pfam	PF07983	X8 domain	40	114	2.5E-14	T	27-10-2026	IPR012946	X8 domain	-	-
+Brahy.D02G0371100.1.v1.1	0a241caead57f83666fe4d33fe8cbbb6	170	FunFam	G3DSA:1.20.58.1040:FF:000001	Glucan endo-1,3-beta-glucosidase 4	35	132	1.8E-31	T	27-10-2026	-	-	-	-
+Brahy.D02G0371100.1.v1.1	0a241caead57f83666fe4d33fe8cbbb6	170	Gene3D	G3DSA:1.20.58.1040	-	34	132	9.5E-8	T	27-10-2026	-	-	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	PANTHER	PTHR14237	MOLYBDOPTERIN COFACTOR SULFURASE  MOSC	23	313	1.3E-39	T	27-10-2026	-	-	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	Pfam	PF03473	MOSC domain	175	312	1.6E-19	T	27-10-2026	IPR005302	Molybdenum cofactor sulfurase, C-terminal	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	SUPERFAMILY	SSF141673	MOSC N-terminal domain-like	27	166	3.79E-35	T	27-10-2026	-	-	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	Pfam	PF03476	MOSC N-terminal beta barrel domain	25	151	4.7E-31	T	27-10-2026	IPR005303	Molybdenum cofactor sulfurase, middle domain	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	ProSiteProfiles	PS51340	MOSC domain profile.	153	314	35.676044	T	27-10-2026	IPR005302	Molybdenum cofactor sulfurase, C-terminal	-	-
+Brahy.D04G0551000.1.v1.1	bd316e8b5435ba2d9760bb810b6fde62	325	SUPERFAMILY	SSF50800	PK beta-barrel domain-like	25	258	1.15E-10	T	27-10-2026	IPR011037	Pyruvate kinase-like, insert domain superfamily	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	SUPERFAMILY	SSF52833	Thioredoxin-like	7	109	2.37E-27	T	27-10-2026	IPR036249	Thioredoxin-like superfamily	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	CDD	cd03058	GST_N_Tau	7	80	4.55834E-46	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	FunFam	G3DSA:3.40.30.10:FF:000044	Glutathione S-transferase GSTU6	2	87	1.1E-40	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	SFLD	SFLDG00358	Main (cytGST)	5	228	0.0	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	SUPERFAMILY	SSF47616	GST C-terminal domain-like	87	222	5.85E-37	T	27-10-2026	IPR036282	Glutathione S-transferase, C-terminal domain superfamily	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	2	87	6.6E-39	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	ProSiteProfiles	PS50405	Soluble glutathione S-transferase C-terminal domain profile.	91	222	19.055565	T	27-10-2026	IPR010987	Glutathione S-transferase, C-terminal-like	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	Pfam	PF02798	Glutathione S-transferase, N-terminal domain	6	78	1.1E-16	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	Pfam	PF00043	Glutathione S-transferase, C-terminal domain	104	201	0.73	T	27-10-2026	IPR004046	Glutathione S-transferase, C-terminal	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	ProSiteProfiles	PS50404	Soluble glutathione S-transferase N-terminal domain profile.	5	84	23.280603	T	27-10-2026	IPR004045	Glutathione S-transferase, N-terminal	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	FunFam	G3DSA:1.20.1050.10:FF:000023	Probable glutathione S-transferase GSTU6	88	230	2.8E-64	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	CDD	cd03185	GST_C_Tau	92	220	6.57936E-47	T	27-10-2026	IPR045074	Glutathione S-transferases Tau, C-terminal alpha helical domain, plant	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	SFLD	SFLDG01152	Main.3: Omega- and Tau-like	5	228	0.0	T	27-10-2026	IPR045073	Glutathione S-transferase Omega/Tau-like	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	Gene3D	G3DSA:1.20.1050.10	-	88	230	1.3E-51	T	27-10-2026	-	-	-	-
+Brahy.S03G0200100.1.v1.1	5c2f32847dc70681fa0a1277f368f364	234	PANTHER	PTHR11260	GLUTATHIONE S-TRANSFERASE, GST, SUPERFAMILY, GST DOMAIN CONTAINING	9	210	2.1E-63	T	27-10-2026	IPR045073	Glutathione S-transferase Omega/Tau-like	-	-
+Brahy.D03G0178500.1.v1.1	af17ba6fd00c59f7b022f8b5edf8c8ad	275	Pfam	PF05678	VQ motif	55	81	6.1E-10	T	27-10-2026	IPR008889	VQ	-	-
+Brahy.D03G0178500.1.v1.1	af17ba6fd00c59f7b022f8b5edf8c8ad	275	PANTHER	PTHR33143	F16F4.1 PROTEIN-RELATED	20	215	7.3E-34	T	27-10-2026	IPR039607	VQ motif-containing protein 8/17/18/20/21/25	-	-
+Brahy.D03G0178500.1.v1.1	af17ba6fd00c59f7b022f8b5edf8c8ad	275	MobiDBLite	mobidb-lite	consensus disorder prediction	78	87	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0178500.1.v1.1	af17ba6fd00c59f7b022f8b5edf8c8ad	275	MobiDBLite	mobidb-lite	consensus disorder prediction	1	53	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0178500.1.v1.1	af17ba6fd00c59f7b022f8b5edf8c8ad	275	MobiDBLite	mobidb-lite	consensus disorder prediction	75	99	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	SMART	SM00645	pept_c1	135	353	1.8E-116	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	FunFam	G3DSA:3.90.70.10:FF:000055	cysteine protease XCP2	28	355	1.5E-171	T	27-10-2026	-	-	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	Pfam	PF00112	Papain family cysteine protease	135	353	7.5E-78	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	CDD	cd02248	Peptidase_C1A	136	352	5.40609E-113	T	27-10-2026	IPR039417	Papain-like cysteine endopeptidase	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	ProSitePatterns	PS00639	Eukaryotic thiol (cysteine) proteases histidine active site.	294	304	-	T	27-10-2026	IPR025660	Cysteine peptidase, histidine active site	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	SUPERFAMILY	SSF54001	Cysteine proteinases	42	353	1.59E-111	T	27-10-2026	IPR038765	Papain-like cysteine peptidase superfamily	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	SMART	SM00848	Inhibitor_I29_2	49	105	1.4E-24	T	27-10-2026	IPR013201	Cathepsin propeptide inhibitor domain (I29)	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	Pfam	PF08246	Cathepsin propeptide inhibitor domain (I29)	49	105	4.0E-16	T	27-10-2026	IPR013201	Cathepsin propeptide inhibitor domain (I29)	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	153	168	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	296	306	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	PRINTS	PR00705	Papain cysteine protease (C1) family signature	313	319	6.1E-9	T	27-10-2026	IPR000668	Peptidase C1A, papain C-terminal	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	PANTHER	PTHR12411	CYSTEINE PROTEASE FAMILY C1-RELATED	41	351	9.0E-84	T	27-10-2026	IPR013128	Peptidase C1A	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	Gene3D	G3DSA:3.90.70.10	Cysteine proteinases	28	355	2.7E-121	T	27-10-2026	-	-	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	ProSitePatterns	PS00640	Eukaryotic thiol (cysteine) proteases asparagine active site.	313	332	-	T	27-10-2026	IPR025661	Cysteine peptidase, asparagine active site	-	-
+Brahy.D02G0523300.1.v1.1	0b7011129536232ceb5b586e35b285e1	356	ProSitePatterns	PS00139	Eukaryotic thiol (cysteine) proteases cysteine active site.	153	164	-	T	27-10-2026	IPR000169	Cysteine peptidase, cysteine active site	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	SUPERFAMILY	SSF56112	Protein kinase-like (PK-like)	103	463	3.37E-74	T	27-10-2026	IPR011009	Protein kinase-like domain superfamily	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	ProSitePatterns	PS00108	Serine/Threonine protein kinases active-site signature.	238	250	-	T	27-10-2026	IPR008271	Serine/threonine-protein kinase, active site	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	197	269	2.7E-44	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	PANTHER	PTHR45637	FLIPPASE KINASE 1-RELATED	44	455	4.1E-155	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	Gene3D	G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1	108	196	2.7E-44	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	FunFam	G3DSA:1.10.510.10:FF:000277	protein kinase PINOID	197	265	6.0E-44	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	ProSiteProfiles	PS50011	Protein kinase domain profile.	110	436	43.099525	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	323	454	1.7E-34	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	MobiDBLite	mobidb-lite	consensus disorder prediction	28	57	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	MobiDBLite	mobidb-lite	consensus disorder prediction	1	87	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	MobiDBLite	mobidb-lite	consensus disorder prediction	1	11	-	T	27-10-2026	-	-	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	SMART	SM00220	serkin_6	110	436	3.9E-80	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	Pfam	PF00069	Protein kinase domain	326	436	9.6E-16	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.D01G0180500.1.v1.1	1911ecddbc548e7a32786d1aaffe05a0	480	Pfam	PF00069	Protein kinase domain	111	271	9.1E-26	T	27-10-2026	IPR000719	Protein kinase domain	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	CDD	cd06464	ACD_sHsps-like	78	156	1.44595E-12	T	27-10-2026	-	-	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	SUPERFAMILY	SSF49764	HSP20-like chaperones	73	169	1.92E-15	T	27-10-2026	IPR008978	HSP20-like chaperone	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	ProSiteProfiles	PS01031	Small heat shock protein (sHSP) domain profile.	67	170	13.947967	T	27-10-2026	IPR002068	Alpha crystallin/Hsp20 domain	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	PANTHER	PTHR46733	26.5 KDA HEAT SHOCK PROTEIN, MITOCHONDRIAL	1	169	4.7E-28	T	27-10-2026	IPR044587	Heat shock protein 21-like	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	Gene3D	G3DSA:2.60.40.790	-	54	170	1.4E-13	T	27-10-2026	IPR008978	HSP20-like chaperone	-	-
+Brahy.D03G0300300.1.v1.1	1f08be1e4dc646de55ba576b3ecf5b96	172	Pfam	PF00011	Hsp20/alpha crystallin family	78	167	2.4E-8	T	27-10-2026	IPR002068	Alpha crystallin/Hsp20 domain	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Hamap	MF_00135	N-(5'-phosphoribosyl)anthranilate isomerase [trpF].	55	261	29.856094	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	PANTHER	PTHR42894	N-(5'-PHOSPHORIBOSYL)ANTHRANILATE ISOMERASE	11	261	3.6E-100	T	27-10-2026	IPR044643	N-(5'-phosphoribosyl)anthranilate isomerase family	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Pfam	PF00697	N-(5'phosphoribosyl)anthranilate (PRA) isomerase	57	256	1.0E-31	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	SUPERFAMILY	SSF51366	Ribulose-phoshate binding barrel	56	259	1.16E-47	T	27-10-2026	IPR011060	Ribulose-phosphate binding barrel	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	CDD	cd00405	PRAI	57	258	3.51966E-71	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	FunFam	G3DSA:3.20.20.70:FF:000075	Tryptophan biosynthesis protein TRP1	55	260	2.4E-73	T	27-10-2026	-	-	-	-
+Brahy.S02G0096400.2.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Gene3D	G3DSA:3.20.20.70	Aldolase class I	55	262	1.0E-56	T	27-10-2026	IPR013785	Aldolase-type TIM barrel	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Hamap	MF_00135	N-(5'-phosphoribosyl)anthranilate isomerase [trpF].	55	261	29.856094	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	PANTHER	PTHR42894	N-(5'-PHOSPHORIBOSYL)ANTHRANILATE ISOMERASE	11	261	3.6E-100	T	27-10-2026	IPR044643	N-(5'-phosphoribosyl)anthranilate isomerase family	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Pfam	PF00697	N-(5'phosphoribosyl)anthranilate (PRA) isomerase	57	256	1.0E-31	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	SUPERFAMILY	SSF51366	Ribulose-phoshate binding barrel	56	259	1.16E-47	T	27-10-2026	IPR011060	Ribulose-phosphate binding barrel	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	CDD	cd00405	PRAI	57	258	3.51966E-71	T	27-10-2026	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI) domain	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	FunFam	G3DSA:3.20.20.70:FF:000075	Tryptophan biosynthesis protein TRP1	55	260	2.4E-73	T	27-10-2026	-	-	-	-
+Brahy.S02G0096400.1.v1.1	e40a4cef514e38e3c498d8c9929a386e	263	Gene3D	G3DSA:3.20.20.70	Aldolase class I	55	262	1.0E-56	T	27-10-2026	IPR013785	Aldolase-type TIM barrel	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	FunFam	G3DSA:3.40.50.1440:FF:000023	Cell division protein FtsZ	54	359	7.0E-122	T	27-10-2026	-	-	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	ProSitePatterns	PS01134	FtsZ protein signature 1.	87	121	-	T	27-10-2026	IPR020805	Cell division protein FtsZ, conserved site	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	SUPERFAMILY	SSF52490	Tubulin nucleotide-binding domain-like	55	251	6.15E-71	T	27-10-2026	IPR036525	Tubulin/FtsZ, GTPase domain superfamily	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	Gene3D	G3DSA:3.30.1330.20	-	221	358	1.8E-56	T	27-10-2026	IPR037103	Tubulin/FtsZ-like, C-terminal domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	FunFam	G3DSA:3.30.1330.20:FF:000012	Cell division protein FtsZ 1, chloroplastic	221	358	4.4E-89	T	27-10-2026	-	-	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	ProSitePatterns	PS00227	Tubulin subunits alpha, beta, and gamma signature.	149	155	-	T	27-10-2026	IPR017975	Tubulin, conserved site	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	SUPERFAMILY	SSF55307	Tubulin C-terminal domain-like	250	365	4.35E-39	T	27-10-2026	IPR008280	Tubulin/FtsZ, C-terminal	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	CDD	cd02201	FtsZ_type1	72	357	5.08232E-149	T	27-10-2026	IPR000158	Cell division protein FtsZ	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	PANTHER	PTHR30314	CELL DIVISION PROTEIN FTSZ-RELATED	51	371	3.5E-172	T	27-10-2026	IPR045061	Tubulin-like protein FtsZ/CetZ	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	Gene3D	G3DSA:3.40.50.1440	Tubulin/FtsZ, GTPase domain	55	220	1.4E-60	T	27-10-2026	IPR036525	Tubulin/FtsZ, GTPase domain superfamily	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	NCBIfam	TIGR00065	cell division protein FtsZ	51	364	3.4E-124	T	27-10-2026	IPR000158	Cell division protein FtsZ	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	SMART	SM00865	Tubulin_C_4	250	367	1.0E-43	T	27-10-2026	IPR018316	Tubulin/FtsZ, 2-layer sandwich domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	PRINTS	PR00423	Cell division protein FtsZ signature	141	161	3.1E-49	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	PRINTS	PR00423	Cell division protein FtsZ signature	169	190	3.1E-49	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	PRINTS	PR00423	Cell division protein FtsZ signature	232	254	3.1E-49	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	PRINTS	PR00423	Cell division protein FtsZ signature	255	276	3.1E-49	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	Hamap	MF_00909	Cell division protein FtsZ [ftsZ].	52	389	36.789215	T	27-10-2026	IPR000158	Cell division protein FtsZ	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	MobiDBLite	mobidb-lite	consensus disorder prediction	1	35	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	MobiDBLite	mobidb-lite	consensus disorder prediction	1	10	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	ProSitePatterns	PS01135	FtsZ protein signature 2.	140	161	-	T	27-10-2026	IPR020805	Cell division protein FtsZ, conserved site	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	SMART	SM00864	Tubulin_4	56	248	2.4E-110	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	Pfam	PF12327	FtsZ family, C-terminal domain	265	358	3.7E-26	T	27-10-2026	IPR024757	Cell division protein FtsZ, C-terminal	-	-
+Brahy.D05G0337000.1.v1.1	ccfab43915b9f9d85c6541e420062996	405	Pfam	PF00091	Tubulin/FtsZ family, GTPase domain	56	216	4.1E-47	T	27-10-2026	IPR003008	Tubulin/FtsZ, GTPase domain	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	Coils	Coil	Coil	20	40	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	PANTHER	PTHR35832	OS12G0248400 PROTEIN-RELATED	54	312	3.9E-17	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	244	253	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	254	263	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	168	178	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	231	316	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	152	167	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	131	219	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	183	196	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	264	284	-	T	27-10-2026	-	-	-	-
+Brahy.D04G0158500.1.v1.1	c57377b0a0b852a81f5506256e499161	316	MobiDBLite	mobidb-lite	consensus disorder prediction	293	308	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0064900.1.v1.1	c9f0ea0957253ab4d98cc6950bec8090	202	PANTHER	PTHR33935	OS10G0148100 PROTEIN	1	200	6.1E-81	T	27-10-2026	-	-	-	-
+Brahy.D05G0064900.1.v1.1	c9f0ea0957253ab4d98cc6950bec8090	202	MobiDBLite	mobidb-lite	consensus disorder prediction	166	176	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0064900.1.v1.1	c9f0ea0957253ab4d98cc6950bec8090	202	MobiDBLite	mobidb-lite	consensus disorder prediction	157	202	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0064900.1.v1.1	c9f0ea0957253ab4d98cc6950bec8090	202	Pfam	PF01190	Pollen protein Ole e 1 like	27	104	5.0E-6	T	27-10-2026	-	-	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	269	408	2.6E-13	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	FunFam	G3DSA:3.90.550.10:FF:000027	Cellulose synthase-like protein D4	269	408	4.4E-80	T	27-10-2026	-	-	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	91	577	2.63E-9	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	PANTHER	PTHR13301	X-BOX TRANSCRIPTION FACTOR-RELATED	3	752	4.4E-227	T	27-10-2026	-	-	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	Pfam	PF03552	Cellulose synthase	420	771	3.9E-93	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.S06G0102900.2.v1.1	046338b5698cfe722ad21e52f2ccfbcd	794	Pfam	PF03552	Cellulose synthase	80	409	1.1E-123	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	339	503	1.5E-17	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Pfam	PF03552	Cellulose synthase	166	493	1.2E-114	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Pfam	PF03552	Cellulose synthase	504	857	1.4E-89	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	PANTHER	PTHR13301	X-BOX TRANSCRIPTION FACTOR-RELATED	73	837	3.9E-223	T	27-10-2026	-	-	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	166	656	1.88E-8	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D01G0328400.2.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	FunFam	G3DSA:3.90.550.10:FF:000027	Cellulose synthase-like protein D4	354	493	3.1E-77	T	27-10-2026	-	-	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	339	503	1.5E-17	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Pfam	PF03552	Cellulose synthase	166	493	1.2E-114	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	Pfam	PF03552	Cellulose synthase	504	857	1.4E-89	T	27-10-2026	IPR005150	Cellulose synthase	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	PANTHER	PTHR13301	X-BOX TRANSCRIPTION FACTOR-RELATED	73	837	3.9E-223	T	27-10-2026	-	-	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	166	656	1.88E-8	T	27-10-2026	IPR029044	Nucleotide-diphospho-sugar transferases	-	-
+Brahy.D01G0328400.1.v1.1	9aa7fa3a52a1f10922e89dd85f728613	866	FunFam	G3DSA:3.90.550.10:FF:000027	Cellulose synthase-like protein D4	354	493	3.1E-77	T	27-10-2026	-	-	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	PANTHER	PTHR34145	OS02G0105600 PROTEIN	10	468	4.8E-55	T	27-10-2026	IPR053772	FBD-associated F-box protein At1g61320/At1g61330-like	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	Pfam	PF23622	At1g61320/AtMIF1, LRR domain	109	254	4.6E-10	T	27-10-2026	IPR055357	At1g61320/AtMIF1, LRR domain	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	SUPERFAMILY	SSF81383	F-box domain	6	56	2.88E-8	T	27-10-2026	IPR036047	F-box-like domain superfamily	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	CDD	cd22160	F-box_AtFBL13-like	13	48	6.79953E-10	T	27-10-2026	IPR053781	F-box/LRR-repeat protein 13-like, F-box domain	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	Pfam	PF08387	FBD	417	452	0.0014	T	27-10-2026	IPR006566	FBD domain	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	Pfam	PF00646	F-box domain	13	48	0.035	T	27-10-2026	IPR001810	F-box domain	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	Gene3D	G3DSA:3.80.10.10	Ribonuclease Inhibitor	9	250	7.3E-9	T	27-10-2026	IPR032675	Leucine-rich repeat domain superfamily	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	SUPERFAMILY	SSF52047	RNI-like	143	431	5.23E-10	T	27-10-2026	-	-	-	-
+Brahy.S01G0316100.1.v1.1	b83e1c37de459b40827c55a4db36d024	520	ProSiteProfiles	PS50181	F-box domain profile.	10	46	8.623154	T	27-10-2026	IPR001810	F-box domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	ProSiteProfiles	PS50090	Myb-like domain profile.	76	128	10.986738	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	SMART	SM00717	sant	80	130	6.8E-13	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	SMART	SM00717	sant	133	181	6.1E-15	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	Gene3D	G3DSA:1.10.10.60	-	78	134	1.8E-17	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	PANTHER	PTHR47997	MYB DOMAIN PROTEIN 55	66	248	2.3E-87	T	27-10-2026	IPR051953	Plant secondary wall-associated transcription factors	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	MobiDBLite	mobidb-lite	consensus disorder prediction	329	338	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	MobiDBLite	mobidb-lite	consensus disorder prediction	328	350	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	Pfam	PF00249	Myb-like DNA-binding domain	134	177	5.2E-13	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	Pfam	PF00249	Myb-like DNA-binding domain	81	128	1.4E-12	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	ProSiteProfiles	PS50090	Myb-like domain profile.	129	179	10.301607	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	CDD	cd00167	SANT	136	176	1.9877E-11	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	ProSiteProfiles	PS51294	Myb-type HTH DNA-binding domain profile.	129	183	25.154144	T	27-10-2026	IPR017930	Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	FunFam	G3DSA:1.10.10.60:FF:000158	MYB transcription factor	78	134	7.7E-40	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	Gene3D	G3DSA:1.10.10.60	-	135	200	1.1E-19	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	ProSiteProfiles	PS51294	Myb-type HTH DNA-binding domain profile.	76	128	20.30398	T	27-10-2026	IPR017930	Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	CDD	cd00167	SANT	84	128	6.62363E-12	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	FunFam	G3DSA:1.10.10.60:FF:000268	Transcription factor MYB86	136	204	1.1E-40	T	27-10-2026	-	-	-	-
+Brahy.D02G0540600.1.v1.1	9c495cc2e5ee191e8b1c4e2d33d98c73	379	SUPERFAMILY	SSF46689	Homeodomain-like	78	175	1.24E-28	T	27-10-2026	IPR009057	Homedomain-like superfamily	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	Gene3D	G3DSA:1.10.110.10	-	25	103	9.6E-20	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	SUPERFAMILY	SSF47699	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin	28	101	6.34E-14	T	27-10-2026	IPR036312	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	Pfam	PF14368	Probable lipid transfer	22	101	9.6E-9	T	27-10-2026	IPR016140	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	CDD	cd04660	nsLTP_like	28	100	4.05589E-16	T	27-10-2026	IPR044741	Non-specific lipid-transfer protein-like	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	PANTHER	PTHR33122	LIPID BINDING PROTEIN-RELATED	10	99	4.9E-16	T	27-10-2026	IPR039265	Putative lipid-transfer protein DIR1-like	-	-
+Brahy.D03G0798800.1.v1.1	726f5c1f60f772b828a3324847a3b9d4	103	SMART	SM00499	aai_6	28	103	8.1E-5	T	27-10-2026	IPR016140	Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	Gene3D	G3DSA:2.60.40.420	-	25	138	8.2E-30	T	27-10-2026	IPR008972	Cupredoxin	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	ProSiteProfiles	PS51485	Phytocyanin domain profile.	24	127	35.485447	T	27-10-2026	IPR003245	Phytocyanin domain	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	SUPERFAMILY	SSF49503	Cupredoxins	23	126	1.27E-30	T	27-10-2026	IPR008972	Cupredoxin	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	FunFam	G3DSA:2.60.40.420:FF:000066	Early nodulin-like protein 9	24	137	3.2E-51	T	27-10-2026	-	-	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	PANTHER	PTHR33021	BLUE COPPER PROTEIN	23	172	5.4E-25	T	27-10-2026	IPR039391	Phytocyanin-like	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	Pfam	PF02298	Plastocyanin-like domain	34	118	2.0E-18	T	27-10-2026	IPR003245	Phytocyanin domain	-	-
+Brahy.S01G0128700.1.v1.1	31ccc8d7c6d266b7e3aaba4ec3e06d0b	203	CDD	cd11019	OsENODL1_like	24	126	4.34274E-54	T	27-10-2026	IPR041846	Early nodulin-like protein domain	-	-
+Brahy.S06G0071300.2.v1.1	28400e2b6bd71a6dfd01925a4a861c93	140	PANTHER	PTHR21493	CGI-141-RELATED/LIPASE CONTAINING PROTEIN	1	139	7.1E-54	T	27-10-2026	IPR045176	Protein transport protein Got1	-	-
+Brahy.S06G0071300.2.v1.1	28400e2b6bd71a6dfd01925a4a861c93	140	Pfam	PF04178	Got1/Sft2-like family	16	115	3.8E-9	T	27-10-2026	IPR007305	Vesicle transport protein, Got1/SFT2-like	-	-
+Brahy.S06G0071300.1.v1.1	28400e2b6bd71a6dfd01925a4a861c93	140	PANTHER	PTHR21493	CGI-141-RELATED/LIPASE CONTAINING PROTEIN	1	139	7.1E-54	T	27-10-2026	IPR045176	Protein transport protein Got1	-	-
+Brahy.S06G0071300.1.v1.1	28400e2b6bd71a6dfd01925a4a861c93	140	Pfam	PF04178	Got1/Sft2-like family	16	115	3.8E-9	T	27-10-2026	IPR007305	Vesicle transport protein, Got1/SFT2-like	-	-
+Brahy.D02G0324300.1.v1.1	848d597ed7183d189bf59eada539888d	524	SUPERFAMILY	SSF69593	Glycerol-3-phosphate (1)-acyltransferase	249	499	1.44E-25	T	27-10-2026	-	-	-	-
+Brahy.D02G0324300.1.v1.1	848d597ed7183d189bf59eada539888d	524	PANTHER	PTHR15486	ANCIENT UBIQUITOUS PROTEIN	16	501	8.9E-184	T	27-10-2026	-	-	-	-
+Brahy.D02G0324300.1.v1.1	848d597ed7183d189bf59eada539888d	524	SMART	SM00563	plsc_2	311	412	6.4E-12	T	27-10-2026	IPR002123	Phospholipid/glycerol acyltransferase	-	-
+Brahy.D02G0324300.1.v1.1	848d597ed7183d189bf59eada539888d	524	Pfam	PF23270	Glycerol-3-phosphate acyltransferase RAM2-like, HAD-like domain	7	210	2.4E-33	T	27-10-2026	-	-	-	-
+Brahy.D02G0324300.1.v1.1	848d597ed7183d189bf59eada539888d	524	Pfam	PF01553	Acyltransferase	307	408	0.021	T	27-10-2026	IPR002123	Phospholipid/glycerol acyltransferase	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	Gene3D	G3DSA:2.30.180.10	FAS1 domain	17	181	5.6E-11	T	27-10-2026	IPR036378	FAS1 domain superfamily	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	PANTHER	PTHR32077	FASCICLIN-LIKE ARABINOGALACTAN PROTEIN	8	238	3.7E-47	T	27-10-2026	IPR045003	Fasciclin-like arabinogalactan protein, group A	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	MobiDBLite	mobidb-lite	consensus disorder prediction	190	249	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	MobiDBLite	mobidb-lite	consensus disorder prediction	221	232	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	MobiDBLite	mobidb-lite	consensus disorder prediction	199	209	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	ProSiteProfiles	PS50213	FAS1/BIgH3 domain profile.	35	179	9.119835	T	27-10-2026	IPR000782	FAS1 domain	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	FunFam	G3DSA:2.30.180.10:FF:000008	Fasciclin-like arabinogalactan protein 10	26	182	2.2E-61	T	27-10-2026	-	-	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	Pfam	PF02469	Fasciclin domain	47	181	4.0E-9	T	27-10-2026	IPR000782	FAS1 domain	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	SUPERFAMILY	SSF82153	FAS1 domain	14	182	6.28E-18	T	27-10-2026	IPR036378	FAS1 domain superfamily	-	-
+Brahy.D03G0534000.1.v1.1	35550c3fef35af734016d447ff5cebd0	268	SMART	SM00554	fasc_3	74	182	3.6E-10	T	27-10-2026	IPR000782	FAS1 domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	ProSitePatterns	PS00792	Dihydropteroate synthase signature 1.	173	188	-	T	27-10-2026	IPR000489	Pterin-binding domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	FunFam	G3DSA:3.20.20.20:FF:000006	Dihydropteroate synthase	158	444	2.8E-106	T	27-10-2026	-	-	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	SUPERFAMILY	SSF55083	6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase, HPPK	20	142	9.16E-37	T	27-10-2026	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	CDD	cd00739	DHPS	171	437	1.68191E-110	T	27-10-2026	IPR006390	Dihydropteroate synthase domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	ProSiteProfiles	PS50972	Pterin-binding domain profile.	171	434	70.22348	T	27-10-2026	IPR000489	Pterin-binding domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	NCBIfam	TIGR01498	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	21	141	1.8E-29	T	27-10-2026	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	ProSitePatterns	PS00794	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase signature.	98	109	-	T	27-10-2026	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	ProSitePatterns	PS00793	Dihydropteroate synthase signature 2.	207	220	-	T	27-10-2026	IPR000489	Pterin-binding domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	NCBIfam	TIGR01496	dihydropteroate synthase	173	438	1.5E-72	T	27-10-2026	IPR006390	Dihydropteroate synthase domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	SUPERFAMILY	SSF51717	Dihydropteroate synthetase-like	161	441	9.81E-81	T	27-10-2026	IPR011005	Dihydropteroate synthase-like superfamily	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	CDD	cd00483	HPPK	20	141	2.03263E-53	T	27-10-2026	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	PANTHER	PTHR20941	FOLATE SYNTHESIS PROTEINS	20	441	1.1E-168	T	27-10-2026	IPR045031	Dihydropteroate synthase-like	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	Pfam	PF01288	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK)	20	141	2.4E-27	T	27-10-2026	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	Gene3D	G3DSA:3.30.70.560	-	19	149	2.8E-44	T	27-10-2026	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	Pfam	PF00809	Pterin binding enzyme	174	424	4.4E-75	T	27-10-2026	IPR000489	Pterin-binding domain	-	-
+Brahy.S02G0242400.1.v1.1	08bb33cae57e4a8e74ffe882c9060599	449	Gene3D	G3DSA:3.20.20.20	-	154	445	3.7E-97	T	27-10-2026	IPR011005	Dihydropteroate synthase-like superfamily	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	157	184	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	533	581	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	316	371	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	469	503	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	PANTHER	PTHR34452	MYOSIN HEAVY CHAIN-RELATED PROTEIN	738	794	9.9E-165	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	MobiDBLite	mobidb-lite	consensus disorder prediction	75	123	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	MobiDBLite	mobidb-lite	consensus disorder prediction	75	112	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	MobiDBLite	mobidb-lite	consensus disorder prediction	718	732	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	MobiDBLite	mobidb-lite	consensus disorder prediction	678	745	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	208	263	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	739	773	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	599	619	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0410000.2.v1.1	face50683fe24f66e94d41a5ecdac2f0	796	Coils	Coil	Coil	380	433	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	74	207	4.35E-33	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Gene3D	G3DSA:3.30.70.260	-	543	616	2.4E-20	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	ProSiteProfiles	PS51671	ACT domain profile.	544	616	9.223652	T	27-10-2026	IPR002912	ACT domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	173	355	8.19E-57	T	27-10-2026	IPR036291	NAD(P)-binding domain superfamily	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	SMART	SM00997	AdoHcyase_NAD_2	204	358	0.0017	T	27-10-2026	IPR015878	S-adenosyl-L-homocysteine hydrolase, NAD binding domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	SUPERFAMILY	SSF55021	ACT-like	534	612	7.5E-13	T	27-10-2026	IPR045865	ACT-like domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	CDD	cd04902	ACT_3PGDH-xct	544	616	3.32823E-21	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	FunFam	G3DSA:3.40.50.720:FF:000021	D-3-phosphoglycerate dehydrogenase	170	352	3.9E-83	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	PANTHER	PTHR42938	FORMATE DEHYDROGENASE 1	74	382	3.2E-120	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Pfam	PF19304	D-3-phosphoglycerate dehydrogenase intervening domain	398	486	8.9E-11	T	27-10-2026	IPR045626	D-3-phosphoglycerate dehydrogenase, ASB domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Gene3D	G3DSA:3.40.50.720	-	170	352	2.0E-109	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	NCBIfam	TIGR01327	phosphoglycerate dehydrogenase	77	615	5.7E-161	T	27-10-2026	IPR006236	D-3-phosphoglycerate dehydrogenase	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Gene3D	G3DSA:3.40.50.720	-	79	379	2.0E-109	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	FunFam	G3DSA:3.30.1330.90:FF:000003	D-3-phosphoglycerate dehydrogenase	391	542	3.4E-65	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Pfam	PF00389	D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain	77	386	1.5E-29	T	27-10-2026	IPR006139	D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	ProSitePatterns	PS00065	D-isomer specific 2-hydroxyacid dehydrogenases NAD-binding signature.	216	243	-	T	27-10-2026	IPR029752	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain conserved site 1	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Pfam	PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain	179	354	7.2E-60	T	27-10-2026	IPR006140	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	MobiDBLite	mobidb-lite	consensus disorder prediction	50	68	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	MobiDBLite	mobidb-lite	consensus disorder prediction	48	70	-	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	SUPERFAMILY	SSF143548	Serine metabolism enzymes domain	392	538	2.59E-23	T	27-10-2026	IPR029009	Allosteric substrate binding domain superfamily	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	CDD	cd12173	PGDH_4	77	379	1.41781E-156	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Pfam	PF01842	ACT domain	545	605	1.0E-4	T	27-10-2026	IPR002912	ACT domain	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	FunFam	G3DSA:3.30.70.260:FF:000008	D-3-phosphoglycerate dehydrogenase, chloroplastic	543	616	1.1E-31	T	27-10-2026	-	-	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	Gene3D	G3DSA:3.30.1330.90	-	391	542	3.9E-30	T	27-10-2026	IPR029009	Allosteric substrate binding domain superfamily	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	ProSitePatterns	PS00671	D-isomer specific 2-hydroxyacid dehydrogenases signature 3.	293	309	-	T	27-10-2026	IPR029753	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain conserved site	-	-
+Brahy.S09G0247300.1.v1.1	83a07b3a3706f99dc193ca5ab47a4168	616	FunFam	G3DSA:3.40.50.720:FF:000616	D-3-phosphoglycerate dehydrogenase 2 chloroplastic	355	386	1.8E-12	T	27-10-2026	-	-	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	Gene3D	G3DSA:1.10.10.60	-	14	67	2.6E-19	T	27-10-2026	-	-	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	ProSiteProfiles	PS50090	Myb-like domain profile.	63	113	10.278382	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	ProSiteProfiles	PS50090	Myb-like domain profile.	10	62	11.509296	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	FunFam	G3DSA:1.10.10.60:FF:000349	Transcription factor MYB39	70	131	1.3E-41	T	27-10-2026	-	-	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	SUPERFAMILY	SSF46689	Homeodomain-like	12	109	3.33E-29	T	27-10-2026	IPR009057	Homedomain-like superfamily	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	ProSiteProfiles	PS51294	Myb-type HTH DNA-binding domain profile.	63	117	26.350046	T	27-10-2026	IPR017930	Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	Pfam	PF00249	Myb-like DNA-binding domain	15	62	1.8E-13	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	Pfam	PF00249	Myb-like DNA-binding domain	68	113	2.9E-13	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	CDD	cd00167	SANT	17	62	8.98228E-12	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	CDD	cd00167	SANT	70	113	4.64997E-12	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	SMART	SM00717	sant	67	115	1.9E-15	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	SMART	SM00717	sant	14	64	1.9E-14	T	27-10-2026	IPR001005	SANT/Myb domain	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	FunFam	G3DSA:1.10.10.60:FF:000001	MYB-related transcription factor	14	67	1.5E-31	T	27-10-2026	-	-	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	Gene3D	G3DSA:1.10.10.60	-	70	117	6.4E-20	T	27-10-2026	-	-	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	PANTHER	PTHR47994	F14D16.11-RELATED	1	134	2.9E-79	T	27-10-2026	IPR015495	Myb transcription factor, plants	-	-
+Brahy.D01G0698000.1.v1.1	b2bfdf4736342195af609c8012794227	370	ProSiteProfiles	PS51294	Myb-type HTH DNA-binding domain profile.	10	62	19.262852	T	27-10-2026	IPR017930	Myb domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	ProSiteProfiles	PS50866	GOLD domain profile.	493	594	10.429504	T	27-10-2026	IPR009038	GOLD domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Gene3D	G3DSA:1.10.8.20	-	247	303	1.2E-10	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	CDD	cd00170	SEC14	316	482	1.83291E-34	T	27-10-2026	IPR001251	CRAL-TRIO lipid binding domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Coils	Coil	Coil	2	61	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	SMART	SM01100	CRAL_TRIO_N_2	272	297	7.7E-6	T	27-10-2026	IPR011074	CRAL/TRIO, N-terminal domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Pfam	PF00650	CRAL/TRIO domain	322	481	7.2E-26	T	27-10-2026	IPR001251	CRAL-TRIO lipid binding domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Gene3D	G3DSA:3.40.525.10	-	316	487	3.4E-31	T	27-10-2026	IPR036865	CRAL-TRIO lipid binding domain superfamily	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Pfam	PF03765	CRAL/TRIO, N-terminal domain	256	295	5.3E-5	T	27-10-2026	IPR011074	CRAL/TRIO, N-terminal domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	SUPERFAMILY	SSF52087	CRAL/TRIO domain	322	484	2.09E-36	T	27-10-2026	IPR036865	CRAL-TRIO lipid binding domain superfamily	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	ProSiteProfiles	PS50191	CRAL-TRIO lipid binding domain profile.	312	487	16.350576	T	27-10-2026	IPR001251	CRAL-TRIO lipid binding domain	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	Gene3D	G3DSA:2.60.120.680	GOLD domain	488	595	1.4E-9	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	242	251	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	123	140	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	148	190	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	101	251	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	192	209	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	MobiDBLite	mobidb-lite	consensus disorder prediction	21	82	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	PANTHER	PTHR45932	PATELLIN-1	35	596	2.8E-186	T	27-10-2026	IPR044834	Patellin	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	SUPERFAMILY	SSF101576	Supernatant protein factor (SPF), C-terminal domain	494	596	1.09E-6	T	27-10-2026	IPR036598	GOLD domain superfamily	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	SUPERFAMILY	SSF46938	CRAL/TRIO N-terminal domain	75	310	8.24E-13	T	27-10-2026	IPR036273	CRAL/TRIO, N-terminal domain superfamily	-	-
+Brahy.D02G0340100.1.v1.1	fc857e5e854e8d6ffebae099e5825127	601	SMART	SM00516	sec14_4	316	484	3.9E-36	T	27-10-2026	IPR001251	CRAL-TRIO lipid binding domain	-	-
+Brahy.D03G0196100.1.v1.1	9aba75c873ec3d91c77c91f9949f8cfd	131	PANTHER	PTHR31747	PROTEIN LSD1	8	130	1.8E-30	T	27-10-2026	IPR040319	LSD1-like	-	-
+Brahy.D03G0196100.1.v1.1	9aba75c873ec3d91c77c91f9949f8cfd	131	Pfam	PF06943	LSD1 zinc finger	61	84	7.7E-8	T	27-10-2026	IPR005735	Zinc finger, LSD1-type	-	-
+Brahy.D03G0196100.1.v1.1	9aba75c873ec3d91c77c91f9949f8cfd	131	Pfam	PF06943	LSD1 zinc finger	23	46	0.0012	T	27-10-2026	IPR005735	Zinc finger, LSD1-type	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Pfam	PF01915	Glycosyl hydrolase family 3 C-terminal domain	387	623	3.1E-47	T	27-10-2026	IPR002772	Glycoside hydrolase family 3 C-terminal domain	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Pfam	PF14310	Fibronectin type III-like domain	690	762	7.5E-7	T	27-10-2026	IPR026891	Fibronectin type III-like domain	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	653	771	4.5E-18	T	27-10-2026	IPR013783	Immunoglobulin-like fold	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Gene3D	G3DSA:3.20.20.300	-	45	361	5.9E-93	T	27-10-2026	IPR036962	Glycoside hydrolase, family 3, N-terminal domain superfamily	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	SUPERFAMILY	SSF52279	Beta-D-glucan exohydrolase, C-terminal domain	387	626	1.1E-48	T	27-10-2026	IPR036881	Glycoside hydrolase family 3 C-terminal domain superfamily	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	SMART	SM01217	Fn3_like_2	690	764	1.6E-14	T	27-10-2026	IPR026891	Fibronectin type III-like domain	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	267	285	4.6E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	193	209	4.6E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	PRINTS	PR00133	Glycosyl hydrolase family 3 signature	106	125	4.6E-5	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	PANTHER	PTHR42721	SUGAR HYDROLASE-RELATED	10	763	0.0	T	27-10-2026	IPR044993	Beta-D-xylosidase	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Pfam	PF00933	Glycosyl hydrolase family 3 N terminal domain	100	341	4.8E-29	T	27-10-2026	IPR001764	Glycoside hydrolase, family 3, N-terminal	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	FunFam	G3DSA:3.40.50.1700:FF:000001	probable beta-D-xylosidase 2	372	624	1.6E-116	T	27-10-2026	-	-	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	SUPERFAMILY	SSF51445	(Trans)glycosidases	33	386	4.42E-88	T	27-10-2026	IPR017853	Glycoside hydrolase superfamily	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	Gene3D	G3DSA:3.40.50.1700	-	373	624	2.7E-65	T	27-10-2026	IPR036881	Glycoside hydrolase family 3 C-terminal domain superfamily	-	-
+Brahy.S01G0172100.1.v1.1	34a1bf548d0697d41186acbbdf13ae71	776	FunFam	G3DSA:3.20.20.300:FF:000004	probable beta-D-xylosidase 7	45	359	4.2E-168	T	27-10-2026	-	-	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	FunFam	G3DSA:3.30.559.10:FF:000008	Tryptamine hydroxycinnamoyl transferase	236	453	6.7E-63	T	27-10-2026	-	-	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	Pfam	PF02458	Transferase family	32	453	3.8E-87	T	27-10-2026	-	-	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	FunFam	G3DSA:3.30.559.10:FF:000015	Spermidine hydroxycinnamoyl transferase	26	230	4.1E-75	T	27-10-2026	-	-	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	Gene3D	G3DSA:3.30.559.10	-	234	455	2.4E-57	T	27-10-2026	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	Gene3D	G3DSA:3.30.559.10	-	25	232	8.6E-62	T	27-10-2026	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily	-	-
+Brahy.S09G0013000.1.v1.1	c87c156af70f738711f77111a134fc07	455	PANTHER	PTHR31642	TRICHOTHECENE 3-O-ACETYLTRANSFERASE	33	452	5.8E-99	T	27-10-2026	IPR050317	Plant and Fungal Acyltransferase	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	PANTHER	PTHR33346	DEHYDRIN XERO 2-RELATED	1	183	4.1E-35	T	27-10-2026	IPR000167	Dehydrin	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	MobiDBLite	mobidb-lite	consensus disorder prediction	138	163	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	MobiDBLite	mobidb-lite	consensus disorder prediction	1	183	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	MobiDBLite	mobidb-lite	consensus disorder prediction	164	183	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	MobiDBLite	mobidb-lite	consensus disorder prediction	91	106	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	ProSitePatterns	PS00315	Dehydrins signature 1.	73	88	-	T	27-10-2026	IPR030513	Dehydrin, conserved site	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	ProSitePatterns	PS00823	Dehydrins signature 2.	174	181	-	T	27-10-2026	IPR030513	Dehydrin, conserved site	-	-
+Brahy.D03G0604200.1.v1.1	b649a324a7fbb4d1f5d85db7e22ea538	183	Pfam	PF00257	Dehydrin	13	183	5.0E-32	T	27-10-2026	IPR000167	Dehydrin	-	-
+Brahy.D02G0778800.1.v1.1	81749c530625e68fbfc1ea386f2809aa	127	MobiDBLite	mobidb-lite	consensus disorder prediction	51	105	-	T	27-10-2026	-	-	-	-
+Brahy.D02G0778800.1.v1.1	81749c530625e68fbfc1ea386f2809aa	127	MobiDBLite	mobidb-lite	consensus disorder prediction	91	100	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	FunFam	G3DSA:1.10.630.10:FF:000044	Cytochrome P450	21	516	1.4E-230	T	27-10-2026	-	-	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00463	E-class P450 group I signature	451	461	2.0E-12	T	27-10-2026	IPR002401	Cytochrome P450, E-class, group I	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00463	E-class P450 group I signature	371	389	2.0E-12	T	27-10-2026	IPR002401	Cytochrome P450, E-class, group I	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00463	E-class P450 group I signature	313	339	2.0E-12	T	27-10-2026	IPR002401	Cytochrome P450, E-class, group I	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00463	E-class P450 group I signature	293	310	2.0E-12	T	27-10-2026	IPR002401	Cytochrome P450, E-class, group I	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00463	E-class P450 group I signature	461	484	2.0E-12	T	27-10-2026	IPR002401	Cytochrome P450, E-class, group I	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	SUPERFAMILY	SSF48264	Cytochrome P450	19	513	5.37E-99	T	27-10-2026	IPR036396	Cytochrome P450 superfamily	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PANTHER	PTHR24296	CYTOCHROME P450	20	506	7.9E-167	T	27-10-2026	-	-	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	CDD	cd11064	CYP86A	67	506	0.0	T	27-10-2026	-	-	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	Pfam	PF00067	Cytochrome P450	28	501	1.9E-59	T	27-10-2026	IPR001128	Cytochrome P450	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	Gene3D	G3DSA:1.10.630.10	Cytochrome P450	22	513	1.3E-98	T	27-10-2026	IPR036396	Cytochrome P450 superfamily	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	454	463	-	T	27-10-2026	IPR017972	Cytochrome P450, conserved site	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00385	P450 superfamily signature	304	321	2.0E-11	T	27-10-2026	IPR001128	Cytochrome P450	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00385	P450 superfamily signature	372	383	2.0E-11	T	27-10-2026	IPR001128	Cytochrome P450	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00385	P450 superfamily signature	452	461	2.0E-11	T	27-10-2026	IPR001128	Cytochrome P450	-	-
+Brahy.D03G0709300.1.v1.1	5d4626f2c7720d03d26bc3709c0db753	537	PRINTS	PR00385	P450 superfamily signature	461	472	2.0E-11	T	27-10-2026	IPR001128	Cytochrome P450	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	PANTHER	PTHR36061	-	25	379	1.6E-129	T	27-10-2026	-	-	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	Pfam	PF12527	Protein of unknown function (DUF3727)	265	358	2.5E-16	T	27-10-2026	IPR022203	Protein of unknown function DUF3727	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	MobiDBLite	mobidb-lite	consensus disorder prediction	86	95	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	MobiDBLite	mobidb-lite	consensus disorder prediction	148	158	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	MobiDBLite	mobidb-lite	consensus disorder prediction	50	64	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	MobiDBLite	mobidb-lite	consensus disorder prediction	1	169	-	T	27-10-2026	-	-	-	-
+Brahy.D05G0365900.1.v1.1	8e043c3e60b9918f9c8d083974ef05ef	384	MobiDBLite	mobidb-lite	consensus disorder prediction	107	117	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0134000.1.v1.1	e54d7042a9680e994f1356e5c7bbc616	284	ProSiteProfiles	PS51257	Prokaryotic membrane lipoprotein lipid attachment site profile.	1	23	5.0	T	27-10-2026	-	-	-	-
+Brahy.D03G0134000.1.v1.1	e54d7042a9680e994f1356e5c7bbc616	284	Coils	Coil	Coil	225	245	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0134000.1.v1.1	e54d7042a9680e994f1356e5c7bbc616	284	MobiDBLite	mobidb-lite	consensus disorder prediction	110	189	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0134000.1.v1.1	e54d7042a9680e994f1356e5c7bbc616	284	MobiDBLite	mobidb-lite	consensus disorder prediction	127	154	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	PANTHER	PTHR33098	COTTON FIBER (DUF761)	59	157	6.2E-9	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	MobiDBLite	mobidb-lite	consensus disorder prediction	103	123	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	MobiDBLite	mobidb-lite	consensus disorder prediction	65	87	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	MobiDBLite	mobidb-lite	consensus disorder prediction	101	128	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	MobiDBLite	mobidb-lite	consensus disorder prediction	75	87	-	T	27-10-2026	-	-	-	-
+Brahy.D03G0508500.1.v1.1	cc10d57a04a2b60e7417191ec099b2b4	169	Pfam	PF05553	Cotton fibre expressed protein	125	156	5.1E-7	T	27-10-2026	IPR008480	Protein of unknown function DUF761, plant	-	-
