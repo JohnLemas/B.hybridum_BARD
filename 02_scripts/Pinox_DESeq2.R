@@ -18,20 +18,24 @@ for (package in packages) {
 
 # Set the working directory:
 message("setting working directory")
-setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/RNA_seq")
+setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/B.hybridum_BARD")
+pin_out <- "03_outputs/04_DESeq2/Pinoxaden_results"
+if (!dir.exists(pin_out)) {
+  dir.create(pin_out, recursive = TRUE)
+}
 
 # ===========>------- Full dataset: design ~ gen + trt --------<=========== #
 
 # Import the counts data file
 message("importing counts from featureCounts")
-countsData <- read.table(file = "03_outputs/03_featureCounts/counts.txt", header = FALSE, row.names = 1, skip = 2)
+countsData <- read.table(file = "03_outputs/03_featureCounts/counts_multi.txt", header = FALSE, row.names = 1, skip = 2)
 
 # Read in the metadata
 message("importing metadata")
-metadata_full <- read.table(file = "01_inputs/BARD_brachy_metadata.txt", header = FALSE)
+metadata_full <- read.table(file = "01_inputs/B.hyb_metadata.txt", header = FALSE)
 
 # Add headers
-colnames(metadata_full) <- c("fasta1", "line", "trt","name1","name2", "rep")
+colnames(metadata_full) <- c("fasta1","name1")
 
 # Now add headers for the counts file. the final columns should be the samples in order from the metadata
 as.vector(metadata_full$name1)
@@ -39,49 +43,45 @@ colnames(countsData) <- c("chr", "start", "stop", "strand", "length", as.vector(
 
 ################### COUNT MATRIX INPUT ###################
 # Subset the countsData for just the samples
-# dim() spits out rows first [1] and columns second [2]
+# The pinoxaden study has 33 samples, and they should be
+# the first 33 to feed into featureCounts.
 
 message("generateing cts and coldata")
+message("subset full counts table to cts")
 
-countColNum <- dim(countsData)[2]
-
-head(countsData[,6:countColNum])
-dim(countsData[,6:countColNum])
+head(countsData[,6:38])
+dim(countsData[,6:38])
 
 # Ensure that this will capture all of the data!
-# We only want the sample names and the counts for each gene. Save just the subset as an object called cts:
-cts <- as.matrix(countsData[,6:countColNum])
+# We only want the sample names and the counts for each gene
+# Save just the subset as an object called cts:
+cts <- as.matrix(countsData[,6:38])
 
-# Used -M --fraction in featurecounts to deal with multimapping, so wee need to round the counts data to whole numbers
+# Used -M --fraction in featurecounts to deal with multimapping, 
+# so wee need to round the counts data to whole numbers
 cts <- round(cts)
 
+message("done. generate coldata from pinoxaden experiment metadata..")
+
 # Row names and col names need to be identical between cts and metadata
-rownames(metadata_full) <- metadata_full$name1
+metadata <- read.table(file = "01_inputs/pinoxaden_metadata.txt", header = FALSE)
+colnames(metadata) <- c("fasta1", "line", "trt", "name1", "name2", "rep")
+
+rownames(metadata) <- metadata$name1
 
 # create DESeq2 input and designate factors
 # these variables can be used in plots later
-coldata <- metadata_full[,c("line","trt","rep")]
+coldata <- metadata[,c("line","trt","rep")]
 coldata$line <- as.factor(coldata$line)
 coldata$trt <- as.factor(coldata$trt)
 coldata$rep <- as.factor(coldata$rep)
 str(coldata)
 
+message("coldata built. checking..")
+
 # Double check that row names and column names are identical:
 rownames(coldata)
 colnames(cts)
-
-# pull samples with low mapping rates and low read depths
-# These samples were affecting dispersion estimates, and the
-# effect was directly linked to low read libraries and low
-# mapping rates. Removing them will result in more statistically
-# sound results.
-
-message("ommiting low depth/low alignment samples:\n
-        'hr_ut_r4', 'ct_ut_r1', 'hr_t_r3'")
-low_depth_samples <- c("hr_ut_r4", "ct_ut_r1", "hr_t_r3")
-
-coldata <- coldata[!rownames(coldata) %in% low_depth_samples, ]
-cts     <- cts[, !colnames(cts) %in% low_depth_samples]
 
 # double check naming before building dds
 all(rownames(coldata) == colnames(cts))
@@ -89,15 +89,17 @@ all(rownames(coldata) == colnames(cts))
 message("saving cts and coldata")
 
 # save these tables as resources in the GitHub repo
-write.table(coldata, file = "03_outputs/04_DESeq2/coldata.txt", 
+write.table(coldata, file = file.path(pin_out, "coldata.txt"), 
             quote = FALSE, sep = "\t", col.names = FALSE)
 
-write.table(cts, file = "03_outputs/04_DESeq2/cts.txt", 
+write.table(cts, file = file.path(pin_out, "cts.txt"), 
             quote = FALSE, sep = "\t")
 
 # Building dds objects for full dataset and for interaction design
-# Notes on Design: additive effects look at first item while controlling for the effects of the second item, and vise versa
-# If you want to pull specific contrasts from different treatment groups (ie 'results()'), make sure they're in the design
+# Notes on Design: additive effects look at first item while 
+# controlling for the effects of the second item, and vise versa
+# If you want to pull specific contrasts from different treatment 
+# groups (ie 'results()'), make sure they're in the design
 
 message("building dds object for full treatment effect")
 message("design = ~ line + trt")
@@ -124,7 +126,8 @@ dds_full$trt  <- factor(dds_full$trt,  levels = c("Control","Pinoxaden"))
 dds_int$line <- factor(dds_int$line, levels = c("Control","Drought","Herbicide"))
 dds_int$trt  <- factor(dds_int$trt,  levels = c("Control","Pinoxaden"))
 
-# this code is selecting the genes that have normalized counts of more than 10 in at least three samples (replicate groups)
+# this code is selecting the genes that have normalized counts
+# of more than 10 in at least three samples (replicate groups)
 
 message("subsetting for counts greater than 10 for at least three reps")
 
@@ -140,13 +143,13 @@ message("preforming full analysis")
 dds_full <- DESeq(dds_full)
 
 # Save the main dds object
-saveRDS(dds_full, file = "03_outputs/04_DESeq2/dds_full.rds")
+saveRDS(dds_full, file = file.path(pin_out, "dds_full.rds"))
 
 message("preforming interaction analysis")
 dds_int <- DESeq(dds_int)
 
 # Save the interaction dds object
-saveRDS(dds_int, file = "03_outputs/04_DESeq2/dds_int.rds")
+saveRDS(dds_int, file = file.path(pin_out, "dds_int.rds"))
 
 # ===========>------- Generating Results --------<=========== #
 
@@ -177,11 +180,11 @@ sig_trt_genes <- sig_trt_genes[order(sig_trt_genes$padj), ]
 print(sig_trt_genes)
 
 # save them
-write.table(sig_trt_genes, file = "03_outputs/04_DESeq2/sig_trt_genes.txt", 
+write.table(sig_trt_genes, file = file.path(pin_out, "sig_trt_genes.txt"), 
             quote = FALSE, sep = "\t")
 
 # Save the full results object
-saveRDS(res_trt, file = "03_outputs/04_DESeq2/res_trt.rds")
+saveRDS(res_trt, file = file.path(pin_out, "res_trt.rds"))
 
 # --------<======= Drought Stressed Lines ==========>---------- #
 
@@ -223,7 +226,7 @@ sig_drt_genes <- sig_drt_genes[order(sig_drt_genes$padj), ]
 print(sig_drt_genes)
 
 # save them
-write.table(sig_drt_genes, file = "03_outputs/04_DESeq2/sig_drt_genes.txt", 
+write.table(sig_drt_genes, file = file.path(pin_out, "sig_drt_genes.txt"), 
             quote = FALSE, sep = "\t")
 
 # -------<======= Herbicide Stressed Lines ========>-------- #
@@ -256,7 +259,7 @@ sig_herb_genes <- sig_herb_genes[order(sig_herb_genes$padj), ]
 print(sig_herb_genes)
 
 # save them
-write.table(sig_herb_genes, file = "03_outputs/04_DESeq2/sig_herb_genes.txt", 
+write.table(sig_herb_genes, file = file.path(pin_out, "sig_herb_genes.txt"), 
             quote = FALSE, sep = "\t")
 
 # -------<======= Differences between lines in untreated samples ========>-------- #
@@ -289,7 +292,7 @@ sig_baseline_drt <- sig_baseline_drt[order(sig_baseline_drt$padj), ]
 print(sig_baseline_drt)
 
 # save them
-write.table(sig_baseline_drt, file = "03_outputs/04_DESeq2/sig_baseline_drt.txt", 
+write.table(sig_baseline_drt, file = file.path(pin_out, "sig_baseline_drt.txt"), 
             quote = FALSE, sep = "\t")
 
 message("generating baseline expression results for herbicide lineage")
@@ -320,15 +323,15 @@ sig_baseline_hrb <- sig_baseline_hrb[order(sig_baseline_hrb$padj), ]
 print(sig_baseline_hrb)
 
 # save them
-write.table(sig_baseline_hrb, file = "03_outputs/04_DESeq2/sig_baseline_hrb.txt", 
+write.table(sig_baseline_hrb, file = file.path(pin_out, "sig_baseline_hrb.txt"), 
             quote = FALSE, sep = "\t")
 
 
 # Save the subset results objects
-saveRDS(resLFC_interaction_hrb, file = "03_outputs/04_DESeq2/resLFC_interaction_hrb.rds")
-saveRDS(resLFC_interaction_drt, file = "03_outputs/04_DESeq2/resLFC_interaction_drt.rds")
-saveRDS(resLFC_baseline_drt, file = "03_outputs/04_DESeq2/resLFC_baseline_drt.rds")
-saveRDS(resLFC_baseline_hrb, file = "03_outputs/04_DESeq2/resLFC_baseline_hrb.rds")
+saveRDS(resLFC_interaction_hrb, file = file.path(pin_out, "resLFC_interaction_hrb.rds"))
+saveRDS(resLFC_interaction_drt, file = file.path(pin_out, "resLFC_interaction_drt.rds"))
+saveRDS(resLFC_baseline_drt, file = file.path(pin_out, "resLFC_baseline_drt.rds"))
+saveRDS(resLFC_baseline_hrb, file = file.path(pin_out, "resLFC_baseline_hrb.rds"))
 
 library(tidyverse)
 
@@ -363,7 +366,7 @@ master_table$total_sig_contrasts <- rowSums(master_table[, sig_cols], na.rm = TR
 
 # 5. Export the master matrix
 write.table(master_table, 
-            file = "03_outputs/04_DESeq2/master_results_all_contrasts.csv", 
+            file = file.path(pin_out, "master_results_all_contrasts.csv"), 
             quote = FALSE, 
             sep = ",", 
             row.names = FALSE)
