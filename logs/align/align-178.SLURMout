@@ -1,0 +1,11 @@
+Processing Sample:  (Array ID: 178)
+!!!!! WARNING:  Could not ls /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/_trim.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/_trim.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Oct 26 22:23:05 ...... FATAL ERROR, exiting
+Alignment for  complete.
+Indexing BAM for ...
+samtools index: "/mnt/scratch/lemasjoh/B.hybridum/03_outputs/02_STAR/_Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+Job for  finished successfully.

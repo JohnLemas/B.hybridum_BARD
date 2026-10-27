@@ -1,0 +1,27 @@
+>>>STAR:
+	Running build mode.
+Input fasta:
+	/mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb.genome.fa
+Input annotation:
+	/mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb.star.gtf
+..making output directory:
+	/mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed
+...loading module..
+	STAR --runMode genomeGenerate --runThreadN 8 --genomeDir /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed --genomeFastaFiles /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb.genome.fa --sjdbGTFfile /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb.star.gtf --sjdbGTFfeatureExon exon --sjdbOverhang 74 --genomeSAindexNbases 13
+	STAR version: 2.7.11b   compiled: 2024-07-18T13:18:20-04:00 dev-intel14:/tmp/panchyni/easybuild/easybuild/build/STAR/2.7.11b/GCC-13.2.0/STAR-2.7.11b/source
+Oct 26 21:54:55 ..... started STAR run
+Oct 26 21:54:55 ... starting to generate Genome files
+Oct 26 21:55:03 ..... processing annotations GTF
+Oct 26 21:55:08 ... starting to sort Suffix Array. This may take a long time...
+Oct 26 21:55:10 ... sorting Suffix Array chunks and saving them to disk...
+Oct 26 21:57:00 ... loading chunks from disk, packing SA...
+Oct 26 21:57:12 ... finished generating suffix array
+Oct 26 21:57:12 ... generating Suffix Array index
+Oct 26 21:58:11 ... completed Suffix Array index
+Oct 26 21:58:11 ..... inserting junctions into the genome indices
+Oct 26 21:59:33 ... writing Genome to disk ...
+Oct 26 21:59:33 ... writing Suffix Array to disk ...
+Oct 26 21:59:35 ... writing SAindex to disk
+Oct 26 21:59:36 ..... finished successfully
+..process complete. Indexed genome is in
+	/mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed

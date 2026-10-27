@@ -1,0 +1,30 @@
+Read1 before filtering:
+total reads: 19232572
+total bases: 1792338622
+Q20 bases: 1765590521(98.5076%)
+Q30 bases: 1697926969(94.7325%)
+Q40 bases: 1697926969(94.7325%)
+
+Read1 after filtering:
+total reads: 19011289
+total bases: 1484747169
+Q20 bases: 1471695962(99.121%)
+Q30 bases: 1425277299(95.9946%)
+Q40 bases: 1425277299(95.9946%)
+
+Filtering result:
+reads passed filter: 19011289
+reads failed due to low quality: 103988
+reads failed due to too many N: 1381
+reads failed due to too short: 115519
+reads failed due to adapter dimer: 395
+reads with adapter trimmed: 48157
+bases trimmed due to adapters: 290492
+
+Duplication rate (may be overestimated since this is SE data): 83.1012%
+
+JSON report: /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/62bc_dw_13_fastp.json
+HTML report: /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/62bc_dw_13_fastp.html
+
+fastp -i /mnt/scratch/lemasjoh/B.hybridum/01_inputs/raw_fastq/Z4R3KG_143_62_BC.fastq.gz -o /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/62bc_dw_13_trim.fastq.gz --thread 8 --adapter_sequence AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC --trim_front1 12 --cut_front --cut_tail --length_required 20 --html /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/62bc_dw_13_fastp.html --json /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/62bc_dw_13_fastp.json 
+fastp v1.3.3, time used: 40 seconds

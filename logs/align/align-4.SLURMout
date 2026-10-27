@@ -1,0 +1,12 @@
+Processing Sample: ct_ut_r4 (Array ID: 4)
+	STAR --runThreadN 8 --genomeDir /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed --readFilesIn /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/ct_ut_r4_trim.fastq.gz --readFilesCommand zcat --outFileNamePrefix /mnt/scratch/lemasjoh/B.hybridum/03_outputs/02_STAR/ct_ut_r4_ --outSAMtype BAM SortedByCoordinate --outFilterMultimapNmax 20 --winAnchorMultimapNmax 100 --outFilterMismatchNmax 14 --outFilterIntronMotifs RemoveNoncanonicalUnannotated --outFilterMismatchNoverLmax 0.05 --outSAMattributes NH HI NM MD
+	STAR version: 2.7.11b   compiled: 2024-07-18T13:18:20-04:00 dev-intel14:/tmp/panchyni/easybuild/easybuild/build/STAR/2.7.11b/GCC-13.2.0/STAR-2.7.11b/source
+Oct 27 10:22:32 ..... started STAR run
+Oct 27 10:22:32 ..... loading genome
+Oct 27 10:22:36 ..... started mapping
+Oct 27 10:31:10 ..... finished mapping
+Oct 27 10:31:11 ..... started sorting BAM
+Oct 27 10:32:10 ..... finished successfully
+Alignment for ct_ut_r4 complete.
+Indexing BAM for ct_ut_r4...
+Job for ct_ut_r4 finished successfully.

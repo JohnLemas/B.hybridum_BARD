@@ -1,0 +1,12 @@
+Processing Sample: 1bc_ww_13 (Array ID: 174)
+	STAR --runThreadN 8 --genomeDir /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed --readFilesIn /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/1bc_ww_13_trim.fastq.gz --readFilesCommand zcat --outFileNamePrefix /mnt/scratch/lemasjoh/B.hybridum/03_outputs/02_STAR/1bc_ww_13_ --outSAMtype BAM SortedByCoordinate --outFilterMultimapNmax 20 --winAnchorMultimapNmax 100 --outFilterMismatchNmax 14 --outFilterIntronMotifs RemoveNoncanonicalUnannotated --outFilterMismatchNoverLmax 0.05 --outSAMattributes NH HI NM MD
+	STAR version: 2.7.11b   compiled: 2024-07-18T13:18:20-04:00 dev-intel14:/tmp/panchyni/easybuild/easybuild/build/STAR/2.7.11b/GCC-13.2.0/STAR-2.7.11b/source
+Oct 27 10:29:30 ..... started STAR run
+Oct 27 10:29:30 ..... loading genome
+Oct 27 10:29:36 ..... started mapping
+Oct 27 10:31:56 ..... finished mapping
+Oct 27 10:31:57 ..... started sorting BAM
+Oct 27 10:32:19 ..... finished successfully
+Alignment for 1bc_ww_13 complete.
+Indexing BAM for 1bc_ww_13...
+Job for 1bc_ww_13 finished successfully.

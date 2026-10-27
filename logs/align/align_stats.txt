@@ -1,0 +1,531 @@
+03_outputs/02_STAR/100d_dw_9_Log.final.out:                        Uniquely mapped reads % |	80.26%
+03_outputs/02_STAR/100d_dw_9_Log.final.out:             % of reads mapped to multiple loci |	16.62%
+03_outputs/02_STAR/100d_dw_9_Log.final.out:                 % of reads unmapped: too short |	3.12%
+03_outputs/02_STAR/102c_dw_8_Log.final.out:                        Uniquely mapped reads % |	83.87%
+03_outputs/02_STAR/102c_dw_8_Log.final.out:             % of reads mapped to multiple loci |	13.08%
+03_outputs/02_STAR/102c_dw_8_Log.final.out:                 % of reads unmapped: too short |	3.04%
+03_outputs/02_STAR/106d_dw_10_Log.final.out:                        Uniquely mapped reads % |	79.99%
+03_outputs/02_STAR/106d_dw_10_Log.final.out:             % of reads mapped to multiple loci |	16.94%
+03_outputs/02_STAR/106d_dw_10_Log.final.out:                 % of reads unmapped: too short |	3.07%
+03_outputs/02_STAR/107h_dw_9_Log.final.out:                        Uniquely mapped reads % |	82.02%
+03_outputs/02_STAR/107h_dw_9_Log.final.out:             % of reads mapped to multiple loci |	14.99%
+03_outputs/02_STAR/107h_dw_9_Log.final.out:                 % of reads unmapped: too short |	2.99%
+03_outputs/02_STAR/108h_dw_10_Log.final.out:                        Uniquely mapped reads % |	79.33%
+03_outputs/02_STAR/108h_dw_10_Log.final.out:             % of reads mapped to multiple loci |	17.63%
+03_outputs/02_STAR/108h_dw_10_Log.final.out:                 % of reads unmapped: too short |	3.04%
+03_outputs/02_STAR/109c_dw_9_Log.final.out:                        Uniquely mapped reads % |	82.32%
+03_outputs/02_STAR/109c_dw_9_Log.final.out:             % of reads mapped to multiple loci |	14.79%
+03_outputs/02_STAR/109c_dw_9_Log.final.out:                 % of reads unmapped: too short |	2.88%
+03_outputs/02_STAR/110h_dw_11_Log.final.out:                        Uniquely mapped reads % |	84.29%
+03_outputs/02_STAR/110h_dw_11_Log.final.out:             % of reads mapped to multiple loci |	12.84%
+03_outputs/02_STAR/110h_dw_11_Log.final.out:                 % of reads unmapped: too short |	2.86%
+03_outputs/02_STAR/111d_dw_11_Log.final.out:                        Uniquely mapped reads % |	83.72%
+03_outputs/02_STAR/111d_dw_11_Log.final.out:             % of reads mapped to multiple loci |	13.41%
+03_outputs/02_STAR/111d_dw_11_Log.final.out:                 % of reads unmapped: too short |	2.87%
+03_outputs/02_STAR/112c_dw_10_Log.final.out:                        Uniquely mapped reads % |	80.74%
+03_outputs/02_STAR/112c_dw_10_Log.final.out:             % of reads mapped to multiple loci |	16.13%
+03_outputs/02_STAR/112c_dw_10_Log.final.out:                 % of reads unmapped: too short |	3.13%
+03_outputs/02_STAR/117h_dw_12_Log.final.out:                        Uniquely mapped reads % |	83.05%
+03_outputs/02_STAR/117h_dw_12_Log.final.out:             % of reads mapped to multiple loci |	14.25%
+03_outputs/02_STAR/117h_dw_12_Log.final.out:                 % of reads unmapped: too short |	2.69%
+03_outputs/02_STAR/118d_dw_12_Log.final.out:                        Uniquely mapped reads % |	77.09%
+03_outputs/02_STAR/118d_dw_12_Log.final.out:             % of reads mapped to multiple loci |	19.88%
+03_outputs/02_STAR/118d_dw_12_Log.final.out:                 % of reads unmapped: too short |	3.03%
+03_outputs/02_STAR/119c_dw_11_Log.final.out:                        Uniquely mapped reads % |	82.20%
+03_outputs/02_STAR/119c_dw_11_Log.final.out:             % of reads mapped to multiple loci |	14.98%
+03_outputs/02_STAR/119c_dw_11_Log.final.out:                 % of reads unmapped: too short |	2.82%
+03_outputs/02_STAR/11d_ww_3_Log.final.out:                        Uniquely mapped reads % |	74.47%
+03_outputs/02_STAR/11d_ww_3_Log.final.out:             % of reads mapped to multiple loci |	22.08%
+03_outputs/02_STAR/11d_ww_3_Log.final.out:                 % of reads unmapped: too short |	3.45%
+03_outputs/02_STAR/121d_ww_1_Log.final.out:                        Uniquely mapped reads % |	83.36%
+03_outputs/02_STAR/121d_ww_1_Log.final.out:             % of reads mapped to multiple loci |	13.84%
+03_outputs/02_STAR/121d_ww_1_Log.final.out:                 % of reads unmapped: too short |	2.80%
+03_outputs/02_STAR/122h_ww_1_Log.final.out:                        Uniquely mapped reads % |	81.34%
+03_outputs/02_STAR/122h_ww_1_Log.final.out:             % of reads mapped to multiple loci |	15.53%
+03_outputs/02_STAR/122h_ww_1_Log.final.out:                 % of reads unmapped: too short |	3.12%
+03_outputs/02_STAR/123c_ww_1_Log.final.out:                        Uniquely mapped reads % |	85.87%
+03_outputs/02_STAR/123c_ww_1_Log.final.out:             % of reads mapped to multiple loci |	11.68%
+03_outputs/02_STAR/123c_ww_1_Log.final.out:                 % of reads unmapped: too short |	2.45%
+03_outputs/02_STAR/126c_ww_2_Log.final.out:                        Uniquely mapped reads % |	84.08%
+03_outputs/02_STAR/126c_ww_2_Log.final.out:             % of reads mapped to multiple loci |	13.18%
+03_outputs/02_STAR/126c_ww_2_Log.final.out:                 % of reads unmapped: too short |	2.74%
+03_outputs/02_STAR/127h_ww_2_Log.final.out:                        Uniquely mapped reads % |	85.24%
+03_outputs/02_STAR/127h_ww_2_Log.final.out:             % of reads mapped to multiple loci |	12.32%
+03_outputs/02_STAR/127h_ww_2_Log.final.out:                 % of reads unmapped: too short |	2.44%
+03_outputs/02_STAR/128c_ww_3_Log.final.out:                        Uniquely mapped reads % |	85.67%
+03_outputs/02_STAR/128c_ww_3_Log.final.out:             % of reads mapped to multiple loci |	11.90%
+03_outputs/02_STAR/128c_ww_3_Log.final.out:                 % of reads unmapped: too short |	2.43%
+03_outputs/02_STAR/132d_ww_2_Log.final.out:                        Uniquely mapped reads % |	80.99%
+03_outputs/02_STAR/132d_ww_2_Log.final.out:             % of reads mapped to multiple loci |	16.05%
+03_outputs/02_STAR/132d_ww_2_Log.final.out:                 % of reads unmapped: too short |	2.96%
+03_outputs/02_STAR/133c_ww_4_Log.final.out:                        Uniquely mapped reads % |	85.36%
+03_outputs/02_STAR/133c_ww_4_Log.final.out:             % of reads mapped to multiple loci |	12.13%
+03_outputs/02_STAR/133c_ww_4_Log.final.out:                 % of reads unmapped: too short |	2.51%
+03_outputs/02_STAR/136c_ww_5_Log.final.out:                        Uniquely mapped reads % |	79.51%
+03_outputs/02_STAR/136c_ww_5_Log.final.out:             % of reads mapped to multiple loci |	17.64%
+03_outputs/02_STAR/136c_ww_5_Log.final.out:                 % of reads unmapped: too short |	2.85%
+03_outputs/02_STAR/138c_ww_6_Log.final.out:                        Uniquely mapped reads % |	83.62%
+03_outputs/02_STAR/138c_ww_6_Log.final.out:             % of reads mapped to multiple loci |	13.84%
+03_outputs/02_STAR/138c_ww_6_Log.final.out:                 % of reads unmapped: too short |	2.54%
+03_outputs/02_STAR/139h_ww_3_Log.final.out:                        Uniquely mapped reads % |	84.32%
+03_outputs/02_STAR/139h_ww_3_Log.final.out:             % of reads mapped to multiple loci |	12.96%
+03_outputs/02_STAR/139h_ww_3_Log.final.out:                 % of reads unmapped: too short |	2.72%
+03_outputs/02_STAR/140d_ww_3_Log.final.out:                        Uniquely mapped reads % |	84.42%
+03_outputs/02_STAR/140d_ww_3_Log.final.out:             % of reads mapped to multiple loci |	13.18%
+03_outputs/02_STAR/140d_ww_3_Log.final.out:                 % of reads unmapped: too short |	2.40%
+03_outputs/02_STAR/141h_ww_4_Log.final.out:                        Uniquely mapped reads % |	82.62%
+03_outputs/02_STAR/141h_ww_4_Log.final.out:             % of reads mapped to multiple loci |	14.64%
+03_outputs/02_STAR/141h_ww_4_Log.final.out:                 % of reads unmapped: too short |	2.73%
+03_outputs/02_STAR/143d_ww_4_Log.final.out:                        Uniquely mapped reads % |	86.36%
+03_outputs/02_STAR/143d_ww_4_Log.final.out:             % of reads mapped to multiple loci |	11.52%
+03_outputs/02_STAR/143d_ww_4_Log.final.out:                 % of reads unmapped: too short |	2.11%
+03_outputs/02_STAR/146h_ww_5_Log.final.out:                        Uniquely mapped reads % |	85.37%
+03_outputs/02_STAR/146h_ww_5_Log.final.out:             % of reads mapped to multiple loci |	12.01%
+03_outputs/02_STAR/146h_ww_5_Log.final.out:                 % of reads unmapped: too short |	2.62%
+03_outputs/02_STAR/147d_ww_5_Log.final.out:                        Uniquely mapped reads % |	83.46%
+03_outputs/02_STAR/147d_ww_5_Log.final.out:             % of reads mapped to multiple loci |	13.95%
+03_outputs/02_STAR/147d_ww_5_Log.final.out:                 % of reads unmapped: too short |	2.58%
+03_outputs/02_STAR/149h_ww_6_Log.final.out:                        Uniquely mapped reads % |	86.52%
+03_outputs/02_STAR/149h_ww_6_Log.final.out:             % of reads mapped to multiple loci |	11.20%
+03_outputs/02_STAR/149h_ww_6_Log.final.out:                 % of reads unmapped: too short |	2.28%
+03_outputs/02_STAR/150c_ww_7_Log.final.out:                        Uniquely mapped reads % |	83.85%
+03_outputs/02_STAR/150c_ww_7_Log.final.out:             % of reads mapped to multiple loci |	13.69%
+03_outputs/02_STAR/150c_ww_7_Log.final.out:                 % of reads unmapped: too short |	2.46%
+03_outputs/02_STAR/153c_ww_8_Log.final.out:                        Uniquely mapped reads % |	86.49%
+03_outputs/02_STAR/153c_ww_8_Log.final.out:             % of reads mapped to multiple loci |	11.19%
+03_outputs/02_STAR/153c_ww_8_Log.final.out:                 % of reads unmapped: too short |	2.31%
+03_outputs/02_STAR/154d_ww_6_Log.final.out:                        Uniquely mapped reads % |	84.34%
+03_outputs/02_STAR/154d_ww_6_Log.final.out:             % of reads mapped to multiple loci |	13.26%
+03_outputs/02_STAR/154d_ww_6_Log.final.out:                 % of reads unmapped: too short |	2.40%
+03_outputs/02_STAR/156d_ww_7_Log.final.out:                        Uniquely mapped reads % |	83.56%
+03_outputs/02_STAR/156d_ww_7_Log.final.out:             % of reads mapped to multiple loci |	13.92%
+03_outputs/02_STAR/156d_ww_7_Log.final.out:                 % of reads unmapped: too short |	2.52%
+03_outputs/02_STAR/157c_ww_9_Log.final.out:                        Uniquely mapped reads % |	85.99%
+03_outputs/02_STAR/157c_ww_9_Log.final.out:             % of reads mapped to multiple loci |	11.69%
+03_outputs/02_STAR/157c_ww_9_Log.final.out:                 % of reads unmapped: too short |	2.32%
+03_outputs/02_STAR/158h_ww_7_Log.final.out:                        Uniquely mapped reads % |	86.28%
+03_outputs/02_STAR/158h_ww_7_Log.final.out:             % of reads mapped to multiple loci |	11.50%
+03_outputs/02_STAR/158h_ww_7_Log.final.out:                 % of reads unmapped: too short |	2.22%
+03_outputs/02_STAR/15c_ww_3_Log.final.out:                        Uniquely mapped reads % |	79.03%
+03_outputs/02_STAR/15c_ww_3_Log.final.out:             % of reads mapped to multiple loci |	17.86%
+03_outputs/02_STAR/15c_ww_3_Log.final.out:                 % of reads unmapped: too short |	3.11%
+03_outputs/02_STAR/161h_ww_8_Log.final.out:                        Uniquely mapped reads % |	86.19%
+03_outputs/02_STAR/161h_ww_8_Log.final.out:             % of reads mapped to multiple loci |	11.52%
+03_outputs/02_STAR/161h_ww_8_Log.final.out:                 % of reads unmapped: too short |	2.29%
+03_outputs/02_STAR/162d_ww_8_Log.final.out:                        Uniquely mapped reads % |	81.32%
+03_outputs/02_STAR/162d_ww_8_Log.final.out:             % of reads mapped to multiple loci |	15.87%
+03_outputs/02_STAR/162d_ww_8_Log.final.out:                 % of reads unmapped: too short |	2.81%
+03_outputs/02_STAR/163c_ww_10_Log.final.out:                        Uniquely mapped reads % |	81.71%
+03_outputs/02_STAR/163c_ww_10_Log.final.out:             % of reads mapped to multiple loci |	15.70%
+03_outputs/02_STAR/163c_ww_10_Log.final.out:                 % of reads unmapped: too short |	2.59%
+03_outputs/02_STAR/164d_ww_9_Log.final.out:                        Uniquely mapped reads % |	72.54%
+03_outputs/02_STAR/164d_ww_9_Log.final.out:             % of reads mapped to multiple loci |	19.77%
+03_outputs/02_STAR/164d_ww_9_Log.final.out:                 % of reads unmapped: too short |	7.69%
+03_outputs/02_STAR/166d_ww_10_Log.final.out:                        Uniquely mapped reads % |	67.09%
+03_outputs/02_STAR/166d_ww_10_Log.final.out:             % of reads mapped to multiple loci |	21.18%
+03_outputs/02_STAR/166d_ww_10_Log.final.out:                 % of reads unmapped: too short |	11.73%
+03_outputs/02_STAR/168h_ww_9_Log.final.out:                        Uniquely mapped reads % |	62.82%
+03_outputs/02_STAR/168h_ww_9_Log.final.out:             % of reads mapped to multiple loci |	22.54%
+03_outputs/02_STAR/168h_ww_9_Log.final.out:                 % of reads unmapped: too short |	14.64%
+03_outputs/02_STAR/169d_ww_11_Log.final.out:                        Uniquely mapped reads % |	71.19%
+03_outputs/02_STAR/169d_ww_11_Log.final.out:             % of reads mapped to multiple loci |	20.09%
+03_outputs/02_STAR/169d_ww_11_Log.final.out:                 % of reads unmapped: too short |	8.72%
+03_outputs/02_STAR/16bc_ww_12_Log.final.out:                        Uniquely mapped reads % |	79.43%
+03_outputs/02_STAR/16bc_ww_12_Log.final.out:             % of reads mapped to multiple loci |	14.25%
+03_outputs/02_STAR/16bc_ww_12_Log.final.out:                 % of reads unmapped: too short |	6.32%
+03_outputs/02_STAR/16h_ww_3_Log.final.out:                        Uniquely mapped reads % |	77.96%
+03_outputs/02_STAR/16h_ww_3_Log.final.out:             % of reads mapped to multiple loci |	19.18%
+03_outputs/02_STAR/16h_ww_3_Log.final.out:                 % of reads unmapped: too short |	2.86%
+03_outputs/02_STAR/170c_ww_11_Log.final.out:                        Uniquely mapped reads % |	72.68%
+03_outputs/02_STAR/170c_ww_11_Log.final.out:             % of reads mapped to multiple loci |	20.51%
+03_outputs/02_STAR/170c_ww_11_Log.final.out:                 % of reads unmapped: too short |	6.81%
+03_outputs/02_STAR/173c_ww_12_Log.final.out:                        Uniquely mapped reads % |	75.36%
+03_outputs/02_STAR/173c_ww_12_Log.final.out:             % of reads mapped to multiple loci |	17.65%
+03_outputs/02_STAR/173c_ww_12_Log.final.out:                 % of reads unmapped: too short |	6.98%
+03_outputs/02_STAR/174d_ww_12_Log.final.out:                        Uniquely mapped reads % |	73.89%
+03_outputs/02_STAR/174d_ww_12_Log.final.out:             % of reads mapped to multiple loci |	18.84%
+03_outputs/02_STAR/174d_ww_12_Log.final.out:                 % of reads unmapped: too short |	7.27%
+03_outputs/02_STAR/175h_ww_10_Log.final.out:                        Uniquely mapped reads % |	69.11%
+03_outputs/02_STAR/175h_ww_10_Log.final.out:             % of reads mapped to multiple loci |	21.78%
+03_outputs/02_STAR/175h_ww_10_Log.final.out:                 % of reads unmapped: too short |	9.11%
+03_outputs/02_STAR/178h_ww_11_Log.final.out:                        Uniquely mapped reads % |	65.67%
+03_outputs/02_STAR/178h_ww_11_Log.final.out:             % of reads mapped to multiple loci |	20.81%
+03_outputs/02_STAR/178h_ww_11_Log.final.out:                 % of reads unmapped: too short |	13.52%
+03_outputs/02_STAR/182h_dw_1_Log.final.out:                        Uniquely mapped reads % |	76.25%
+03_outputs/02_STAR/182h_dw_1_Log.final.out:             % of reads mapped to multiple loci |	17.79%
+03_outputs/02_STAR/182h_dw_1_Log.final.out:                 % of reads unmapped: too short |	5.96%
+03_outputs/02_STAR/183d_dw_1_Log.final.out:                        Uniquely mapped reads % |	75.12%
+03_outputs/02_STAR/183d_dw_1_Log.final.out:             % of reads mapped to multiple loci |	17.00%
+03_outputs/02_STAR/183d_dw_1_Log.final.out:                 % of reads unmapped: too short |	7.87%
+03_outputs/02_STAR/184c_dw_1_Log.final.out:                        Uniquely mapped reads % |	76.60%
+03_outputs/02_STAR/184c_dw_1_Log.final.out:             % of reads mapped to multiple loci |	17.41%
+03_outputs/02_STAR/184c_dw_1_Log.final.out:                 % of reads unmapped: too short |	5.99%
+03_outputs/02_STAR/185d_dw_2_Log.final.out:                        Uniquely mapped reads % |	78.34%
+03_outputs/02_STAR/185d_dw_2_Log.final.out:             % of reads mapped to multiple loci |	16.41%
+03_outputs/02_STAR/185d_dw_2_Log.final.out:                 % of reads unmapped: too short |	5.25%
+03_outputs/02_STAR/187d_dw_3_Log.final.out:                        Uniquely mapped reads % |	77.37%
+03_outputs/02_STAR/187d_dw_3_Log.final.out:             % of reads mapped to multiple loci |	15.87%
+03_outputs/02_STAR/187d_dw_3_Log.final.out:                 % of reads unmapped: too short |	6.76%
+03_outputs/02_STAR/188h_dw_2_Log.final.out:                        Uniquely mapped reads % |	78.20%
+03_outputs/02_STAR/188h_dw_2_Log.final.out:             % of reads mapped to multiple loci |	16.17%
+03_outputs/02_STAR/188h_dw_2_Log.final.out:                 % of reads unmapped: too short |	5.63%
+03_outputs/02_STAR/189c_dw_2_Log.final.out:                        Uniquely mapped reads % |	75.43%
+03_outputs/02_STAR/189c_dw_2_Log.final.out:             % of reads mapped to multiple loci |	19.36%
+03_outputs/02_STAR/189c_dw_2_Log.final.out:                 % of reads unmapped: too short |	5.20%
+03_outputs/02_STAR/191h_dw_3_Log.final.out:                        Uniquely mapped reads % |	80.55%
+03_outputs/02_STAR/191h_dw_3_Log.final.out:             % of reads mapped to multiple loci |	15.30%
+03_outputs/02_STAR/191h_dw_3_Log.final.out:                 % of reads unmapped: too short |	4.14%
+03_outputs/02_STAR/193h_dw_4_Log.final.out:                        Uniquely mapped reads % |	79.54%
+03_outputs/02_STAR/193h_dw_4_Log.final.out:             % of reads mapped to multiple loci |	15.71%
+03_outputs/02_STAR/193h_dw_4_Log.final.out:                 % of reads unmapped: too short |	4.75%
+03_outputs/02_STAR/194d_dw_4_Log.final.out:                        Uniquely mapped reads % |	80.07%
+03_outputs/02_STAR/194d_dw_4_Log.final.out:             % of reads mapped to multiple loci |	14.66%
+03_outputs/02_STAR/194d_dw_4_Log.final.out:                 % of reads unmapped: too short |	5.27%
+03_outputs/02_STAR/196h_dw_5_Log.final.out:                        Uniquely mapped reads % |	82.50%
+03_outputs/02_STAR/196h_dw_5_Log.final.out:             % of reads mapped to multiple loci |	12.96%
+03_outputs/02_STAR/196h_dw_5_Log.final.out:                 % of reads unmapped: too short |	4.53%
+03_outputs/02_STAR/197c_dw_3_Log.final.out:                        Uniquely mapped reads % |	79.48%
+03_outputs/02_STAR/197c_dw_3_Log.final.out:             % of reads mapped to multiple loci |	16.11%
+03_outputs/02_STAR/197c_dw_3_Log.final.out:                 % of reads unmapped: too short |	4.40%
+03_outputs/02_STAR/198c_dw_4_Log.final.out:                        Uniquely mapped reads % |	74.65%
+03_outputs/02_STAR/198c_dw_4_Log.final.out:             % of reads mapped to multiple loci |	18.39%
+03_outputs/02_STAR/198c_dw_4_Log.final.out:                 % of reads unmapped: too short |	6.96%
+03_outputs/02_STAR/1bc_ww_13_Log.final.out:                        Uniquely mapped reads % |	80.96%
+03_outputs/02_STAR/1bc_ww_13_Log.final.out:             % of reads mapped to multiple loci |	13.86%
+03_outputs/02_STAR/1bc_ww_13_Log.final.out:                 % of reads unmapped: too short |	5.17%
+03_outputs/02_STAR/1c_ww_1_Log.final.out:                        Uniquely mapped reads % |	78.87%
+03_outputs/02_STAR/1c_ww_1_Log.final.out:             % of reads mapped to multiple loci |	17.60%
+03_outputs/02_STAR/1c_ww_1_Log.final.out:                 % of reads unmapped: too short |	3.53%
+03_outputs/02_STAR/202d_dw_5_Log.final.out:                        Uniquely mapped reads % |	71.72%
+03_outputs/02_STAR/202d_dw_5_Log.final.out:             % of reads mapped to multiple loci |	18.26%
+03_outputs/02_STAR/202d_dw_5_Log.final.out:                 % of reads unmapped: too short |	10.02%
+03_outputs/02_STAR/203c_dw_5_Log.final.out:                        Uniquely mapped reads % |	78.00%
+03_outputs/02_STAR/203c_dw_5_Log.final.out:             % of reads mapped to multiple loci |	14.54%
+03_outputs/02_STAR/203c_dw_5_Log.final.out:                 % of reads unmapped: too short |	7.46%
+03_outputs/02_STAR/205h_dw_6_Log.final.out:                        Uniquely mapped reads % |	74.65%
+03_outputs/02_STAR/205h_dw_6_Log.final.out:             % of reads mapped to multiple loci |	16.46%
+03_outputs/02_STAR/205h_dw_6_Log.final.out:                 % of reads unmapped: too short |	8.89%
+03_outputs/02_STAR/206c_dw_6_Log.final.out:                        Uniquely mapped reads % |	79.06%
+03_outputs/02_STAR/206c_dw_6_Log.final.out:             % of reads mapped to multiple loci |	14.73%
+03_outputs/02_STAR/206c_dw_6_Log.final.out:                 % of reads unmapped: too short |	6.20%
+03_outputs/02_STAR/207h_dw_7_Log.final.out:                        Uniquely mapped reads % |	80.27%
+03_outputs/02_STAR/207h_dw_7_Log.final.out:             % of reads mapped to multiple loci |	14.94%
+03_outputs/02_STAR/207h_dw_7_Log.final.out:                 % of reads unmapped: too short |	4.79%
+03_outputs/02_STAR/208d_dw_6_Log.final.out:                        Uniquely mapped reads % |	75.54%
+03_outputs/02_STAR/208d_dw_6_Log.final.out:             % of reads mapped to multiple loci |	15.79%
+03_outputs/02_STAR/208d_dw_6_Log.final.out:                 % of reads unmapped: too short |	8.66%
+03_outputs/02_STAR/20c_ww_4_Log.final.out:                        Uniquely mapped reads % |	79.69%
+03_outputs/02_STAR/20c_ww_4_Log.final.out:             % of reads mapped to multiple loci |	17.31%
+03_outputs/02_STAR/20c_ww_4_Log.final.out:                 % of reads unmapped: too short |	3.00%
+03_outputs/02_STAR/211d_dw_7_Log.final.out:                        Uniquely mapped reads % |	80.81%
+03_outputs/02_STAR/211d_dw_7_Log.final.out:             % of reads mapped to multiple loci |	14.79%
+03_outputs/02_STAR/211d_dw_7_Log.final.out:                 % of reads unmapped: too short |	4.40%
+03_outputs/02_STAR/213h_dw_8_Log.final.out:                        Uniquely mapped reads % |	66.09%
+03_outputs/02_STAR/213h_dw_8_Log.final.out:             % of reads mapped to multiple loci |	17.59%
+03_outputs/02_STAR/213h_dw_8_Log.final.out:                 % of reads unmapped: too short |	16.32%
+03_outputs/02_STAR/215h_dw_9_Log.final.out:                        Uniquely mapped reads % |	76.44%
+03_outputs/02_STAR/215h_dw_9_Log.final.out:             % of reads mapped to multiple loci |	15.56%
+03_outputs/02_STAR/215h_dw_9_Log.final.out:                 % of reads unmapped: too short |	8.00%
+03_outputs/02_STAR/218c_dw_7_Log.final.out:                        Uniquely mapped reads % |	56.40%
+03_outputs/02_STAR/218c_dw_7_Log.final.out:             % of reads mapped to multiple loci |	18.68%
+03_outputs/02_STAR/218c_dw_7_Log.final.out:                 % of reads unmapped: too short |	24.92%
+03_outputs/02_STAR/219h_dw_10_Log.final.out:                        Uniquely mapped reads % |	81.51%
+03_outputs/02_STAR/219h_dw_10_Log.final.out:             % of reads mapped to multiple loci |	14.11%
+03_outputs/02_STAR/219h_dw_10_Log.final.out:                 % of reads unmapped: too short |	4.37%
+03_outputs/02_STAR/221c_dw_8_Log.final.out:                        Uniquely mapped reads % |	78.52%
+03_outputs/02_STAR/221c_dw_8_Log.final.out:             % of reads mapped to multiple loci |	14.98%
+03_outputs/02_STAR/221c_dw_8_Log.final.out:                 % of reads unmapped: too short |	6.49%
+03_outputs/02_STAR/223d_dw_8_Log.final.out:                        Uniquely mapped reads % |	59.57%
+03_outputs/02_STAR/223d_dw_8_Log.final.out:             % of reads mapped to multiple loci |	23.27%
+03_outputs/02_STAR/223d_dw_8_Log.final.out:                 % of reads unmapped: too short |	17.15%
+03_outputs/02_STAR/227c_dw_9_Log.final.out:                        Uniquely mapped reads % |	78.08%
+03_outputs/02_STAR/227c_dw_9_Log.final.out:             % of reads mapped to multiple loci |	15.44%
+03_outputs/02_STAR/227c_dw_9_Log.final.out:                 % of reads unmapped: too short |	6.48%
+03_outputs/02_STAR/228h_dw_11_Log.final.out:                        Uniquely mapped reads % |	80.61%
+03_outputs/02_STAR/228h_dw_11_Log.final.out:             % of reads mapped to multiple loci |	14.19%
+03_outputs/02_STAR/228h_dw_11_Log.final.out:                 % of reads unmapped: too short |	5.20%
+03_outputs/02_STAR/230d_dw_9_Log.final.out:                        Uniquely mapped reads % |	77.66%
+03_outputs/02_STAR/230d_dw_9_Log.final.out:             % of reads mapped to multiple loci |	14.15%
+03_outputs/02_STAR/230d_dw_9_Log.final.out:                 % of reads unmapped: too short |	8.19%
+03_outputs/02_STAR/232h_dw_12_Log.final.out:                        Uniquely mapped reads % |	80.91%
+03_outputs/02_STAR/232h_dw_12_Log.final.out:             % of reads mapped to multiple loci |	13.15%
+03_outputs/02_STAR/232h_dw_12_Log.final.out:                 % of reads unmapped: too short |	5.94%
+03_outputs/02_STAR/233c_dw_10_Log.final.out:                        Uniquely mapped reads % |	80.39%
+03_outputs/02_STAR/233c_dw_10_Log.final.out:             % of reads mapped to multiple loci |	13.71%
+03_outputs/02_STAR/233c_dw_10_Log.final.out:                 % of reads unmapped: too short |	5.90%
+03_outputs/02_STAR/234d_dw_10_Log.final.out:                        Uniquely mapped reads % |	81.55%
+03_outputs/02_STAR/234d_dw_10_Log.final.out:             % of reads mapped to multiple loci |	12.74%
+03_outputs/02_STAR/234d_dw_10_Log.final.out:                 % of reads unmapped: too short |	5.71%
+03_outputs/02_STAR/237c_dw_11_Log.final.out:                        Uniquely mapped reads % |	78.74%
+03_outputs/02_STAR/237c_dw_11_Log.final.out:             % of reads mapped to multiple loci |	14.07%
+03_outputs/02_STAR/237c_dw_11_Log.final.out:                 % of reads unmapped: too short |	7.19%
+03_outputs/02_STAR/239c_dw_12_Log.final.out:                        Uniquely mapped reads % |	80.71%
+03_outputs/02_STAR/239c_dw_12_Log.final.out:             % of reads mapped to multiple loci |	14.37%
+03_outputs/02_STAR/239c_dw_12_Log.final.out:                 % of reads unmapped: too short |	4.92%
+03_outputs/02_STAR/240d_dw_11_Log.final.out:                        Uniquely mapped reads % |	65.58%
+03_outputs/02_STAR/240d_dw_11_Log.final.out:             % of reads mapped to multiple loci |	16.57%
+03_outputs/02_STAR/240d_dw_11_Log.final.out:                 % of reads unmapped: too short |	17.85%
+03_outputs/02_STAR/25c_ww_5_Log.final.out:                        Uniquely mapped reads % |	72.49%
+03_outputs/02_STAR/25c_ww_5_Log.final.out:             % of reads mapped to multiple loci |	23.92%
+03_outputs/02_STAR/25c_ww_5_Log.final.out:                 % of reads unmapped: too short |	3.59%
+03_outputs/02_STAR/27d_ww_4_Log.final.out:                        Uniquely mapped reads % |	75.43%
+03_outputs/02_STAR/27d_ww_4_Log.final.out:             % of reads mapped to multiple loci |	21.33%
+03_outputs/02_STAR/27d_ww_4_Log.final.out:                 % of reads unmapped: too short |	3.24%
+03_outputs/02_STAR/28h_ww_4_Log.final.out:                        Uniquely mapped reads % |	73.70%
+03_outputs/02_STAR/28h_ww_4_Log.final.out:             % of reads mapped to multiple loci |	22.92%
+03_outputs/02_STAR/28h_ww_4_Log.final.out:                 % of reads unmapped: too short |	3.38%
+03_outputs/02_STAR/29d_ww_5_Log.final.out:                        Uniquely mapped reads % |	72.30%
+03_outputs/02_STAR/29d_ww_5_Log.final.out:             % of reads mapped to multiple loci |	24.32%
+03_outputs/02_STAR/29d_ww_5_Log.final.out:                 % of reads unmapped: too short |	3.38%
+03_outputs/02_STAR/31c_ww_6_Log.final.out:                        Uniquely mapped reads % |	73.44%
+03_outputs/02_STAR/31c_ww_6_Log.final.out:             % of reads mapped to multiple loci |	23.16%
+03_outputs/02_STAR/31c_ww_6_Log.final.out:                 % of reads unmapped: too short |	3.40%
+03_outputs/02_STAR/32h_ww_5_Log.final.out:                        Uniquely mapped reads % |	78.69%
+03_outputs/02_STAR/32h_ww_5_Log.final.out:             % of reads mapped to multiple loci |	17.99%
+03_outputs/02_STAR/32h_ww_5_Log.final.out:                 % of reads unmapped: too short |	3.31%
+03_outputs/02_STAR/33h_ww_6_Log.final.out:                        Uniquely mapped reads % |	77.81%
+03_outputs/02_STAR/33h_ww_6_Log.final.out:             % of reads mapped to multiple loci |	19.11%
+03_outputs/02_STAR/33h_ww_6_Log.final.out:                 % of reads unmapped: too short |	3.08%
+03_outputs/02_STAR/34c_ww_7_Log.final.out:                        Uniquely mapped reads % |	77.60%
+03_outputs/02_STAR/34c_ww_7_Log.final.out:             % of reads mapped to multiple loci |	19.23%
+03_outputs/02_STAR/34c_ww_7_Log.final.out:                 % of reads unmapped: too short |	3.17%
+03_outputs/02_STAR/37c_ww_8_Log.final.out:                        Uniquely mapped reads % |	80.55%
+03_outputs/02_STAR/37c_ww_8_Log.final.out:             % of reads mapped to multiple loci |	16.15%
+03_outputs/02_STAR/37c_ww_8_Log.final.out:                 % of reads unmapped: too short |	3.29%
+03_outputs/02_STAR/38h_ww_7_Log.final.out:                        Uniquely mapped reads % |	79.47%
+03_outputs/02_STAR/38h_ww_7_Log.final.out:             % of reads mapped to multiple loci |	17.38%
+03_outputs/02_STAR/38h_ww_7_Log.final.out:                 % of reads unmapped: too short |	3.15%
+03_outputs/02_STAR/39h_ww_8_Log.final.out:                        Uniquely mapped reads % |	78.43%
+03_outputs/02_STAR/39h_ww_8_Log.final.out:             % of reads mapped to multiple loci |	18.42%
+03_outputs/02_STAR/39h_ww_8_Log.final.out:                 % of reads unmapped: too short |	3.15%
+03_outputs/02_STAR/41c_ww_9_Log.final.out:                        Uniquely mapped reads % |	76.29%
+03_outputs/02_STAR/41c_ww_9_Log.final.out:             % of reads mapped to multiple loci |	20.43%
+03_outputs/02_STAR/41c_ww_9_Log.final.out:                 % of reads unmapped: too short |	3.28%
+03_outputs/02_STAR/42d_ww_6_Log.final.out:                        Uniquely mapped reads % |	73.34%
+03_outputs/02_STAR/42d_ww_6_Log.final.out:             % of reads mapped to multiple loci |	23.29%
+03_outputs/02_STAR/42d_ww_6_Log.final.out:                 % of reads unmapped: too short |	3.37%
+03_outputs/02_STAR/43d_ww_7_Log.final.out:                        Uniquely mapped reads % |	75.51%
+03_outputs/02_STAR/43d_ww_7_Log.final.out:             % of reads mapped to multiple loci |	21.13%
+03_outputs/02_STAR/43d_ww_7_Log.final.out:                 % of reads unmapped: too short |	3.36%
+03_outputs/02_STAR/46d_ww_8_Log.final.out:                        Uniquely mapped reads % |	80.92%
+03_outputs/02_STAR/46d_ww_8_Log.final.out:             % of reads mapped to multiple loci |	16.11%
+03_outputs/02_STAR/46d_ww_8_Log.final.out:                 % of reads unmapped: too short |	2.97%
+03_outputs/02_STAR/47c_ww_10_Log.final.out:                        Uniquely mapped reads % |	79.52%
+03_outputs/02_STAR/47c_ww_10_Log.final.out:             % of reads mapped to multiple loci |	17.35%
+03_outputs/02_STAR/47c_ww_10_Log.final.out:                 % of reads unmapped: too short |	3.14%
+03_outputs/02_STAR/49h_ww_9_Log.final.out:                        Uniquely mapped reads % |	80.71%
+03_outputs/02_STAR/49h_ww_9_Log.final.out:             % of reads mapped to multiple loci |	16.24%
+03_outputs/02_STAR/49h_ww_9_Log.final.out:                 % of reads unmapped: too short |	3.04%
+03_outputs/02_STAR/50d_ww_9_Log.final.out:                        Uniquely mapped reads % |	79.37%
+03_outputs/02_STAR/50d_ww_9_Log.final.out:             % of reads mapped to multiple loci |	17.36%
+03_outputs/02_STAR/50d_ww_9_Log.final.out:                 % of reads unmapped: too short |	3.26%
+03_outputs/02_STAR/51h_ww_10_Log.final.out:                        Uniquely mapped reads % |	80.90%
+03_outputs/02_STAR/51h_ww_10_Log.final.out:             % of reads mapped to multiple loci |	15.93%
+03_outputs/02_STAR/51h_ww_10_Log.final.out:                 % of reads unmapped: too short |	3.17%
+03_outputs/02_STAR/52c_ww_11_Log.final.out:                        Uniquely mapped reads % |	79.96%
+03_outputs/02_STAR/52c_ww_11_Log.final.out:             % of reads mapped to multiple loci |	16.80%
+03_outputs/02_STAR/52c_ww_11_Log.final.out:                 % of reads unmapped: too short |	3.24%
+03_outputs/02_STAR/53d_ww_10_Log.final.out:                        Uniquely mapped reads % |	71.05%
+03_outputs/02_STAR/53d_ww_10_Log.final.out:             % of reads mapped to multiple loci |	25.65%
+03_outputs/02_STAR/53d_ww_10_Log.final.out:                 % of reads unmapped: too short |	3.30%
+03_outputs/02_STAR/54d_ww_11_Log.final.out:                        Uniquely mapped reads % |	77.92%
+03_outputs/02_STAR/54d_ww_11_Log.final.out:             % of reads mapped to multiple loci |	18.71%
+03_outputs/02_STAR/54d_ww_11_Log.final.out:                 % of reads unmapped: too short |	3.36%
+03_outputs/02_STAR/56c_ww_12_Log.final.out:                        Uniquely mapped reads % |	82.66%
+03_outputs/02_STAR/56c_ww_12_Log.final.out:             % of reads mapped to multiple loci |	14.55%
+03_outputs/02_STAR/56c_ww_12_Log.final.out:                 % of reads unmapped: too short |	2.79%
+03_outputs/02_STAR/58d_ww_12_Log.final.out:                        Uniquely mapped reads % |	81.13%
+03_outputs/02_STAR/58d_ww_12_Log.final.out:             % of reads mapped to multiple loci |	16.04%
+03_outputs/02_STAR/58d_ww_12_Log.final.out:                 % of reads unmapped: too short |	2.83%
+03_outputs/02_STAR/59h_ww_11_Log.final.out:                        Uniquely mapped reads % |	79.10%
+03_outputs/02_STAR/59h_ww_11_Log.final.out:             % of reads mapped to multiple loci |	17.84%
+03_outputs/02_STAR/59h_ww_11_Log.final.out:                 % of reads unmapped: too short |	3.05%
+03_outputs/02_STAR/5d_ww_1_Log.final.out:                        Uniquely mapped reads % |	78.58%
+03_outputs/02_STAR/5d_ww_1_Log.final.out:             % of reads mapped to multiple loci |	18.13%
+03_outputs/02_STAR/5d_ww_1_Log.final.out:                 % of reads unmapped: too short |	3.29%
+03_outputs/02_STAR/62bc_dw_13_Log.final.out:                        Uniquely mapped reads % |	79.45%
+03_outputs/02_STAR/62bc_dw_13_Log.final.out:             % of reads mapped to multiple loci |	14.14%
+03_outputs/02_STAR/62bc_dw_13_Log.final.out:                 % of reads unmapped: too short |	6.41%
+03_outputs/02_STAR/62h_dw_1_Log.final.out:                        Uniquely mapped reads % |	81.37%
+03_outputs/02_STAR/62h_dw_1_Log.final.out:             % of reads mapped to multiple loci |	15.56%
+03_outputs/02_STAR/62h_dw_1_Log.final.out:                 % of reads unmapped: too short |	3.07%
+03_outputs/02_STAR/63c_dw_1_Log.final.out:                        Uniquely mapped reads % |	80.63%
+03_outputs/02_STAR/63c_dw_1_Log.final.out:             % of reads mapped to multiple loci |	16.19%
+03_outputs/02_STAR/63c_dw_1_Log.final.out:                 % of reads unmapped: too short |	3.17%
+03_outputs/02_STAR/65c_dw_2_Log.final.out:                        Uniquely mapped reads % |	82.71%
+03_outputs/02_STAR/65c_dw_2_Log.final.out:             % of reads mapped to multiple loci |	14.28%
+03_outputs/02_STAR/65c_dw_2_Log.final.out:                 % of reads unmapped: too short |	3.02%
+03_outputs/02_STAR/66h_dw_2_Log.final.out:                        Uniquely mapped reads % |	83.66%
+03_outputs/02_STAR/66h_dw_2_Log.final.out:             % of reads mapped to multiple loci |	13.43%
+03_outputs/02_STAR/66h_dw_2_Log.final.out:                 % of reads unmapped: too short |	2.91%
+03_outputs/02_STAR/67h_dw_3_Log.final.out:                        Uniquely mapped reads % |	78.85%
+03_outputs/02_STAR/67h_dw_3_Log.final.out:             % of reads mapped to multiple loci |	17.96%
+03_outputs/02_STAR/67h_dw_3_Log.final.out:                 % of reads unmapped: too short |	3.19%
+03_outputs/02_STAR/68d_dw_1_Log.final.out:                        Uniquely mapped reads % |	82.39%
+03_outputs/02_STAR/68d_dw_1_Log.final.out:             % of reads mapped to multiple loci |	14.50%
+03_outputs/02_STAR/68d_dw_1_Log.final.out:                 % of reads unmapped: too short |	3.11%
+03_outputs/02_STAR/6h_ww_1_Log.final.out:                        Uniquely mapped reads % |	74.92%
+03_outputs/02_STAR/6h_ww_1_Log.final.out:             % of reads mapped to multiple loci |	21.87%
+03_outputs/02_STAR/6h_ww_1_Log.final.out:                 % of reads unmapped: too short |	3.21%
+03_outputs/02_STAR/71bc_dw_12_Log.final.out:                        Uniquely mapped reads % |	80.50%
+03_outputs/02_STAR/71bc_dw_12_Log.final.out:             % of reads mapped to multiple loci |	13.97%
+03_outputs/02_STAR/71bc_dw_12_Log.final.out:                 % of reads unmapped: too short |	5.53%
+03_outputs/02_STAR/71c_dw_3_Log.final.out:                        Uniquely mapped reads % |	81.42%
+03_outputs/02_STAR/71c_dw_3_Log.final.out:             % of reads mapped to multiple loci |	15.57%
+03_outputs/02_STAR/71c_dw_3_Log.final.out:                 % of reads unmapped: too short |	3.01%
+03_outputs/02_STAR/72d_dw_2_Log.final.out:                        Uniquely mapped reads % |	80.93%
+03_outputs/02_STAR/72d_dw_2_Log.final.out:             % of reads mapped to multiple loci |	15.94%
+03_outputs/02_STAR/72d_dw_2_Log.final.out:                 % of reads unmapped: too short |	3.12%
+03_outputs/02_STAR/73c_dw_4_Log.final.out:                        Uniquely mapped reads % |	81.82%
+03_outputs/02_STAR/73c_dw_4_Log.final.out:             % of reads mapped to multiple loci |	15.41%
+03_outputs/02_STAR/73c_dw_4_Log.final.out:                 % of reads unmapped: too short |	2.77%
+03_outputs/02_STAR/74h_dw_4_Log.final.out:                        Uniquely mapped reads % |	81.74%
+03_outputs/02_STAR/74h_dw_4_Log.final.out:             % of reads mapped to multiple loci |	15.27%
+03_outputs/02_STAR/74h_dw_4_Log.final.out:                 % of reads unmapped: too short |	2.99%
+03_outputs/02_STAR/75d_dw_3_Log.final.out:                        Uniquely mapped reads % |	81.10%
+03_outputs/02_STAR/75d_dw_3_Log.final.out:             % of reads mapped to multiple loci |	15.63%
+03_outputs/02_STAR/75d_dw_3_Log.final.out:                 % of reads unmapped: too short |	3.26%
+03_outputs/02_STAR/76c_dw_5_Log.final.out:                        Uniquely mapped reads % |	79.20%
+03_outputs/02_STAR/76c_dw_5_Log.final.out:             % of reads mapped to multiple loci |	17.50%
+03_outputs/02_STAR/76c_dw_5_Log.final.out:                 % of reads unmapped: too short |	3.30%
+03_outputs/02_STAR/79h_dw_5_Log.final.out:                        Uniquely mapped reads % |	82.38%
+03_outputs/02_STAR/79h_dw_5_Log.final.out:             % of reads mapped to multiple loci |	14.84%
+03_outputs/02_STAR/79h_dw_5_Log.final.out:                 % of reads unmapped: too short |	2.78%
+03_outputs/02_STAR/7d_ww_2_Log.final.out:                        Uniquely mapped reads % |	71.94%
+03_outputs/02_STAR/7d_ww_2_Log.final.out:             % of reads mapped to multiple loci |	24.73%
+03_outputs/02_STAR/7d_ww_2_Log.final.out:                 % of reads unmapped: too short |	3.32%
+03_outputs/02_STAR/80c_dw_6_Log.final.out:                        Uniquely mapped reads % |	80.74%
+03_outputs/02_STAR/80c_dw_6_Log.final.out:             % of reads mapped to multiple loci |	16.18%
+03_outputs/02_STAR/80c_dw_6_Log.final.out:                 % of reads unmapped: too short |	3.08%
+03_outputs/02_STAR/83h_dw_6_Log.final.out:                        Uniquely mapped reads % |	81.43%
+03_outputs/02_STAR/83h_dw_6_Log.final.out:             % of reads mapped to multiple loci |	15.69%
+03_outputs/02_STAR/83h_dw_6_Log.final.out:                 % of reads unmapped: too short |	2.88%
+03_outputs/02_STAR/84h_dw_7_Log.final.out:                        Uniquely mapped reads % |	81.65%
+03_outputs/02_STAR/84h_dw_7_Log.final.out:             % of reads mapped to multiple loci |	15.30%
+03_outputs/02_STAR/84h_dw_7_Log.final.out:                 % of reads unmapped: too short |	3.05%
+03_outputs/02_STAR/87d_dw_4_Log.final.out:                        Uniquely mapped reads % |	82.09%
+03_outputs/02_STAR/87d_dw_4_Log.final.out:             % of reads mapped to multiple loci |	14.80%
+03_outputs/02_STAR/87d_dw_4_Log.final.out:                 % of reads unmapped: too short |	3.11%
+03_outputs/02_STAR/8c_ww_2_Log.final.out:                        Uniquely mapped reads % |	76.22%
+03_outputs/02_STAR/8c_ww_2_Log.final.out:             % of reads mapped to multiple loci |	20.56%
+03_outputs/02_STAR/8c_ww_2_Log.final.out:                 % of reads unmapped: too short |	3.22%
+03_outputs/02_STAR/90h_dw_8_Log.final.out:                        Uniquely mapped reads % |	82.50%
+03_outputs/02_STAR/90h_dw_8_Log.final.out:             % of reads mapped to multiple loci |	14.56%
+03_outputs/02_STAR/90h_dw_8_Log.final.out:                 % of reads unmapped: too short |	2.93%
+03_outputs/02_STAR/93d_dw_5_Log.final.out:                        Uniquely mapped reads % |	81.71%
+03_outputs/02_STAR/93d_dw_5_Log.final.out:             % of reads mapped to multiple loci |	15.30%
+03_outputs/02_STAR/93d_dw_5_Log.final.out:                 % of reads unmapped: too short |	2.99%
+03_outputs/02_STAR/94c_dw_7_Log.final.out:                        Uniquely mapped reads % |	81.14%
+03_outputs/02_STAR/94c_dw_7_Log.final.out:             % of reads mapped to multiple loci |	16.01%
+03_outputs/02_STAR/94c_dw_7_Log.final.out:                 % of reads unmapped: too short |	2.84%
+03_outputs/02_STAR/95d_dw_6_Log.final.out:                        Uniquely mapped reads % |	80.83%
+03_outputs/02_STAR/95d_dw_6_Log.final.out:             % of reads mapped to multiple loci |	16.20%
+03_outputs/02_STAR/95d_dw_6_Log.final.out:                 % of reads unmapped: too short |	2.96%
+03_outputs/02_STAR/96d_dw_7_Log.final.out:                        Uniquely mapped reads % |	82.68%
+03_outputs/02_STAR/96d_dw_7_Log.final.out:             % of reads mapped to multiple loci |	14.45%
+03_outputs/02_STAR/96d_dw_7_Log.final.out:                 % of reads unmapped: too short |	2.86%
+03_outputs/02_STAR/98d_dw_8_Log.final.out:                        Uniquely mapped reads % |	84.32%
+03_outputs/02_STAR/98d_dw_8_Log.final.out:             % of reads mapped to multiple loci |	12.93%
+03_outputs/02_STAR/98d_dw_8_Log.final.out:                 % of reads unmapped: too short |	2.75%
+03_outputs/02_STAR/9h_ww_2_Log.final.out:                        Uniquely mapped reads % |	79.78%
+03_outputs/02_STAR/9h_ww_2_Log.final.out:             % of reads mapped to multiple loci |	17.09%
+03_outputs/02_STAR/9h_ww_2_Log.final.out:                 % of reads unmapped: too short |	3.12%
+03_outputs/02_STAR/ct_t_r1_Log.final.out:                        Uniquely mapped reads % |	81.59%
+03_outputs/02_STAR/ct_t_r1_Log.final.out:             % of reads mapped to multiple loci |	15.81%
+03_outputs/02_STAR/ct_t_r1_Log.final.out:                 % of reads unmapped: too short |	2.60%
+03_outputs/02_STAR/ct_t_r2_Log.final.out:                        Uniquely mapped reads % |	78.24%
+03_outputs/02_STAR/ct_t_r2_Log.final.out:             % of reads mapped to multiple loci |	18.64%
+03_outputs/02_STAR/ct_t_r2_Log.final.out:                 % of reads unmapped: too short |	3.12%
+03_outputs/02_STAR/ct_t_r3_Log.final.out:                        Uniquely mapped reads % |	82.58%
+03_outputs/02_STAR/ct_t_r3_Log.final.out:             % of reads mapped to multiple loci |	14.24%
+03_outputs/02_STAR/ct_t_r3_Log.final.out:                 % of reads unmapped: too short |	3.18%
+03_outputs/02_STAR/ct_t_r4_Log.final.out:                        Uniquely mapped reads % |	82.64%
+03_outputs/02_STAR/ct_t_r4_Log.final.out:             % of reads mapped to multiple loci |	14.35%
+03_outputs/02_STAR/ct_t_r4_Log.final.out:                 % of reads unmapped: too short |	3.01%
+03_outputs/02_STAR/ct_ut_r1_Log.final.out:                        Uniquely mapped reads % |	77.43%
+03_outputs/02_STAR/ct_ut_r1_Log.final.out:             % of reads mapped to multiple loci |	18.90%
+03_outputs/02_STAR/ct_ut_r1_Log.final.out:                 % of reads unmapped: too short |	3.66%
+03_outputs/02_STAR/ct_ut_r2_Log.final.out:                        Uniquely mapped reads % |	77.11%
+03_outputs/02_STAR/ct_ut_r2_Log.final.out:             % of reads mapped to multiple loci |	19.61%
+03_outputs/02_STAR/ct_ut_r2_Log.final.out:                 % of reads unmapped: too short |	3.29%
+03_outputs/02_STAR/ct_ut_r3_Log.final.out:                        Uniquely mapped reads % |	80.28%
+03_outputs/02_STAR/ct_ut_r3_Log.final.out:             % of reads mapped to multiple loci |	16.53%
+03_outputs/02_STAR/ct_ut_r3_Log.final.out:                 % of reads unmapped: too short |	3.20%
+03_outputs/02_STAR/ct_ut_r4_Log.final.out:                        Uniquely mapped reads % |	78.49%
+03_outputs/02_STAR/ct_ut_r4_Log.final.out:             % of reads mapped to multiple loci |	18.45%
+03_outputs/02_STAR/ct_ut_r4_Log.final.out:                 % of reads unmapped: too short |	3.06%
+03_outputs/02_STAR/ct_ut_r5_Log.final.out:                        Uniquely mapped reads % |	82.33%
+03_outputs/02_STAR/ct_ut_r5_Log.final.out:             % of reads mapped to multiple loci |	14.89%
+03_outputs/02_STAR/ct_ut_r5_Log.final.out:                 % of reads unmapped: too short |	2.78%
+03_outputs/02_STAR/dt_t_r1_Log.final.out:                        Uniquely mapped reads % |	83.68%
+03_outputs/02_STAR/dt_t_r1_Log.final.out:             % of reads mapped to multiple loci |	13.85%
+03_outputs/02_STAR/dt_t_r1_Log.final.out:                 % of reads unmapped: too short |	2.46%
+03_outputs/02_STAR/dt_t_r2_Log.final.out:                        Uniquely mapped reads % |	82.61%
+03_outputs/02_STAR/dt_t_r2_Log.final.out:             % of reads mapped to multiple loci |	14.50%
+03_outputs/02_STAR/dt_t_r2_Log.final.out:                 % of reads unmapped: too short |	2.89%
+03_outputs/02_STAR/dt_t_r3_Log.final.out:                        Uniquely mapped reads % |	83.46%
+03_outputs/02_STAR/dt_t_r3_Log.final.out:             % of reads mapped to multiple loci |	13.44%
+03_outputs/02_STAR/dt_t_r3_Log.final.out:                 % of reads unmapped: too short |	3.09%
+03_outputs/02_STAR/dt_t_r4_Log.final.out:                        Uniquely mapped reads % |	82.15%
+03_outputs/02_STAR/dt_t_r4_Log.final.out:             % of reads mapped to multiple loci |	15.08%
+03_outputs/02_STAR/dt_t_r4_Log.final.out:                 % of reads unmapped: too short |	2.77%
+03_outputs/02_STAR/dt_t_r5_Log.final.out:                        Uniquely mapped reads % |	81.91%
+03_outputs/02_STAR/dt_t_r5_Log.final.out:             % of reads mapped to multiple loci |	15.22%
+03_outputs/02_STAR/dt_t_r5_Log.final.out:                 % of reads unmapped: too short |	2.87%
+03_outputs/02_STAR/dt_t_r6_Log.final.out:                        Uniquely mapped reads % |	83.10%
+03_outputs/02_STAR/dt_t_r6_Log.final.out:             % of reads mapped to multiple loci |	13.89%
+03_outputs/02_STAR/dt_t_r6_Log.final.out:                 % of reads unmapped: too short |	3.01%
+03_outputs/02_STAR/dt_ut_r1_Log.final.out:                        Uniquely mapped reads % |	78.88%
+03_outputs/02_STAR/dt_ut_r1_Log.final.out:             % of reads mapped to multiple loci |	17.83%
+03_outputs/02_STAR/dt_ut_r1_Log.final.out:                 % of reads unmapped: too short |	3.28%
+03_outputs/02_STAR/dt_ut_r2_Log.final.out:                        Uniquely mapped reads % |	80.88%
+03_outputs/02_STAR/dt_ut_r2_Log.final.out:             % of reads mapped to multiple loci |	16.10%
+03_outputs/02_STAR/dt_ut_r2_Log.final.out:                 % of reads unmapped: too short |	3.02%
+03_outputs/02_STAR/dt_ut_r3_Log.final.out:                        Uniquely mapped reads % |	79.36%
+03_outputs/02_STAR/dt_ut_r3_Log.final.out:             % of reads mapped to multiple loci |	17.08%
+03_outputs/02_STAR/dt_ut_r3_Log.final.out:                 % of reads unmapped: too short |	3.56%
+03_outputs/02_STAR/dt_ut_r4_Log.final.out:                        Uniquely mapped reads % |	82.67%
+03_outputs/02_STAR/dt_ut_r4_Log.final.out:             % of reads mapped to multiple loci |	14.28%
+03_outputs/02_STAR/dt_ut_r4_Log.final.out:                 % of reads unmapped: too short |	3.05%
+03_outputs/02_STAR/dt_ut_r5_Log.final.out:                        Uniquely mapped reads % |	80.70%
+03_outputs/02_STAR/dt_ut_r5_Log.final.out:             % of reads mapped to multiple loci |	16.11%
+03_outputs/02_STAR/dt_ut_r5_Log.final.out:                 % of reads unmapped: too short |	3.18%
+03_outputs/02_STAR/dt_ut_r6_Log.final.out:                        Uniquely mapped reads % |	79.41%
+03_outputs/02_STAR/dt_ut_r6_Log.final.out:             % of reads mapped to multiple loci |	17.51%
+03_outputs/02_STAR/dt_ut_r6_Log.final.out:                 % of reads unmapped: too short |	3.07%
+03_outputs/02_STAR/hr_t_r1_Log.final.out:                        Uniquely mapped reads % |	84.12%
+03_outputs/02_STAR/hr_t_r1_Log.final.out:             % of reads mapped to multiple loci |	13.12%
+03_outputs/02_STAR/hr_t_r1_Log.final.out:                 % of reads unmapped: too short |	2.76%
+03_outputs/02_STAR/hr_t_r2_Log.final.out:                        Uniquely mapped reads % |	84.12%
+03_outputs/02_STAR/hr_t_r2_Log.final.out:             % of reads mapped to multiple loci |	13.33%
+03_outputs/02_STAR/hr_t_r2_Log.final.out:                 % of reads unmapped: too short |	2.55%
+03_outputs/02_STAR/hr_t_r3_Log.final.out:                        Uniquely mapped reads % |	78.19%
+03_outputs/02_STAR/hr_t_r3_Log.final.out:             % of reads mapped to multiple loci |	18.57%
+03_outputs/02_STAR/hr_t_r3_Log.final.out:                 % of reads unmapped: too short |	3.24%
+03_outputs/02_STAR/hr_t_r4_Log.final.out:                        Uniquely mapped reads % |	83.54%
+03_outputs/02_STAR/hr_t_r4_Log.final.out:             % of reads mapped to multiple loci |	13.53%
+03_outputs/02_STAR/hr_t_r4_Log.final.out:                 % of reads unmapped: too short |	2.92%
+03_outputs/02_STAR/hr_t_r5_Log.final.out:                        Uniquely mapped reads % |	82.75%
+03_outputs/02_STAR/hr_t_r5_Log.final.out:             % of reads mapped to multiple loci |	14.29%
+03_outputs/02_STAR/hr_t_r5_Log.final.out:                 % of reads unmapped: too short |	2.95%
+03_outputs/02_STAR/hr_t_r6_Log.final.out:                        Uniquely mapped reads % |	79.29%
+03_outputs/02_STAR/hr_t_r6_Log.final.out:             % of reads mapped to multiple loci |	17.80%
+03_outputs/02_STAR/hr_t_r6_Log.final.out:                 % of reads unmapped: too short |	2.92%
+03_outputs/02_STAR/hr_ut_r1_Log.final.out:                        Uniquely mapped reads % |	81.35%
+03_outputs/02_STAR/hr_ut_r1_Log.final.out:             % of reads mapped to multiple loci |	15.88%
+03_outputs/02_STAR/hr_ut_r1_Log.final.out:                 % of reads unmapped: too short |	2.77%
+03_outputs/02_STAR/hr_ut_r2_Log.final.out:                        Uniquely mapped reads % |	82.26%
+03_outputs/02_STAR/hr_ut_r2_Log.final.out:             % of reads mapped to multiple loci |	14.73%
+03_outputs/02_STAR/hr_ut_r2_Log.final.out:                 % of reads unmapped: too short |	3.01%
+03_outputs/02_STAR/hr_ut_r3_Log.final.out:                        Uniquely mapped reads % |	77.88%
+03_outputs/02_STAR/hr_ut_r3_Log.final.out:             % of reads mapped to multiple loci |	18.48%
+03_outputs/02_STAR/hr_ut_r3_Log.final.out:                 % of reads unmapped: too short |	3.64%
+03_outputs/02_STAR/hr_ut_r4_Log.final.out:                        Uniquely mapped reads % |	75.73%
+03_outputs/02_STAR/hr_ut_r4_Log.final.out:             % of reads mapped to multiple loci |	20.90%
+03_outputs/02_STAR/hr_ut_r4_Log.final.out:                 % of reads unmapped: too short |	3.37%
+03_outputs/02_STAR/hr_ut_r5_Log.final.out:                        Uniquely mapped reads % |	81.65%
+03_outputs/02_STAR/hr_ut_r5_Log.final.out:             % of reads mapped to multiple loci |	15.06%
+03_outputs/02_STAR/hr_ut_r5_Log.final.out:                 % of reads unmapped: too short |	3.29%
+03_outputs/02_STAR/hr_ut_r6_Log.final.out:                        Uniquely mapped reads % |	83.31%
+03_outputs/02_STAR/hr_ut_r6_Log.final.out:             % of reads mapped to multiple loci |	14.02%
+03_outputs/02_STAR/hr_ut_r6_Log.final.out:                 % of reads unmapped: too short |	2.67%

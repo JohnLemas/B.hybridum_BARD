@@ -1,0 +1,12 @@
+Processing Sample: 72d_dw_2 (Array ID: 76)
+	STAR --runThreadN 8 --genomeDir /mnt/scratch/lemasjoh/B.hybridum/01_inputs/B.hyb_indexed --readFilesIn /mnt/scratch/lemasjoh/B.hybridum/03_outputs/01_fastp/72d_dw_2_trim.fastq.gz --readFilesCommand zcat --outFileNamePrefix /mnt/scratch/lemasjoh/B.hybridum/03_outputs/02_STAR/72d_dw_2_ --outSAMtype BAM SortedByCoordinate --outFilterMultimapNmax 20 --winAnchorMultimapNmax 100 --outFilterMismatchNmax 14 --outFilterIntronMotifs RemoveNoncanonicalUnannotated --outFilterMismatchNoverLmax 0.05 --outSAMattributes NH HI NM MD
+	STAR version: 2.7.11b   compiled: 2024-07-18T13:18:20-04:00 dev-intel14:/tmp/panchyni/easybuild/easybuild/build/STAR/2.7.11b/GCC-13.2.0/STAR-2.7.11b/source
+Oct 27 10:22:30 ..... started STAR run
+Oct 27 10:22:30 ..... loading genome
+Oct 27 10:22:34 ..... started mapping
+Oct 27 10:27:39 ..... finished mapping
+Oct 27 10:27:40 ..... started sorting BAM
+Oct 27 10:28:42 ..... finished successfully
+Alignment for 72d_dw_2 complete.
+Indexing BAM for 72d_dw_2...
+Job for 72d_dw_2 finished successfully.
