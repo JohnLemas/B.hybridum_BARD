@@ -18,47 +18,59 @@ for (package in packages) {
 
 # Set the working directory:
 message(">>> setting working directory")
-setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/BARD_drought/RNA_seq")
+setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/B.hybridum_BARD")
+drt_out <- "03_outputs/04_DESeq2/Drought_results"
+if (!dir.exists(drt_out)) {
+  dir.create(drt_out, recursive = TRUE)
+}
 
 # ===========>------- Full dataset: design ~ gen + trt --------<=========== #
 
 # Import the counts data file
 message(">>> importing counts from featureCounts")
-countsData <- read.table(file = "03_outputs/03_featureCounts/counts.txt", header = FALSE, row.names = 1, skip = 2)
+countsData <- read.table(file = "03_outputs/03_featureCounts/counts_multi.txt", header = FALSE, row.names = 1, skip = 2)
 
 # Read in the metadata
 message(">>> importing metadata")
-metadata_full <- read.table(file = "01_inputs/BARD_drought_metadata.txt", header = TRUE)
-metadata_full <- metadata_full[,c("name1","name2","rep","date","batch","lineage","line","trt","plate")]
+metadata_full <- read.table(file = "01_inputs/B.hyb_metadata.txt", header = FALSE)
+
+# Add headers
+colnames(metadata_full) <- c("fasta1","name1")
 
 # Now add headers for the counts file. the final columns should be the samples in order from the metadata
-as.vector(metadata_full$name2)
-colnames(countsData) <- c("chr", "start", "stop", "strand", "length", as.vector(metadata_full$name2))
+as.vector(metadata_full$name1)
+colnames(countsData) <- c("chr", "start", "stop", "strand", "length", as.vector(metadata_full$name1))
 
 ################### COUNT MATRIX INPUT ###################
 # Subset the countsData for just the samples
-# dim() spits out rows first [1] and columns second [2]
+# The drought study has 144 samples, and they should be
+# the last 144 to feed into featureCounts.
 
 message(">>> generating cts and coldata")
+message(">>> subsetting full counts table to cts")
 
-countColNum <- dim(countsData)[2]
-
-head(countsData[,6:countColNum])
-dim(countsData[,6:countColNum])
+head(countsData[,39:182])
+dim(countsData[,39:182])
 
 # Ensure that this will capture all of the data!
-# We only want the sample names and the counts for each gene. Save just the subset as an object called cts:
-cts <- as.matrix(countsData[,6:countColNum])
+# We only want the sample names and the counts for each gene
+# Save just the subset as an object called cts:
+cts <- as.matrix(countsData[,39:182])
 
-# Used -M --fraction in featurecounts to deal with multimapping, so wee need to round the counts data to whole numbers
+# Used -M --fraction in featurecounts to deal with multimapping, 
+# so wee need to round the counts data to whole numbers
 cts <- round(cts)
 
+message(">>> done. generate coldata from pinoxaden experiment metadata..")
+
 # Row names and col names need to be identical between cts and metadata
-rownames(metadata_full) <- metadata_full$name2
+metadata <- read.table(file = "01_inputs/drought_metadata.txt", header = TRUE)
+
+rownames(metadata) <- metadata$name2
 
 # create DESeq2 input and designate factors
 # these variables can be used in plots later
-coldata <- metadata_full[,c("lineage","trt","rep", "date","batch","line","plate")]
+coldata <- metadata[,c("lineage","trt","rep", "date","batch","line","plate")]
 coldata$line <- as.factor(coldata$line)
 coldata$trt <- as.factor(coldata$trt)
 coldata$rep <- as.factor(coldata$rep)
@@ -68,22 +80,11 @@ coldata$date <- as.factor(coldata$date)
 coldata$plate <- as.factor(coldata$plate)
 str(coldata)
 
+message(">>> done. double check row names and col names..")
+
 # Double check that row names and column names are identical:
 rownames(coldata)
 colnames(cts)
-
-# pull samples with low mapping rates and low read depths
-# These samples were affecting dispersion estimates, and the
-# effect was directly linked to low read libraries and low
-# mapping rates. Removing them will result in more statistically
-# sound results.
-
-#message("ommiting low depth/low alignment samples:\n
-#        'hr_ut_r4', 'ct_ut_r1', 'hr_t_r3'")
-#low_depth_samples <- c("hr_ut_r4", "ct_ut_r1", "hr_t_r3")
-
-#coldata <- coldata[!rownames(coldata) %in% low_depth_samples, ]
-#cts     <- cts[, !colnames(cts) %in% low_depth_samples]
 
 # double check naming before building dds
 all(rownames(coldata) == colnames(cts))
@@ -91,10 +92,10 @@ all(rownames(coldata) == colnames(cts))
 message(">>> saving cts and coldata")
 
 # save these tables as resources in the GitHub repo
-write.table(coldata, file = "03_outputs/04_DESeq2/coldata.txt",
+write.table(coldata, file.path(drt_out, "coldata.txt"),
             quote = FALSE, sep = "\t", col.names = FALSE)
 
-write.table(cts, file = "03_outputs/04_DESeq2/cts.txt",
+write.table(cts, file = file.path(drt_out, "cts.txt"),
             quote = FALSE, sep = "\t")
 
 # Building dds objects for full dataset and for interaction design
@@ -142,13 +143,13 @@ message(">>> performing full analysis")
 dds_full <- DESeq(dds_full)
 
 # Save the main dds object
-saveRDS(dds_full, file = "03_outputs/04_DESeq2/dds_full.rds")
+saveRDS(dds_full, file = file.path(drt_out, "dds_full.rds"))
 
 message(">>> performing interaction analysis")
 dds_int <- DESeq(dds_int)
 
 # Save the interaction dds object
-saveRDS(dds_int, file = "03_outputs/04_DESeq2/dds_int.rds")
+saveRDS(dds_int, file = file.path(drt_out, "dds_int.rds"))
 
 # ===========>------- Generating Results --------<=========== #
 
@@ -179,11 +180,11 @@ sig_trt_all <- sig_trt_all[order(sig_trt_all$padj), ]
 print(sig_trt_all)
 
 # save them
-write.table(sig_trt_all, file = "03_outputs/04_DESeq2/sig_trt_all.txt", 
+write.table(sig_trt_all, file = file.path(drt_out, "sig_trt_all.txt"), 
             quote = FALSE, sep = "\t")
 
 # Save the full results object
-saveRDS(res_trt, file = "03_outputs/04_DESeq2/res_trt.rds")
+saveRDS(res_trt, file = file.path(drt_out, "res_trt.rds"))
 
 # --------<======= Drought Stressed Lines ==========>---------- #
 
@@ -225,7 +226,7 @@ sig_drt_genes <- sig_drt_genes[order(sig_drt_genes$padj), ]
 print(sig_drt_genes)
 
 # save them
-write.table(sig_drt_genes, file = "03_outputs/04_DESeq2/sig_drt_genes.txt", 
+write.table(sig_drt_genes, file = file.path(drt_out, "sig_drt_genes.txt"), 
             quote = FALSE, sep = "\t")
 
 # -------<======= Herbicide Stressed Lines ========>-------- #
@@ -258,7 +259,7 @@ sig_herb_genes <- sig_herb_genes[order(sig_herb_genes$padj), ]
 print(sig_herb_genes)
 
 # save them
-write.table(sig_herb_genes, file = "03_outputs/04_DESeq2/sig_herb_genes.txt", 
+write.table(sig_herb_genes, file = file.path(drt_out, "sig_herb_genes.txt"), 
             quote = FALSE, sep = "\t")
 
 # -------<======= Within-lineage treatment response ========>-------- #
@@ -291,7 +292,7 @@ sig_trt_drt <- sig_trt_drt[order(sig_trt_drt$padj), ]
 print(sig_trt_drt)
 
 # save them
-write.table(sig_trt_drt, file = "03_outputs/04_DESeq2/sig_trt_drt.txt",
+write.table(sig_trt_drt, file = file.path(drt_out, "sig_trt_drt.txt"),
             quote = FALSE, sep = "\t")
 
 message(">>> generating within-lineage treatment response for herbicide lineage")
@@ -322,15 +323,15 @@ sig_trt_hrb <- sig_trt_hrb[order(sig_trt_hrb$padj), ]
 print(sig_trt_hrb)
 
 # save them
-write.table(sig_trt_hrb, file = "03_outputs/04_DESeq2/sig_trt_hrb.txt", 
+write.table(sig_trt_hrb, file = file.path(drt_out, "sig_trt_hrb.txt"), 
             quote = FALSE, sep = "\t")
 
 
 # Save the subset results objects
 message(">>> saving results objects")
 
-saveRDS(resLFC_interaction_hrb, file = "03_outputs/04_DESeq2/resLFC_interaction_hrb.rds")
-saveRDS(resLFC_interaction_drt, file = "03_outputs/04_DESeq2/resLFC_interaction_drt.rds")
-saveRDS(resLFC_trt_drt, file = "03_outputs/04_DESeq2/resLFC_trt_drt.rds")
-saveRDS(resLFC_trt_hrb, file = "03_outputs/04_DESeq2/resLFC_trt_hrb.rds")
+saveRDS(resLFC_interaction_hrb, file = file.path(drt_out, "resLFC_interaction_hrb.rds"))
+saveRDS(resLFC_interaction_drt, file = file.path(drt_out, "resLFC_interaction_drt.rds"))
+saveRDS(resLFC_trt_drt, file = file.path(drt_out, "resLFC_trt_drt.rds"))
+saveRDS(resLFC_trt_hrb, file = file.path(drt_out, "resLFC_trt_hrb.rds"))
 message(">>> DESeq2 analysis complete")
