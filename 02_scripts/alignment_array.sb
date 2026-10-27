@@ -1,0 +1,51 @@
+#!/bin/bash --login
+#SBATCH --job-name=align
+#SBATCH --array=1-177
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --output=/mnt/scratch/lemasjoh/B.hybridum/logs/align/%x-%a.SLURMout
+
+# 1. Paths and Sample Selection
+BASE="/mnt/scratch/lemasjoh/B.hybridum"
+DATA_DIR="${BASE}/03_outputs/01_fastp"
+INDEX_DIR="${BASE}/01_inputs/B.hyb_indexed"
+OUT_DIR="${BASE}/03_outputs/02_STAR"
+
+mkdir -p $OUT_DIR
+
+# Load all IDs into a Bash array (skipping the header "Name1")
+SAMPLES=($(cut -f2 ${BASE}/01_inputs/B.hyb_metadata.txt))
+
+# Slurm array is 1-based, Bash arrays are 0-based
+ID=${SAMPLES[$SLURM_ARRAY_TASK_ID-1]}
+
+echo "Processing Sample: $ID (Array ID: $SLURM_ARRAY_TASK_ID)"
+
+# 2. Run STAR
+ml purge
+ml load STAR/2.7.11b-GCC-13.2.0
+
+STAR --runThreadN 8 \
+     --genomeDir ${INDEX_DIR} \
+     --readFilesIn "${DATA_DIR}/${ID}_trim.fastq.gz" \
+     --readFilesCommand zcat \
+     --outFileNamePrefix "${OUT_DIR}/${ID}_" \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFilterMultimapNmax 20 \
+     --winAnchorMultimapNmax 100 \
+     --outFilterMismatchNmax 14 \
+     --outFilterIntronMotifs RemoveNoncanonicalUnannotated \
+     --outFilterMismatchNoverLmax 0.05 \
+     --outSAMattributes NH HI NM MD
+
+echo "Alignment for $ID complete."
+
+# 3. Index the BAM file
+ml purge
+ml load SAMtools/1.19.2-GCC-13.2.0
+
+echo "Indexing BAM for $ID..."
+samtools index "${OUT_DIR}/${ID}_Aligned.sortedByCoord.out.bam"
+
+echo "Job for $ID finished successfully."

@@ -1,0 +1,53 @@
+#!/bin/bash --login
+#SBATCH --job-name=B.hyb_Counts
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=01:30:00
+#SBATCH --output=/mnt/scratch/lemasjoh/B.hybridum/logs/%x-%j.out
+
+# 1. Paths
+BASE="/mnt/scratch/lemasjoh/B.hybridum"
+DATA_DIR="${BASE}/03_outputs/02_STAR"
+ANN="${BASE}/01_inputs/B.hyb_genes_ext1000bp.gff3"
+OUT_DIR="${BASE}/03_outputs/03_featureCounts"
+METADATA="${BASE}/01_inputs/B.hyb_metadata.txt"
+
+mkdir -p $OUT_DIR
+
+# 2. Build ordered BAM list
+BAM_LIST=()
+while IFS= read -r sample; do
+    bam="${DATA_DIR}/${sample}_Aligned.sortedByCoord.out.bam"
+    if [[ ! -f "$bam" ]]; then
+        echo "ERROR: BAM not found for sample '${sample}': ${bam}" >&2
+        exit 1
+    fi
+    BAM_LIST+=("$bam")
+done < <(awk -F'\t' '!seen[$2]++ {gsub(/\r/,"",$2); print $2}' "$METADATA")
+
+echo "Sample order passed to featureCounts:"
+printf '  %s\n' "${BAM_LIST[@]}"
+
+ml purge
+ml load Subread
+
+# 3. Run featureCounts
+echo "Running unique mapping.."
+
+featureCounts -T 8 \
+    -s 1 \
+    -F SAF -a "${BASE}/01_inputs/B.hyb_genes_ext1000bp.saf" \
+    -O --largestOverlap \
+    -o "${OUT_DIR}/counts_unique.txt" "${BAM_LIST[@]}"
+
+echo "unique mapping done. running multimapping"
+
+featureCounts -T 8 -s 1 \
+    -F SAF -a "${BASE}/01_inputs/B.hyb_genes_ext1000bp.saf" \
+    -M --fraction -O --largestOverlap \
+    -o "${OUT_DIR}/counts_multi.txt" "${BAM_LIST[@]}"
+
+echo "done."
+
+# Flags
+# -M --fraction: Handle multi-mapping reads by assigning fractional counts to all matching features

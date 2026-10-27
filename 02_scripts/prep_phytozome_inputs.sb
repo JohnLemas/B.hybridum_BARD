@@ -1,0 +1,144 @@
+#!/bin/bash --login
+#SBATCH --job-name=prep_phytozome
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
+#SBATCH --output=/mnt/scratch/lemasjoh/B.hybridum/logs/%x_%j.out
+#SBATCH --error=/mnt/scratch/lemasjoh/B.hybridum/logs/%x_%j.err
+
+# Clean the Phytozome B. distachyon v3.0 assembly + v3.2 annotation for QuantSeq:
+#   (a) STAR-ready GTF (AGAT builds the missing exon lines from CDS + UTR features)
+#   (b) 3'-extended gene models for featureCounts (GFF3 + SAF)
+
+set -euo pipefail
+export LC_ALL=C
+SCRIPT_VERSION="2026-10-25-r1"
+
+# ---------------- user settings ----------------
+BASE=/mnt/scratch/lemasjoh/B.hybridum
+FASTA_IN=$BASE/01_inputs/Bhybridum_463_v1.0.fa
+GFF_IN=$BASE/01_inputs/Bhybridum_463_v1.1.gene.gff3
+SPEC=B.hyb
+CHR_REGEX='^Bh[D,S][0-9]+$'      # seqids matching this are chromosomes; everything else is a scaffold
+KEEP_SCAFFOLDS=yes          # yes/no: keep scaffolds in assembly + annotation (yes = reads on them still count)
+EXT_BP=1000                 # 3' extension (strand-aware) for the featureCounts annotation
+# -----------------------------------------------
+
+module load AGAT
+module load SeqKit
+module load BEDTools
+
+OUT=$BASE/01_inputs                # deliverables
+TMP=$OUT/AGAT_phytozome            # intermediates / AGAT logs (AGAT writes into the cwd)
+mkdir -p "$TMP"
+cd "$TMP"
+
+[ -f "$FASTA_IN" ] && [ -f "$GFF_IN" ] || { echo "ERROR: input FASTA or GFF3 not found" >&2; exit 1; }
+echo "[$(date)] script version $SCRIPT_VERSION | KEEP_SCAFFOLDS=$KEEP_SCAFFOLDS | EXT_BP=$EXT_BP"
+echo "FASTA: $FASTA_IN"; echo "GFF:   $GFF_IN"
+
+# deliverables
+NUC_FA=$OUT/${SPEC}.genome.fa
+STAR_GTF=$OUT/${SPEC}.star.gtf
+EXT_GFF=$OUT/${SPEC}_genes_ext${EXT_BP}bp.gff3
+EXT_SAF=$OUT/${SPEC}_genes_ext${EXT_BP}bp.saf
+
+# awk helper: attr(attribute_column, key) -> value ("" if absent)
+ATTR_FN='function attr(s,k,  t,i,j){ t=";" s; i=index(t,";" k "="); if(!i) return ""; t=substr(t,i+length(k)+2); j=index(t,";"); return j ? substr(t,1,j-1) : t }'
+cnt () { awk -F'\t' -v t="$2" '!/^#/ && $3==t' "$1" | wc -l; }
+
+# ---------- 1. Classify sequences and decide which to keep ----------
+LENGTHS=$TMP/$SPEC.input_seq_lengths.tsv
+MAP=$TMP/$SPEC.seq_map.tsv         # id <tab> length <tab> chromosome|scaffold <tab> keep|drop
+seqkit fx2tab -n -l -i "$FASTA_IN" > "$LENGTHS"
+awk -F'\t' -v OFS='\t' -v re="$CHR_REGEX" -v ks="$KEEP_SCAFFOLDS" '
+  { cls = ($1 ~ re) ? "chromosome" : "scaffold";
+    keep = (cls=="chromosome" || ks=="yes");
+    print $1, $2, cls, (keep ? "keep" : "drop") }' "$LENGTHS" > "$MAP"
+echo "--- sequence classes (class, keep/drop) ---"; cut -f3,4 "$MAP" | sort | uniq -c
+[ "$(awk -F'\t' '$3=="chromosome"' "$MAP" | wc -l)" -gt 0 ] || { echo "ERROR: no chromosomes matched CHR_REGEX=$CHR_REGEX" >&2; exit 1; }
+
+# seqids used in the GFF but absent from the FASTA would silently break STAR
+MISSING=$(grep -v '^#' "$GFF_IN" | cut -f1 | sort -u | comm -23 - <(cut -f1 "$LENGTHS" | sort -u) | wc -l || true)
+echo "GFF seqids not in FASTA: $MISSING"
+[ "$MISSING" -eq 0 ] || echo "WARNING: GFF has sequence names missing from the FASTA" >&2
+
+# ---------- 2. Deliverable: assembly (kept sequences only) ----------
+awk -F'\t' 'NR==FNR{ if($4=="keep") m[$1]=1; next }
+     /^>/ { id=substr($1,2); keep=(id in m); if(keep) print ">" id; next }
+     keep { print }' "$MAP" "$FASTA_IN" > "$NUC_FA"
+SIZES=$TMP/$SPEC.chrom.sizes
+seqkit fx2tab -n -l -i "$NUC_FA" > "$SIZES"
+awk -F'\t' '{t+=$2} END{printf "assembly: %d sequences, %d bp\n", NR, t}' "$SIZES"
+
+# ---------- 3. Keep only annotation on kept sequences, then clean with AGAT ----------
+GFF_KEPT=$TMP/$SPEC.kept.gff3
+awk -F'\t' -v OFS='\t' 'NR==FNR{ if($4=="keep") m[$1]=1; next }
+     /^##gff-version/{print;next} /^#/{next}
+     ($1 in m){ print }' "$MAP" "$GFF_IN" > "$GFF_KEPT"
+[ "$(grep -vc '^#' "$GFF_KEPT" || true)" -gt 0 ] || { echo "ERROR: no features left after seqid filtering" >&2; exit 1; }
+echo "--- feature types (input) ---"; grep -v '^#' "$GFF_KEPT" | cut -f3 | sort | uniq -c
+
+CLEAN=$TMP/$SPEC.clean.gff3
+agat_convert_sp_gxf2gxf.pl -g "$GFF_KEPT" -o "$CLEAN"
+echo "--- feature types (AGAT-clean) ---"; grep -v '^#' "$CLEAN" | cut -f3 | sort | uniq -c
+echo "--- sources (rows from 'AGAT' = features AGAT had to invent, expected: exons) ---"
+grep -v '^#' "$CLEAN" | cut -f2 | sort | uniq -c
+
+# AGAT should add exons only: gene and mRNA counts must not change
+for t in gene mRNA; do
+    a=$(cnt "$GFF_KEPT" "$t"); b=$(cnt "$CLEAN" "$t")
+    echo "$t: input=$a clean=$b"
+    [ "$a" -eq "$b" ] || echo "WARNING: $t count changed during AGAT cleaning" >&2
+done
+NO_EXON=$(awk -F'\t' "$ATTR_FN"'
+  !/^#/ { if ($3=="mRNA") m[attr($9,"ID")]=1;
+          else if ($3=="exon") { n=split(attr($9,"Parent"),ps,","); for (i=1;i<=n;i++) has[ps[i]]=1 } }
+  END { c=0; for (i in m) if (!(i in has)) c++; print c }' "$CLEAN")
+echo "mRNAs with no exon after AGAT: $NO_EXON"
+[ "$NO_EXON" -eq 0 ] || echo "WARNING: some mRNAs have no exons; STAR will ignore them" >&2
+
+# ---------- 4. Deliverable: GTF for STAR --sjdbGTFfile ----------
+GTF_RAW=$TMP/$SPEC.agat_raw.gtf
+agat_convert_sp_gff2gtf.pl --gff "$CLEAN" -o "$GTF_RAW"
+
+# GTF has no escaping and some tools split on ';' even inside quotes: replace ';' inside quoted values.
+perl -pe 's/"([^"]*)"/my $x=$1; $x =~ s{;}{_}g; "\"$x\""/ge' "$GTF_RAW" > "$STAR_GTF"
+N_FIXED=$(diff "$GTF_RAW" "$STAR_GTF" | grep -c '^>' || true)
+echo "STAR GTF: $N_FIXED lines had ';' inside quoted values (replaced with '_')"
+
+echo "--- STAR GTF feature types ---"; grep -v '^#' "$STAR_GTF" | cut -f3 | sort | uniq -c
+echo "exon lines missing gene_id/transcript_id: $(grep -v '^#' "$STAR_GTF" | awk -F'\t' '$3=="exon" && ($9!~/gene_id/ || $9!~/transcript_id/)' | wc -l)"
+BAD=$(grep -v '^#' "$STAR_GTF" | cut -f1 | sort -u | comm -23 - <(cut -f1 "$SIZES" | sort -u) | wc -l || true)
+echo "STAR GTF seqids not in $(basename "$NUC_FA"): $BAD"
+[ "$BAD" -eq 0 ] || echo "WARNING: STAR GTF has sequence names missing from the assembly" >&2
+
+# ---------- 5. Deliverables: 3'-extended gene models for featureCounts ----------
+# Same idea as gene_model_extension.sh: extend each gene on its 3' end (strand-aware, clipped at sequence ends).
+# Use this for counting only. Build the STAR index from the unextended GTF above.
+GENES_GFF=$TMP/$SPEC.genes.gff3
+awk -F'\t' '!/^#/ && $3=="gene"' "$CLEAN" > "$GENES_GFF"
+bedtools slop -i "$GENES_GFF" -g "$SIZES" -s -l 0 -r "$EXT_BP" > "$EXT_GFF"
+
+# SAF avoids GTF/GFF attribute parsing in featureCounts (use: featureCounts -F SAF -a <saf>)
+awk -F'\t' -v OFS='\t' "$ATTR_FN"'
+  BEGIN { print "GeneID","Chr","Start","End","Strand" }
+  { print attr($9,"ID"), $1, $4, $5, $7 }' "$EXT_GFF" > "$EXT_SAF"
+
+# gene IDs must agree between the STAR GTF and the SAF so counts map back cleanly
+ID_DIFF=$(comm -3 <(tail -n +2 "$EXT_SAF" | cut -f1 | sort -u) \
+                  <(grep -v '^#' "$STAR_GTF" | grep -o 'gene_id "[^"]*"' | cut -d'"' -f2 | sort -u) | wc -l || true)
+echo "gene IDs differing between SAF and STAR GTF: $ID_DIFF"
+[ "$ID_DIFF" -eq 0 ] || echo "WARNING: gene IDs differ between SAF and STAR GTF" >&2
+
+# Report how many extensions run into a neighbouring gene (these reads can become 'ambiguous')
+FLANKS=$TMP/$SPEC.flanks.gff3
+bedtools flank -i "$GENES_GFF" -g "$SIZES" -s -l 0 -r "$EXT_BP" > "$FLANKS"
+echo "genes: $(wc -l < "$GENES_GFF") | extended: $(wc -l < "$EXT_GFF")"
+echo "3' extensions overlapping a same-strand gene:     $(bedtools intersect -a "$FLANKS" -b "$GENES_GFF" -s -u | wc -l)"
+echo "3' extensions overlapping an opposite-strand gene: $(bedtools intersect -a "$FLANKS" -b "$GENES_GFF" -S -u | wc -l)"
+
+echo "--- deliverables in $OUT ---"
+ls -lh "$NUC_FA" "$STAR_GTF" "$EXT_GFF" "$EXT_SAF"
+seqkit stats "$NUC_FA"
+echo "[$(date)] done (script version $SCRIPT_VERSION)"

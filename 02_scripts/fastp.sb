@@ -1,0 +1,36 @@
+#!/bin/bash --login
+#SBATCH --job-name=B.hyb_fastp
+#SBATCH --array=1-177
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --output=/mnt/scratch/lemasjoh/B.hybridum/logs/fastp/%x_%a.SLURMout
+
+BASE="/mnt/scratch/lemasjoh/B.hybridum"
+IN_DIR="${BASE}/01_inputs/raw_fastq"
+OUT_DIR="${BASE}/03_outputs/01_fastp"
+META="${BASE}/01_inputs/B.hyb_metadata.txt"
+
+LINE_NUM=$((SLURM_ARRAY_TASK_ID))
+ID=$(sed -n "${LINE_NUM}p" ${META} | cut -f1)
+NAME=$(sed -n "${LINE_NUM}p" ${META} | cut -f2)
+
+mkdir -p "$OUT_DIR"
+
+ml purge
+ml load Miniforge3
+conda activate fastp
+
+echo -e "Processing raw sample: ${ID}\t${NAME}"
+
+fastp \
+      -i "${IN_DIR}/${ID}.fastq.gz" \
+      -o "${OUT_DIR}/${NAME}_trim.fastq.gz" \
+      --thread 8 \
+      --adapter_sequence AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \
+      --trim_front1 12 \
+      --cut_front \
+      --cut_tail \
+      --length_required 20 \
+      --html "${OUT_DIR}/${NAME}_fastp.html" \
+      --json "${OUT_DIR}/${NAME}_fastp.json"
