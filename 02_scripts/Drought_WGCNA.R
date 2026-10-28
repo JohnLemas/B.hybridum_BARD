@@ -47,20 +47,20 @@ for (package in required_packages) {
 }
 
 # Set environment
-setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/BARD_drought/RNA_seq/03_outputs/04_DESeq2/")
+setwd("/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/B.hybridum_BARD")
+outdir <- "03_outputs/04_DESeq2/Drought_WGCNA"
+if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE) 
 
-wgcna_dir <- "wgcna"
-
-# 2. LOAD PRE-COMPUTED DATA
-dds           <- readRDS("dds_full.rds")
+# LOAD PRE-COMPUTED DATA
+dds           <- readRDS("03_outputs/04_DESeq2/Drought_results/dds_full.rds")
 coldata       <- as.data.frame(colData(dds))
 
 # Within-lineage drought-response contrasts, already computed & shrunk in
 # DESeq2.R from the interaction model (dds_int). These represent each
 # lineage's OWN WW -> DW response, which is what "how are lineages dealing
 # with treatment" actually requires -- not a lineage-vs-control comparison.
-resLFC_trt_drt <- readRDS("resLFC_trt_drt.rds")   # D lineage: drought response
-resLFC_trt_hrb <- readRDS("resLFC_trt_hrb.rds")   # H lineage: drought response
+resLFC_trt_drt <- readRDS("03_outputs/04_DESeq2/Drought_results/resLFC_trt_drt.rds")   # D lineage: drought response
+resLFC_trt_hrb <- readRDS("03_outputs/04_DESeq2/Drought_results/resLFC_trt_hrb.rds")   # H lineage: drought response
 
 # 3. TRANSFORMATION & QUALITY CHECK
 dds_vst   <- varianceStabilizingTransformation(dds, blind = FALSE)
@@ -75,7 +75,7 @@ if (!gsg$allOK) {
 sampleTree    <- hclust(dist(geneCount), method = "average")
 sampleTree_gg <- dendro_data(sampleTree)
 
-pdf(file = file.path(wgcna_dir, "Tree_DESeq2_means_combined.pdf"),
+pdf(file = file.path(outdir, "Tree_DESeq2_means_combined.pdf"),
     width = 18, height = 9, family = "Times", pointsize = 12)
 print(
   ggplot() +
@@ -90,9 +90,9 @@ dev.off()
 powers <- c(1:10, seq(from = 12, to = 24, by = 2))
 disableWGCNAThreads()
 sft <- pickSoftThreshold(geneCount, powerVector = powers, verbose = 3)
-write.csv(sft$fitIndices, file.path(wgcna_dir, "power_table.csv"), row.names = FALSE)
+write.csv(sft$fitIndices, file.path(outdir, "power_table.csv"), row.names = FALSE)
 
-pdf(file = file.path(wgcna_dir, "soft_power.pdf") ,
+pdf(file = file.path(outdir, "soft_power.pdf") ,
     width = 12, height = 5, family = "Times", pointsize = 12)
 par(mfrow = c(1,2), cex = 0.9)
 plot(sft$fitIndices[,1], -sign(sft$fitIndices[,3])*sft$fitIndices[,2],
@@ -123,7 +123,7 @@ net <- blockwiseModules(geneCount,
                         numericLabels = TRUE, 
                         pamRespectsDendro = FALSE,
                         saveTOMs = TRUE,
-                        saveTOMFileBase = "drought_TOM",
+                        saveTOMFileBase = "/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/B.hybridum_BARD/03_outputs/04_DESeq2/Drought_WGCNA/drought_TOM",
                         verbose = 3,
                         nThreads = 12)
 
@@ -131,7 +131,7 @@ cor <- tmp_cor # Restore original cor function
 mergedColors <- labels2colors(net$colors)
 
 # Plot Final Network Dendrogram
-pdf(file = file.path(wgcna_dir, "dendrogram_final_means.pdf"),
+pdf(file = file.path(outdir, "dendrogram_final_means.pdf"),
     width = 12, height = 9, family = "Times", pointsize = 12)
 plotDendroAndColors(net$dendrograms[[1]], mergedColors[net$blockGenes[[1]]],
                     "Module colors", dendroLabels = FALSE, hang = 0.03, addGuide = TRUE, guideHang = 0.05)
@@ -139,13 +139,13 @@ dev.off()
 
 # Save simple tracking module key
 tibble(gene_id = names(net$colors), colors = mergedColors) %>% 
-  write_delim(file.path(wgcna_dir, "gene_modules.tsv"), delim = "\t")
+  write_delim(file.path(outdir, "gene_modules.tsv"), delim = "\t")
 
 # 7. MODULE-TRAIT CORRELATION HEATMAP
 MEs <- orderMEs(moduleEigengenes(geneCount, colors = mergedColors)$eigengenes)
 module_order <- gsub("ME", "", names(MEs))
 
-correlation_metadata <- read.table("../../01_inputs/correlation_metadata.txt", header = TRUE)
+correlation_metadata <- read.table(file = "01_inputs/drought_corr_metadata.txt", header = TRUE)
 # NOTE: correlation_metadata.txt has no sample ID column, so this only works
 # if its row order exactly matches BARD_drought_metadata.txt's row order
 # (which is what generated the sample order in `dds`/`coldata`/`geneCount`).
@@ -164,7 +164,7 @@ moduleTraitPvalue <- corPvalueStudent(moduleTraitcor, nSamples)
 testMatrix <- matrix(paste0(signif(moduleTraitcor, 2), "\n(", signif(moduleTraitPvalue, 1), ")"),
                      nrow = nrow(moduleTraitcor), ncol = ncol(moduleTraitcor), dimnames = dimnames(moduleTraitcor))
 
-pdf(file = file.path(wgcna_dir, "MEheatmap.pdf"),
+pdf(file = file.path(outdir, "MEheatmap.pdf"),
     width = 12, height = 12, family = "Times", pointsize = 12)
 labeledHeatmap(Matrix = moduleTraitcor, xLabels = colnames(correlation_metadata), yLabels = names(MEs), 
                ySymbols = module_order, colorLabels = FALSE, colors = blueWhiteRed(50), 
@@ -189,7 +189,7 @@ MEs_meta <- MEs %>%
 # Boxplot of Target Modules
 modules_of_interest <- c("MEyellow", "MEgreen", "MEbrown", "MEred") %>% intersect(colnames(MEs_meta))
 if(length(modules_of_interest) > 0) {
-  pdf(file = file.path(wgcna_dir, "ME_dotplots.pdf"),
+  pdf(file = file.path(outdir, "ME_dotplots.pdf"),
       width = 8, height = 6, family = "Times", pointsize = 12)
   print(
     MEs_meta %>%
@@ -315,7 +315,7 @@ combined_master_table <- wgcna_base %>%
   arrange(desc(is_priority_candidate), desc(is_shared_drought_hub), desc(MM_OwnModule))
 
 # Save full master table
-write.csv(combined_master_table, file.path(wgcna_dir, "DESeq2_WGCNA_master_metrics.csv"), row.names = FALSE)
+write.csv(combined_master_table, file.path(outdir, "DESeq2_WGCNA_master_metrics.csv"), row.names = FALSE)
 
 # Save just the genes of primary interest: hub genes whose drought response
 # is shared between the D and H lineages
@@ -323,7 +323,7 @@ shared_hub_genes <- combined_master_table %>%
   filter(is_shared_drought_hub) %>%
   arrange(WGCNA_module, desc(MM_OwnModule))
 
-write.csv(shared_hub_genes, file.path(wgcna_dir, "shared_D_H_drought_hubgenes.csv"), row.names = FALSE)
+write.csv(shared_hub_genes, file.path(outdir, "shared_D_H_drought_hubgenes.csv"), row.names = FALSE)
 
 # Save the top-priority shortlist: hub + shared D/H drought DE + tied to a
 # measured phenotype trait. This is the three-way filter requested.
@@ -331,7 +331,7 @@ priority_candidates <- combined_master_table %>%
   filter(is_priority_candidate) %>%
   arrange(WGCNA_module, desc(top_phenotype_GS))
 
-write.csv(priority_candidates, file.path(wgcna_dir, "priority_candidate_hubgenes.csv"), row.names = FALSE)
+write.csv(priority_candidates, file.path(outdir, "priority_candidate_hubgenes.csv"), row.names = FALSE)
 
 # Quick summary: which modules are enriched for shared D/H drought hub genes,
 # plus which phenotype trait each module's eigengene correlates with most
@@ -358,12 +358,12 @@ module_summary <- combined_master_table %>%
   left_join(module_trait_lookup, by = "WGCNA_module") %>%
   arrange(desc(n_priority_candidates), desc(n_shared_drought_hub))
 
-write.csv(module_summary, file.path(wgcna_dir, "module_summary_shared_drought_hubs.csv"), row.names = FALSE)
+write.csv(module_summary, file.path(outdir, "module_summary_shared_drought_hubs.csv"), row.names = FALSE)
 
 cat("\nPipeline successful!\n")
-cat(" - Full table:            03_outputs/04_DESeq2/wgcna/DESeq2_WGCNA_master_metrics.csv\n")
-cat(" - Shared D/H hub genes:  03_outputs/04_DESeq2/wgcna/shared_D_H_drought_hubgenes.csv\n")
-cat(" - Priority candidates:   03_outputs/04_DESeq2/wgcna/priority_candidate_hubgenes.csv\n")
-cat(" - Module summary:        03_outputs/04_DESeq2/wgcna/module_summary_shared_drought_hubs.csv\n")
+cat(" - Full table:            03_outputs/04_DESeq2/Drought_WGCNA/DESeq2_WGCNA_master_metrics.csv\n")
+cat(" - Shared D/H hub genes:  03_outputs/04_DESeq2/Drought_WGCNA/shared_D_H_drought_hubgenes.csv\n")
+cat(" - Priority candidates:   03_outputs/04_DESeq2/Drought_WGCNA/priority_candidate_hubgenes.csv\n")
+cat(" - Module summary:        03_outputs/04_DESeq2/Drought_WGCNA/module_summary_shared_drought_hubs.csv\n")
 cat("Found", nrow(shared_hub_genes), "hub genes with a shared drought response in the D and H lineages.\n")
 cat("Of those,", nrow(priority_candidates), "are also strongly tied to a measured phenotype trait (GS >=", GS_PHENOTYPE_CUT, ").\n")
