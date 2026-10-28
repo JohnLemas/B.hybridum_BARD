@@ -24,4 +24,4 @@ Using the drought dataset, counts were variance-stabilized (`vst`, `blind = FALS
 - *Priority candidate*: shared drought hub with |GS| >= 0.5 for at least one phenotype.
 
 ### Software
-fastp, STAR 2.7.11b, SAMtools 1.19.2, Subread/featureCounts, AGAT, SeqKit, BEDTools, R with DESeq2, WGCNA, and tidyverse. Pipeline steps were run as SLURM jobs (array jobs for trimming and alignment).
+fastp 1.3.3, STAR 2.7.11b, SAMtools 1.19.2, Subread/featureCounts , AGAT 1.4.3, SeqKit 2.3.0, BEDTools 2.31.0, R with DESeq2, WGCNA, and tidyverse. Pipeline steps were run as SLURM jobs (array jobs for trimming and alignment).
