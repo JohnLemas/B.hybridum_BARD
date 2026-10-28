@@ -1,4 +1,6 @@
 # --- Project Root --- #
 01_inputs/
 03_outputs/
-
+.DS_Store
+.Rhistory
+*pdf
