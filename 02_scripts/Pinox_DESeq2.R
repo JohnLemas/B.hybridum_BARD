@@ -327,11 +327,86 @@ write.table(sig_baseline_hrb, file = file.path(pin_out, "sig_baseline_hrb.txt"),
             quote = FALSE, sep = "\t")
 
 
+# -------<======= Within-lineage pinoxaden response ========>-------- #
+# Each lineage's OWN Control -> Pinoxaden response (treatment main effect plus
+# that lineage's interaction term). Mirrors sig_trt_drt / sig_trt_hrb in
+# Drought_DESeq2.R so the two experiments can be compared directly
+# (DE_overlap_upset.R picks these files up as Pin_D and Pin_H).
+
+message("checking coefficient names")
+print(resultsNames(dds_int))
+stopifnot(all(c("trt_Pinoxaden_vs_Control",
+                "lineDrought.trtPinoxaden",
+                "lineHerbicide.trtPinoxaden") %in% resultsNames(dds_int)))
+
+# Thresholds for the two new sets. Currently identical to the drought script;
+# change both scripts together so the experiments stay comparable.
+pin_padj_cut <- 0.01
+pin_lfc_cut  <- 2
+
+message("generating within-lineage pinoxaden response for drought lineage")
+message('contrast = list(c("trt_Pinoxaden_vs_Control", "lineDrought.trtPinoxaden"))')
+message("alpha: 0.05")
+
+res_drt_trt <- results(
+  dds_int,
+  contrast = list(c("trt_Pinoxaden_vs_Control", "lineDrought.trtPinoxaden")),
+  alpha = 0.05
+)
+
+summary(res_drt_trt)
+
+resLFC_trt_drt <- lfcShrink(dds_int,
+                            res = res_drt_trt,
+                            type = "ashr")
+
+summary(resLFC_trt_drt)
+
+sig_trt_drt <- as.data.frame(resLFC_trt_drt)
+sig_trt_drt <- sig_trt_drt[which(sig_trt_drt$padj < pin_padj_cut &
+                                   abs(sig_trt_drt$log2FoldChange) > pin_lfc_cut), ]
+sig_trt_drt <- sig_trt_drt[order(sig_trt_drt$padj), ]
+
+print(sig_trt_drt)
+
+write.table(sig_trt_drt, file = file.path(pin_out, "sig_trt_drt.txt"),
+            quote = FALSE, sep = "\t")
+
+message("generating within-lineage pinoxaden response for herbicide lineage")
+message('contrast = list(c("trt_Pinoxaden_vs_Control", "lineHerbicide.trtPinoxaden"))')
+message("alpha: 0.05")
+
+res_hrb_trt <- results(
+  dds_int,
+  contrast = list(c("trt_Pinoxaden_vs_Control", "lineHerbicide.trtPinoxaden")),
+  alpha = 0.05
+)
+
+summary(res_hrb_trt)
+
+resLFC_trt_hrb <- lfcShrink(dds_int,
+                            res = res_hrb_trt,
+                            type = "ashr")
+
+summary(resLFC_trt_hrb)
+
+sig_trt_hrb <- as.data.frame(resLFC_trt_hrb)
+sig_trt_hrb <- sig_trt_hrb[which(sig_trt_hrb$padj < pin_padj_cut &
+                                   abs(sig_trt_hrb$log2FoldChange) > pin_lfc_cut), ]
+sig_trt_hrb <- sig_trt_hrb[order(sig_trt_hrb$padj), ]
+
+print(sig_trt_hrb)
+
+write.table(sig_trt_hrb, file = file.path(pin_out, "sig_trt_hrb.txt"),
+            quote = FALSE, sep = "\t")
+
 # Save the subset results objects
 saveRDS(resLFC_interaction_hrb, file = file.path(pin_out, "resLFC_interaction_hrb.rds"))
 saveRDS(resLFC_interaction_drt, file = file.path(pin_out, "resLFC_interaction_drt.rds"))
 saveRDS(resLFC_baseline_drt, file = file.path(pin_out, "resLFC_baseline_drt.rds"))
 saveRDS(resLFC_baseline_hrb, file = file.path(pin_out, "resLFC_baseline_hrb.rds"))
+saveRDS(resLFC_trt_drt, file = file.path(pin_out, "resLFC_trt_drt.rds"))
+saveRDS(resLFC_trt_hrb, file = file.path(pin_out, "resLFC_trt_hrb.rds"))
 
 library(tidyverse)
 
@@ -355,9 +430,11 @@ c2 <- format_contrast(resLFC_interaction_drt, "int_drt")
 c3 <- format_contrast(resLFC_interaction_hrb, "int_hrb")
 c4 <- format_contrast(resLFC_baseline_drt, "base_drt")
 c5 <- format_contrast(resLFC_baseline_hrb, "base_hrb")
+c6 <- format_contrast(resLFC_trt_drt, "trt_drt")
+c7 <- format_contrast(resLFC_trt_hrb, "trt_hrb")
 
 # 3. Merge all contrasts into a single master table
-master_table <- list(c1, c2, c3, c4, c5) %>%
+master_table <- list(c1, c2, c3, c4, c5, c6, c7) %>%
   reduce(full_join, by = "gene_id")
 
 # 4. Add a summary column for total contrasts passed per gene
