@@ -1,0 +1,11 @@
+class,n_genes
+shared_up,153
+shared_down,84
+discordant,166
+drought_specific,689
+drought_ambiguous_in_pinoxaden,409
+drought_only_not_tested_in_pinoxaden,410
+pinoxaden_specific,1302
+pinoxaden_ambiguous_in_drought,2109
+pinoxaden_only_not_tested_in_drought,406
+lineage_effects_only,178
