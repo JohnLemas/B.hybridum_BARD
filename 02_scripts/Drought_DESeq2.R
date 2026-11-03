@@ -327,6 +327,77 @@ write.table(sig_trt_hrb, file = file.path(drt_out, "sig_trt_hrb.txt"),
             quote = FALSE, sep = "\t")
 
 
+# -------<======= Differences between lineages in well-watered samples ========>-------- #
+# Constitutive (baseline) lineage differences: D vs C and H vs C under WW.
+# In the interaction model the lineage main effect is the difference at the
+# REFERENCE treatment (WW), so these are untreated-plant comparisons.
+# Mirrors sig_baseline_drt / sig_baseline_hrb in Pinox_DESeq2.R.
+
+stopifnot(levels(dds_int$trt)[1] == "WW")   # WW must be the reference level
+
+message(">>> generating baseline expression results for drought lineage (WW)")
+message('contrast = c("lineage", "D", "C")')
+message("alpha: 0.05")
+
+res_drt_baseline <- results(
+  dds_int,
+  contrast = c("lineage", "D", "C"),
+  alpha = 0.05
+)
+
+summary(res_drt_baseline)
+
+resLFC_baseline_drt <- lfcShrink(dds_int,
+                                 res = res_drt_baseline,
+                                 type = "ashr")
+
+summary(resLFC_baseline_drt)
+
+### Significant genes for drought lineage baseline contrast
+sig_baseline_drt <- as.data.frame(resLFC_baseline_drt)
+sig_baseline_drt <- sig_baseline_drt[which(sig_baseline_drt$padj < 0.01 &
+                                             abs(sig_baseline_drt$log2FoldChange) > 2), ]
+sig_baseline_drt <- sig_baseline_drt[order(sig_baseline_drt$padj), ]
+
+# View them
+print(sig_baseline_drt)
+
+# save them
+write.table(sig_baseline_drt, file = file.path(drt_out, "sig_baseline_drt.txt"),
+            quote = FALSE, sep = "\t")
+
+message(">>> generating baseline expression results for herbicide lineage (WW)")
+message('contrast = c("lineage", "H", "C")')
+message("alpha: 0.05")
+
+res_hrb_baseline <- results(
+  dds_int,
+  contrast = c("lineage", "H", "C"),
+  alpha = 0.05
+)
+
+summary(res_hrb_baseline)
+
+resLFC_baseline_hrb <- lfcShrink(dds_int,
+                                 res = res_hrb_baseline,
+                                 type = "ashr")
+
+summary(resLFC_baseline_hrb)
+
+### Significant genes for herbicide lineage baseline contrast
+sig_baseline_hrb <- as.data.frame(resLFC_baseline_hrb)
+sig_baseline_hrb <- sig_baseline_hrb[which(sig_baseline_hrb$padj < 0.01 &
+                                             abs(sig_baseline_hrb$log2FoldChange) > 2), ]
+sig_baseline_hrb <- sig_baseline_hrb[order(sig_baseline_hrb$padj), ]
+
+# View them
+print(sig_baseline_hrb)
+
+# save them
+write.table(sig_baseline_hrb, file = file.path(drt_out, "sig_baseline_hrb.txt"),
+            quote = FALSE, sep = "\t")
+
+
 # Save the subset results objects
 message(">>> saving results objects")
 
@@ -334,4 +405,6 @@ saveRDS(resLFC_interaction_hrb, file = file.path(drt_out, "resLFC_interaction_hr
 saveRDS(resLFC_interaction_drt, file = file.path(drt_out, "resLFC_interaction_drt.rds"))
 saveRDS(resLFC_trt_drt, file = file.path(drt_out, "resLFC_trt_drt.rds"))
 saveRDS(resLFC_trt_hrb, file = file.path(drt_out, "resLFC_trt_hrb.rds"))
+saveRDS(resLFC_baseline_drt, file = file.path(drt_out, "resLFC_baseline_drt.rds"))
+saveRDS(resLFC_baseline_hrb, file = file.path(drt_out, "resLFC_baseline_hrb.rds"))
 message(">>> DESeq2 analysis complete")
