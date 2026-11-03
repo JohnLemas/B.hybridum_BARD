@@ -44,8 +44,10 @@ tier <- list(padj = 0.05, lfc = 1)
 
 
 # ---- 1. Gene-level class comparison ------------------------------------------
-frac <- read_csv(file.path(frac_dir, "DE_membership_annotated.csv"), show_col_types = FALSE)
-uniq <- read_csv(file.path(uniq_dir, "DE_membership_annotated.csv"), show_col_types = FALSE)
+frac <- read_csv(file.path(frac_dir, "DE_membership_annotated.csv"),
+                 show_col_types = FALSE, guess_max = Inf)
+uniq <- read_csv(file.path(uniq_dir, "DE_membership_annotated.csv"),
+                 show_col_types = FALSE, guess_max = Inf)
 
 fu <- full_join(
   frac %>% dplyr::select(gene_id, class_frac = class),
@@ -160,7 +162,9 @@ sets <- tribble(
   "PinInt_D",  file.path(p_f, "resLFC_interaction_drt.rds"),      file.path(p_u, "resLFC_interaction_drt.rds"),
   "PinInt_H",  file.path(p_f, "resLFC_interaction_hrb.rds"),      file.path(p_u, "resLFC_interaction_hrb.rds"),
   "PinBase_D", file.path(p_f, "resLFC_baseline_drt.rds"),         file.path(p_u, "resLFC_baseline_drt.rds"),
-  "PinBase_H", file.path(p_f, "resLFC_baseline_hrb.rds"),         file.path(p_u, "resLFC_baseline_hrb.rds")
+  "PinBase_H", file.path(p_f, "resLFC_baseline_hrb.rds"),         file.path(p_u, "resLFC_baseline_hrb.rds"),
+  "DrtBase_D", file.path(d_f, "resLFC_baseline_drt.rds"),         file.path(d_u, "resLFC_baseline_drt.rds"),
+  "DrtBase_H", file.path(d_f, "resLFC_baseline_hrb.rds"),         file.path(d_u, "resLFC_baseline_hrb.rds")
 )
 sets <- sets %>% filter(file.exists(path_f), file.exists(path_u))
 
