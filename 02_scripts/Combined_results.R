@@ -70,13 +70,16 @@ sets_cfg <- tribble(
   "PinInt_D",  "pinoxaden", "interaction", "rds", file.path(pin_dir, "resLFC_interaction_drt.rds"), NA_character_,
   "PinInt_H",  "pinoxaden", "interaction", "rds", file.path(pin_dir, "resLFC_interaction_hrb.rds"), NA_character_,
   "PinBase_D", "pinoxaden", "baseline",    "rds", file.path(pin_dir, "resLFC_baseline_drt.rds"),    NA_character_,
-  "PinBase_H", "pinoxaden", "baseline",    "rds", file.path(pin_dir, "resLFC_baseline_hrb.rds"),    NA_character_
+  "PinBase_H", "pinoxaden", "baseline",    "rds", file.path(pin_dir, "resLFC_baseline_hrb.rds"),    NA_character_,
+  "DrtBase_D", "drought",   "baseline",    "rds", file.path(drt_dir, "resLFC_baseline_drt.rds"),    NA_character_,
+  "DrtBase_H", "drought",   "baseline",    "rds", file.path(drt_dir, "resLFC_baseline_hrb.rds"),    NA_character_
 )
 
 # Which sets go into which UpSet figure (drawn for each tier x any/up/down)
 panels <- list(
   response        = c("Drt_all", "Drt_D", "Drt_H", "Pin_all", "Pin_D", "Pin_H"),
-  lineage_effects = c("DrtInt_D", "DrtInt_H", "PinInt_D", "PinInt_H", "PinBase_D", "PinBase_H")
+  lineage_effects = c("DrtInt_D", "DrtInt_H", "PinInt_D", "PinInt_H",
+                      "DrtBase_D", "DrtBase_H", "PinBase_D", "PinBase_H")
 )
 
 # Drought-vs-pinoxaden pairs for the LFC concordance check
