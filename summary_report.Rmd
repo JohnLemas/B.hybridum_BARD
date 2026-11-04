@@ -1,0 +1,426 @@
+---
+title: "Drought and herbicide selection in *Brachypodium hybridum*: key results"
+author: ""
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    fig_caption: true
+geometry: "margin=0.8in"
+fontsize: 10pt
+params:
+  base_dir: "/Users/jmlemas/Library/CloudStorage/OneDrive-MichiganStateUniversity/Dissertation/Chapter3/B.hybridum_BARD"
+  top_n_genes: 25          # shared genes listed per direction in the main text
+  topgo_ontology: "BP"     # ontology shown in the enrichment table / dotplot
+  topgo_top_terms: 6       # terms per gene list
+  lenient_padj: 0.05
+  lenient_lfc: 1
+  strict_padj: 0.01
+  strict_lfc: 2
+  not_de_padj: 0.1
+  not_de_lfc: 0.5
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{array}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{caption}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = "")
+
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(knitr)
+  library(kableExtra)
+})
+
+# ---- paths (all relative to params$base_dir) --------------------------------
+P <- function(...) normalizePath(file.path(params$base_dir, ...), mustWork = FALSE)
+dirs <- list(
+  overlap = "03_outputs/05_overlap",
+  topgo   = "03_outputs/06_topGO_supported",
+  robust  = "03_outputs/07_robustness",
+  heat    = "03_outputs/08_heatmap",
+  lineage = "03_outputs/09_lineage_effects"
+)
+
+# ---- helpers -----------------------------------------------------------------
+rd <- function(rel) {
+  f <- P(rel)
+  if (file.exists(f)) readr::read_csv(f, show_col_types = FALSE, guess_max = Inf) else NULL
+}
+
+fmt_p <- function(x) {
+  ifelse(is.na(x), "", ifelse(x < 1e-3, formatC(x, format = "e", digits = 1),
+                              formatC(x, format = "f", digits = 3)))
+}
+f_int <- function(x) ifelse(is.na(x), "NA", format(x, big.mark = ","))
+
+show_tab <- function(df, caption, digits = 3, widths = NULL, long = FALSE, font = 8) {
+  if (is.null(df)) return(asis_output("\n*Results file not found.*\n"))
+  if (nrow(df) == 0) return(asis_output("\n*No rows to display.*\n"))
+  k <- kable(df, format = "latex", booktabs = TRUE, longtable = long, digits = digits,
+             caption = caption, escape = TRUE, linesep = "", row.names = FALSE)
+  k <- kable_styling(k, font_size = font, full_width = FALSE,
+                     latex_options = if (long) "repeat_header" else c("hold_position", "scale_down"))
+  if (!is.null(widths)) {
+    for (i in seq_along(widths)) k <- column_spec(k, as.integer(names(widths)[i]), width = widths[[i]])
+  }
+  k
+}
+
+# markdown figure (works for PDF figures with xelatex); notes missing files
+md_fig <- function(rel, cap, width = "100%") {
+  f <- P(rel)
+  if (!file.exists(f)) return(sprintf("\n*Figure not found: `%s`*\n", rel))
+  sprintf("\n![%s](%s){width=%s}\n", cap, f, width)
+}
+
+# ---- data used in several sections -----------------------------------------------
+sup   <- rd(file.path(dirs$robust,  "DE_membership_annotated_supported.csv"))
+conc  <- rd(file.path(dirs$robust,  "class_concordance.csv"))
+cc    <- rd(file.path(dirs$robust,  "contrast_concordance.csv"))
+grid  <- rd(file.path(dirs$lineage, "lineage_threshold_grid.csv"))
+pair  <- rd(file.path(dirs$overlap, "pair_concordance.csv"))
+
+n_class <- function(cl) {
+  if (is.null(sup)) return(NA_integer_)
+  sum(sup$class == cl & sup$support == "supported_both")
+}
+n_grid <- function(s, p = params$lenient_padj, l = 0) {
+  if (is.null(grid)) return(NA_integer_)
+  v <- grid$n_total[grid$set == s & abs(grid$padj_cut - p) < 1e-9 & abs(grid$lfc_cut - l) < 1e-9]
+  if (length(v)) v[1] else NA_integer_
+}
+ret <- function(cl) {
+  if (is.null(conc)) return(NA_real_)
+  v <- conc$pct_frac_retained[conc$class == cl]
+  if (length(v)) v[1] else NA_real_
+}
+pct <- function(x) ifelse(is.na(x), "NA", sprintf("%.0f%%", x))
+```
+
+# Key findings
+
+```{r key-findings, results='asis'}
+cat("\n")
+cat(sprintf(
+  "- **Shared stress response.** %s genes are up and %s are down in both the drought and pinoxaden experiments, with the same class under fractional and unique-only counting (lenient tier).\n",
+  f_int(n_class("shared_up")), f_int(n_class("shared_down"))))
+
+cat(sprintf(
+  "- **Drought-specific response.** %s genes are DE in the drought experiment and clearly not DE in the pinoxaden experiment, and are supported by both counting methods.\n",
+  f_int(n_class("drought_specific"))))
+
+if (!is.null(conc)) {
+  cat(sprintf(
+    "- **Robustness to counting method.** %s of `shared_up` genes and %s of `shared_down` genes in the fractional analysis keep the same class with unique-only counts%s.\n",
+    pct(ret("shared_up")), pct(ret("shared_down")),
+    if (!is.null(cc)) sprintf("; shrunken log2FCs agree across all contrasts (Spearman rho %.2f to %.2f)",
+                              min(cc$rho_lfc, na.rm = TRUE), max(cc$rho_lfc, na.rm = TRUE)) else ""))
+}
+
+if (!is.null(pair)) {
+  txt <- paste(sprintf("%s: %.0f%% (rho = %.2f)", pair$pair,
+                       100 * pair$frac_same_sign_DE, pair$rho_drought_DE), collapse = "; ")
+  cat(sprintf(
+    "- **Drought vs pinoxaden concordance.** Share of drought-DE genes changing in the same direction in pinoxaden, with Spearman rho of their log2FCs: %s.\n", txt))
+}
+
+if (!is.null(grid)) {
+  cat(sprintf(
+    "- **Lineage effects.** Interaction contrasts (lineage-specific differences in treatment response) called %s and %s genes in the drought experiment (D, H) and %s and %s in the pinoxaden experiment (D, H) at padj < %s. Baseline differences (untreated lineage vs Control) were %s and %s genes in the drought experiment (D, H) and %s and %s in the pinoxaden experiment (D, H).\n",
+    f_int(n_grid("DrtInt_D")), f_int(n_grid("DrtInt_H")),
+    f_int(n_grid("PinInt_D")), f_int(n_grid("PinInt_H")), params$lenient_padj,
+    f_int(n_grid("DrtBase_D")), f_int(n_grid("DrtBase_H")),
+    f_int(n_grid("PinBase_D")), f_int(n_grid("PinBase_H"))))
+}
+```
+
+# Analysis summary
+
+Two experiments were analysed with DESeq2 on 3' QuantSeq counts. The **drought** experiment (144 samples) has lineages C, D and H under well-watered (WW) or drought (DW) conditions. The **pinoxaden** experiment (33 samples) has the same inbred lines (labelled Control, Drought and Herbicide) untreated or treated with pinoxaden. Fold changes were shrunk with `ashr`; adjusted p-values are from the Wald test of the unshrunken estimate. Fractional multimapper-inclusive counts were the primary analysis, with unique-only counts as a sensitivity check.
+
+Two significance tiers were used: **lenient** (padj < `r params$lenient_padj` and absolute log2FC > `r params$lenient_lfc`), used for classification, and **strict** (padj < `r params$strict_padj` and absolute log2FC > `r params$strict_lfc`), used to flag high-confidence genes. A gene was called "clearly not DE" in an experiment if it was tested, padj > `r params$not_de_padj` and absolute log2FC < `r params$not_de_lfc` in every response contrast.
+
+```{r set-table}
+sets_desc <- tribble(
+  ~Set,        ~Experiment, ~Comparison,
+  "Drt_all",   "drought",   "Drought (DW) vs well-watered (WW), all lineages",
+  "Drt_D",     "drought",   "D lineage's own DW vs WW response",
+  "Drt_H",     "drought",   "H lineage's own DW vs WW response",
+  "Pin_all",   "pinoxaden", "Pinoxaden vs untreated, all lines",
+  "Pin_D",     "pinoxaden", "Drought line's own pinoxaden response",
+  "Pin_H",     "pinoxaden", "Herbicide line's own pinoxaden response",
+  "DrtInt_D/H", "drought",  "Interaction: lineage's drought response minus Control's",
+  "PinInt_D/H", "pinoxaden","Interaction: line's pinoxaden response minus Control's",
+  "DrtBase_D/H", "drought", "Baseline: untreated (WW) lineage vs untreated Control",
+  "PinBase_D/H", "pinoxaden","Baseline: untreated line vs untreated Control"
+)
+show_tab(sets_desc, "Gene sets used in the analysis.", widths = c("3" = "9cm"))
+```
+
+```{r class-table}
+class_desc <- tribble(
+  ~Class,                  ~Definition,
+  "shared_up / shared_down", "DE in the same direction in the drought and pinoxaden response contrasts",
+  "discordant",            "DE in both experiments, in opposite directions (or mixed)",
+  "drought_specific",      "DE in drought; tested and clearly not DE in pinoxaden",
+  "pinoxaden_specific",    "DE in pinoxaden; tested and clearly not DE in drought",
+  "*_ambiguous_in_*",      "DE in one experiment; tested but neither DE nor clearly null in the other",
+  "*_not_tested_in_*",     "DE in one experiment; not tested (filtered or NA padj) in the other",
+  "lineage_effects_only",  "DE only in interaction or baseline contrasts"
+)
+show_tab(class_desc, "Gene classes. Classes use treatment-response contrasts only.", widths = c("2" = "10cm"))
+```
+
+\newpage
+
+# Differentially expressed gene sets
+
+```{r set-sizes}
+ss <- rd(file.path(dirs$overlap, "set_sizes_by_tier.csv"))
+if (!is.null(ss)) {
+  ss <- ss %>%
+    select(any_of(c("tier", "set", "up", "down", "total"))) %>%
+    arrange(tier, set)
+}
+show_tab(ss, "Number of DE genes per set and tier.")
+```
+
+```{r upset-response, results='asis'}
+cat(md_fig(file.path(dirs$overlap, "upset_lenient_response_up.pdf"),
+           "Overlap of upregulated genes among treatment-response sets (lenient tier)."))
+cat(md_fig(file.path(dirs$overlap, "upset_lenient_response_down.pdf"),
+           "Overlap of downregulated genes among treatment-response sets (lenient tier)."))
+```
+
+\newpage
+
+# Shared and drought-specific genes
+
+```{r support-table}
+sb <- rd(file.path(dirs$robust, "support_by_class.csv"))
+if (!is.null(sb)) {
+  num_cols <- setdiff(names(sb), "class")
+  sb$total <- rowSums(sb[num_cols])
+  sb <- arrange(sb, desc(total))
+}
+show_tab(sb, "Genes per class, split by support from unique-only counting.")
+```
+
+```{r pair-table}
+show_tab(pair, "Threshold-free concordance of drought and pinoxaden log2FCs.", digits = 2)
+```
+
+```{r lfc-scatter, results='asis'}
+cat(md_fig(file.path(dirs$overlap, "lfc_concordance_scatter.pdf"),
+           "Drought vs pinoxaden log2FC. Red points are DE in the drought contrast."))
+```
+
+```{r heatmap-landscape, results='asis'}
+cat("\n\\newpage\n\n\\blandscape\n\n")
+cat(md_fig(file.path(dirs$heat, "shared_genes_heatmap.pdf"),
+           "Expression of shared up and down genes (supported by both counting methods). Row z-scores of variance-stabilised counts, per experiment."))
+cat("\n\n\\elandscape\n\n")
+```
+
+```{r top-genes}
+if (!is.null(sup)) {
+  if (!"interpro" %in% names(sup)) sup$interpro <- NA_character_
+  if (!"pfam" %in% names(sup)) sup$pfam <- NA_character_
+
+  top_genes <- sup %>%
+    filter(support == "supported_both", class %in% c("shared_up", "shared_down")) %>%
+    arrange(class, desc(n_sets_strict), desc(n_sets)) %>%
+    group_by(class) %>%
+    slice_head(n = params$top_n_genes) %>%
+    ungroup() %>%
+    transmute(
+      Gene = gene_id,
+      Class = class,
+      `Strict sets` = n_sets_strict,
+      `DE in` = str_replace_all(sets, "\\+", " + "),
+      InterPro = str_trunc(replace_na(interpro, ""), 70),
+      Pfam = str_trunc(replace_na(pfam, ""), 40)
+    )
+} else {
+  top_genes <- NULL
+}
+show_tab(top_genes,
+         sprintf("Top %s shared genes per direction, ranked by the number of sets passing the strict tier. The full list is in heatmap_gene_order.csv.",
+                 params$top_n_genes),
+         widths = c("1" = "3.2cm", "4" = "3.6cm", "5" = "4.5cm", "6" = "2.5cm"),
+         long = TRUE, font = 7)
+```
+
+\newpage
+
+# Robustness to counting method
+
+```{r conc-table}
+if (!is.null(conc)) {
+  conc_show <- conc %>%
+    select(Class = class, `Fractional` = n_frac, `Unique-only` = n_uniq, Both = n_both,
+           `% retained` = pct_frac_retained, Jaccard = jaccard,
+           `Not DE in unique` = n_frac_not_DE_in_uniq)
+} else conc_show <- NULL
+show_tab(conc_show, "Gene-level agreement between fractional and unique-only classifications.", digits = 2)
+```
+
+```{r cc-table}
+if (!is.null(cc)) {
+  cc_show <- cc %>%
+    transmute(Set = set, `Tested in both` = n_tested_both, `rho (log2FC)` = rho_lfc,
+              `DE fractional` = n_DE_frac, `DE unique` = n_DE_uniq,
+              `DE in both` = n_DE_both_same_dir,
+              `% retained` = 100 * frac_DE_retained, Jaccard = jaccard)
+} else cc_show <- NULL
+show_tab(cc_show, "Per-contrast agreement between counting methods (lenient tier).", digits = 2)
+```
+
+```{r multimap-table}
+mm <- rd(file.path(dirs$robust, "multimap_by_class.csv"))
+if (!is.null(mm)) show_tab(mm, "Multimapping fraction of reads per gene, by class.", digits = 2)
+```
+
+\newpage
+
+# Functional enrichment (topGO)
+
+Enrichment was run on genes supported by both counting methods, against a background of genes tested in the relevant experiment under both methods. `weight01` p-values account for the GO hierarchy but are **not** corrected for multiple testing; `fdr_classic` is the Benjamini-Hochberg FDR of the classic Fisher test.
+
+```{r topgo-summary}
+ls_tab <- rd(file.path(dirs$topgo, "list_summary.csv"))
+show_tab(ls_tab, "Gene lists tested and annotation coverage.")
+```
+
+```{r topgo-top}
+tg <- rd(file.path(dirs$topgo, "topGO_supported_all_results.csv"))
+focus <- c("shared_up", "shared_down", "drought_specific_up", "drought_specific_down")
+if (!is.null(tg)) {
+  tg_show <- tg %>%
+    filter(ontology == params$topgo_ontology, list %in% focus,
+           p_weight01 < 0.05, Significant >= 3) %>%
+    group_by(list) %>%
+    slice_min(p_weight01, n = params$topgo_top_terms, with_ties = FALSE) %>%
+    ungroup() %>%
+    transmute(List = list, `GO ID` = GO.ID, Term = str_trunc(Term, 55),
+              `Sig/Annot` = paste0(Significant, "/", Annotated),
+              Fold = round(fold, 1),
+              `weight01 p` = fmt_p(p_weight01),
+              `FDR (classic)` = fmt_p(fdr_classic))
+} else tg_show <- NULL
+show_tab(tg_show,
+         sprintf("Top %s enriched terms per list (ontology %s; weight01 p < 0.05, at least 3 genes).",
+                 params$topgo_top_terms, params$topgo_ontology),
+         widths = c("3" = "6cm"), font = 7)
+```
+
+```{r topgo-dotplot, results='asis'}
+cat(md_fig(file.path(dirs$topgo, sprintf("topGO_supported_dotplot_%s.pdf", params$topgo_ontology)),
+           sprintf("topGO %s enrichment for supported genes.", params$topgo_ontology)))
+```
+
+\newpage
+
+# Lineage effects of recurrent selection
+
+```{r lineage-grid}
+if (!is.null(grid)) {
+  g <- grid %>% filter(abs(padj_cut - params$lenient_padj) < 1e-9)
+  base_tab <- g %>% filter(lfc_cut == 0) %>%
+    transmute(Set = set, Tested = n_tested, Up = n_up, Down = n_down)
+  by_lfc <- g %>% filter(lfc_cut %in% c(0, 1, 2)) %>%
+    select(Set = set, lfc_cut, n_total) %>%
+    pivot_wider(names_from = lfc_cut, values_from = n_total, names_prefix = "LFC > ")
+  grid_show <- left_join(base_tab, by_lfc, by = "Set") %>%
+    mutate(Set = factor(Set, levels = c("DrtInt_D", "DrtInt_H", "PinInt_D", "PinInt_H",
+                                        "DrtBase_D", "DrtBase_H", "PinBase_D", "PinBase_H"))) %>%
+    arrange(Set) %>%
+    mutate(Set = as.character(Set))
+} else grid_show <- NULL
+show_tab(grid_show,
+         sprintf("Genes called in each lineage-effect contrast at padj < %s. Up/Down counts have no log2FC filter; the LFC columns give the total at that cutoff.",
+                 params$lenient_padj))
+```
+
+```{r lineage-upset, results='asis'}
+cat(md_fig(file.path(dirs$overlap, "upset_lenient_lineage_effects_any.pdf"),
+           "Overlap among lineage-effect sets (lenient tier, any direction)."))
+```
+
+```{r pca-table}
+pv <- rd(file.path(dirs$lineage, "pca_variance_partition.csv"))
+if (!is.null(pv)) {
+  pv_show <- pv %>%
+    filter(pc <= 3) %>%
+    transmute(Experiment = experiment, Data = data, PC = pc,
+              `% variance` = round(pct_var, 1),
+              `R2 lineage` = signif(r2_lineage, 2),
+              `R2 treatment` = signif(r2_treatment, 2)) %>%
+    mutate(`R2 treatment` = ifelse(`R2 treatment` < 1e-10, 0, `R2 treatment`))
+} else pv_show <- NULL
+show_tab(pv_show, "Variance in the top PCs explained by lineage and by treatment. After the treatment effect is removed its R2 is 0 by construction.", digits = 3)
+```
+
+```{r pca-fig, results='asis'}
+cat(md_fig(file.path(dirs$lineage, "pca_lineage_treatment.pdf"),
+           "PCA of variance-stabilised counts (top variable genes), before and after removing the treatment effect."))
+```
+
+```{r priming-tables}
+pc <- rd(file.path(dirs$lineage, "priming_correlation.csv"))
+if (!is.null(pc)) {
+  pc_show <- pc %>%
+    arrange(same_experiment, base, resp) %>%
+    transmute(Baseline = base, Response = resp,
+              `Independent plants` = ifelse(same_experiment, "no", "yes"),
+              Tested = n_tested, `rho (all genes)` = rho_all_genes,
+              `Response DE` = n_response_DE, `rho (response DE)` = rho_response_DE_genes)
+} else pc_show <- NULL
+show_tab(pc_show, "Correlation between baseline log2FC and stress-response log2FC. Pairs from the same experiment share samples and are not independent.", digits = 2)
+
+po <- rd(file.path(dirs$lineage, "priming_overlap.csv"))
+if (!is.null(po)) {
+  po_show <- po %>%
+    filter(!is.na(p_adj), p_adj < 0.05) %>%
+    arrange(same_experiment, p_adj) %>%
+    transmute(Baseline = base, Response = resp,
+              `Independent plants` = ifelse(same_experiment, "no", "yes"),
+              `Baseline dir` = baseline_dir, `Response dir` = response_dir,
+              Overlap = n_overlap, Expected = round(expected, 2),
+              `Odds ratio` = round(odds_ratio, 1), `p (BH)` = fmt_p(p_adj))
+} else po_show <- NULL
+show_tab(po_show, "Baseline-by-response overlaps with BH-adjusted p < 0.05 (Fisher test).")
+```
+
+\newpage
+
+# Notes and caveats
+
+- Fold changes are `ashr`-shrunken; padj is from the Wald test against zero, so a gene can be significant with a small shrunken effect, which is why the thresholds combine both.
+- `weight01` p-values in the enrichment tables are not multiple-testing corrected; use them to rank terms, and use `fdr_classic` for stricter statements.
+- "Drought-specific" and "pinoxaden-specific" depend on the cutoffs for "clearly not DE" (padj > `r params$not_de_padj`, absolute log2FC < `r params$not_de_lfc`). The pinoxaden experiment is smaller (33 samples), so genes that miss significance there may reflect low power.
+- Baseline and response contrasts from the same experiment share samples, so their overlaps and correlations are not independent. The cross-experiment pairs are the cleaner test.
+- A baseline difference between lines can reflect genetic divergence among the lines, or sequence differences that change read mapping, in addition to selection. A skew toward lower expression in selected lines is what reference-mapping bias would produce.
+- Unique-only counting was used as a sensitivity analysis; fractional counting remains the primary analysis.
+
+# Reproducibility
+
+```{r versions}
+pk <- c("DESeq2", "ashr", "topGO", "ComplexHeatmap", "UpSetR", "tidyverse", "knitr", "rmarkdown")
+ver <- vapply(pk, function(p) tryCatch(as.character(packageVersion(p)), error = function(e) "not installed"), "")
+show_tab(tibble(Package = pk, Version = unname(ver)), "R package versions.", font = 8)
+```
+
+Analysis scripts: `Drought_DESeq2.R`, `Pinox_DESeq2.R`, `DE_overlap_upset_v2.R` (run on fractional and unique-only counts), `uniq_vs_fractional.R`, `topGO_supported.R`, `shared_heatmap.R`, `lineage_effects.R`. This report only reads their outputs.
