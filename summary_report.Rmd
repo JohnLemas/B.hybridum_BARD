@@ -35,12 +35,14 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = "")
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = "",
+                      dev = "png", dpi = 200, fig.align = "center", out.width = "100%")
 
 suppressPackageStartupMessages({
   library(tidyverse)
   library(knitr)
   library(kableExtra)
+  library(UpSetR)
 })
 
 # ---- paths (all relative to params$base_dir) --------------------------------
@@ -78,11 +80,33 @@ show_tab <- function(df, caption, digits = 3, widths = NULL, long = FALSE, font 
   k
 }
 
-# markdown figure (works for PDF figures with xelatex); notes missing files
-md_fig <- function(rel, cap, width = "100%") {
+# Rasterise a figure PDF to PNG and include it. Uses the first page with visible
+# content; if the file has none, says so instead of printing a blank figure.
+fig_dir <- file.path(tempdir(), "report_figs")
+dir.create(fig_dir, showWarnings = FALSE, recursive = TRUE)
+have_pdftools <- requireNamespace("pdftools", quietly = TRUE)
+if (!have_pdftools) message("Install pdftools for robust figure inclusion: install.packages('pdftools')")
+
+has_content <- function(f, page) {
+  bm <- pdftools::pdf_render_page(f, page = page, dpi = 40, numeric = TRUE)
+  mean(bm[, , 1] < 0.97 | bm[, , 2] < 0.97 | bm[, , 3] < 0.97) > 1e-4
+}
+
+md_fig <- function(rel, cap, width = "100%", dpi = 200) {
   f <- P(rel)
   if (!file.exists(f)) return(sprintf("\n*Figure not found: `%s`*\n", rel))
-  sprintf("\n![%s](%s){width=%s}\n", cap, f, width)
+  if (!have_pdftools) return(sprintf("\n![%s](%s){width=%s}\n", cap, f, width))
+  n <- tryCatch(pdftools::pdf_info(f)$pages, error = function(e) 0L)
+  page <- NA_integer_
+  for (pg in seq_len(n)) {
+    if (has_content(f, pg)) { page <- pg; break }
+  }
+  if (is.na(page)) {
+    return(sprintf("\n*The file `%s` has no visible content; re-run the script that creates it.*\n", rel))
+  }
+  out <- file.path(fig_dir, paste0(gsub("[^A-Za-z0-9]+", "-", rel), ".png"))
+  pdftools::pdf_convert(f, format = "png", pages = page, dpi = dpi, filenames = out, verbose = FALSE)
+  sprintf("\n![%s](%s){width=%s}\n", cap, out, width)
 }
 
 # ---- data used in several sections -----------------------------------------------
@@ -91,6 +115,34 @@ conc  <- rd(file.path(dirs$robust,  "class_concordance.csv"))
 cc    <- rd(file.path(dirs$robust,  "contrast_concordance.csv"))
 grid  <- rd(file.path(dirs$lineage, "lineage_threshold_grid.csv"))
 pair  <- rd(file.path(dirs$overlap, "pair_concordance.csv"))
+
+# ---- UpSet plots drawn from the annotated table (lenient tier) -------------------
+# The table holds each set's log2FC for genes DE in that set (NA otherwise).
+resp_sets    <- c("Drt_all", "Drt_D", "Drt_H", "Pin_all", "Pin_D", "Pin_H")
+lineage_sets <- c("DrtInt_D", "DrtInt_H", "PinInt_D", "PinInt_H",
+                  "DrtBase_D", "DrtBase_H", "PinBase_D", "PinBase_H")
+
+set_genes <- function(s, dir) {
+  if (!s %in% names(sup)) return(character(0))
+  v <- sup[[s]]
+  keep <- !is.na(v)
+  if (dir == "up")   keep <- keep & v > 0
+  if (dir == "down") keep <- keep & v < 0
+  sup$gene_id[keep]
+}
+
+draw_upset <- function(sets, dir) {
+  lst <- setNames(lapply(sets, set_genes, dir = dir), sets)
+  lst <- lst[lengths(lst) > 0]
+  if (length(lst) < 2) {
+    plot.new(); text(0.5, 0.5, "Fewer than two non-empty sets")
+    return(invisible(NULL))
+  }
+  print(UpSetR::upset(UpSetR::fromList(lst), sets = names(lst), keep.order = TRUE,
+                      nintersects = 30, order.by = "freq", text.scale = 1.2,
+                      mb.ratio = c(0.6, 0.4), mainbar.y.label = "Intersection size",
+                      sets.x.label = "DE genes"))
+}
 
 n_class <- function(cl) {
   if (is.null(sup)) return(NA_integer_)
@@ -197,11 +249,12 @@ if (!is.null(ss)) {
 show_tab(ss, "Number of DE genes per set and tier.")
 ```
 
-```{r upset-response, results='asis'}
-cat(md_fig(file.path(dirs$overlap, "upset_lenient_response_up.pdf"),
-           "Overlap of upregulated genes among treatment-response sets (lenient tier)."))
-cat(md_fig(file.path(dirs$overlap, "upset_lenient_response_down.pdf"),
-           "Overlap of downregulated genes among treatment-response sets (lenient tier)."))
+```{r upset-up, eval=!is.null(sup), fig.width=9, fig.height=5, fig.cap="Overlap of upregulated genes among treatment-response sets (lenient tier)."}
+draw_upset(resp_sets, "up")
+```
+
+```{r upset-down, eval=!is.null(sup), fig.width=9, fig.height=5, fig.cap="Overlap of downregulated genes among treatment-response sets (lenient tier)."}
+draw_upset(resp_sets, "down")
 ```
 
 \newpage
@@ -326,9 +379,48 @@ show_tab(tg_show,
          widths = c("3" = "6cm"), font = 7)
 ```
 
-```{r topgo-dotplot, results='asis'}
-cat(md_fig(file.path(dirs$topgo, sprintf("topGO_supported_dotplot_%s.pdf", params$topgo_ontology)),
-           sprintf("topGO %s enrichment for supported genes.", params$topgo_ontology)))
+```{r topgo-plot-fn}
+topgo_groups <- list(
+  A = c("drought_DE_up", "drought_DE_down", "drought_specific_up", "drought_specific_down"),
+  B = c("shared_up", "shared_down", "pinoxaden_DE_up", "pinoxaden_DE_down")
+)
+
+topgo_plot <- function(lists) {
+  if (is.null(tg)) return(NULL)
+  d <- tg %>%
+    filter(ontology == params$topgo_ontology, list %in% lists,
+           p_weight01 < 0.05, Significant >= 3) %>%
+    group_by(list) %>%
+    slice_min(p_weight01, n = params$topgo_top_terms, with_ties = FALSE) %>%
+    ungroup()
+  if (nrow(d) == 0) return(NULL)
+  d <- d %>%
+    arrange(list, fold) %>%
+    mutate(key  = factor(paste(list, Term, sep = "___"),
+                         levels = unique(paste(list, Term, sep = "___"))),
+           list = factor(list, levels = lists))
+  ggplot(d, aes(fold, key, size = Significant, colour = p_weight01)) +
+    geom_point() +
+    facet_wrap(~ list, ncol = 2, scales = "free_y") +
+    scale_y_discrete(labels = function(x) str_wrap(sub("^.*___", "", x), 34)) +
+    scale_colour_viridis_c(direction = -1, name = "weight01 p") +
+    scale_size_continuous(name = "Genes") +
+    labs(x = "Fold enrichment (observed / expected)", y = NULL) +
+    theme_bw(base_size = 9) +
+    theme(legend.position = "bottom")
+}
+```
+
+Ontology shown in the figures: `r params$topgo_ontology`. Point size is the number of list genes annotated to the term and colour is the `weight01` p-value.
+
+```{r topgo-plot-A, fig.width=9, fig.height=6, fig.cap="(A) topGO enrichment for drought-response and drought-specific gene lists (top terms per list)."}
+pA <- topgo_plot(topgo_groups$A)
+if (is.null(pA)) cat("No terms met the cutoffs for these lists.") else print(pA)
+```
+
+```{r topgo-plot-B, fig.width=9, fig.height=6, fig.cap="(B) topGO enrichment for shared and pinoxaden-response gene lists (top terms per list)."}
+pB <- topgo_plot(topgo_groups$B)
+if (is.null(pB)) cat("No terms met the cutoffs for these lists.") else print(pB)
 ```
 
 \newpage
@@ -354,9 +446,8 @@ show_tab(grid_show,
                  params$lenient_padj))
 ```
 
-```{r lineage-upset, results='asis'}
-cat(md_fig(file.path(dirs$overlap, "upset_lenient_lineage_effects_any.pdf"),
-           "Overlap among lineage-effect sets (lenient tier, any direction)."))
+```{r upset-lineage, eval=!is.null(sup), fig.width=9, fig.height=5, fig.cap="Overlap among lineage-effect sets (lenient tier, any direction)."}
+draw_upset(lineage_sets, "any")
 ```
 
 ```{r pca-table}
